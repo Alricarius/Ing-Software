@@ -100,7 +100,7 @@ CREATE TABLE `usuario` (
   `tipo_us` tinyint(1) DEFAULT 0,
   `carnet_us` int(8) NOT NULL,
   `email_us` varchar(50) NOT NULL,
-  `pass_us` varchar(15) NOT NULL
+  `pass_us` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
