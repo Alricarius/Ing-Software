@@ -11,4 +11,9 @@ class Producto extends Model
     protected $table = 'producto';
     protected $primaryKey = 'id_prod';
     public $timestamps = false;
+
+    public function uploadImagen()
+    {
+        return $this->hasMany('App\Models\imagen', 'fk_prod');
+    }
 }

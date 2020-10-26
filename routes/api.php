@@ -18,6 +18,4 @@ use App\Http\Controllers\ProductoController;
     return $request->user();
 });*/
 
-Route::get('/productos',[ProductoController::class, 'product']);
-
 Route::post('/producto', [ProductoController::class, 'getItemProd']);
