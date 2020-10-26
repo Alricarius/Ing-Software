@@ -7,9 +7,9 @@ use App\Models\Producto;
 
 class ProductoController extends Controller
 {
-    public function product()
+    public function getItemProd(Request $request)
     {
-        $productos = Producto::firstOrFail();
-        return response()->json($productos,200);
+        $item = Producto::findOrFail($request['id']);
+        return response()->json($item, 201);
     }
 }
