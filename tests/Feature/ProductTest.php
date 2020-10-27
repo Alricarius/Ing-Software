@@ -46,4 +46,16 @@ class ProductTest extends TestCase
         //verifica si devolvío el producto cuyo id es el mismo que se envío por post
         $this->assertEquals($response['id_prod'], $id);   
     }
+
+    public function test_get_products_view()
+    {
+        $productos = Producto::factory(25)->create();
+
+        $request = $this->json('GET', 'api/producto');
+        $request->assertStatus(200);
+        $this->assertCount(20, $request->json());
+        $request->assertJsonStructure(['*' =>
+            ['id_prod', 'img', 'nom_prod', 'precio_prod']
+        ]);
+    }
 }

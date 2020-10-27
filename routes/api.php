@@ -19,3 +19,5 @@ use App\Http\Controllers\ProductoController;
 });*/
 
 Route::post('/producto', [ProductoController::class, 'getItemProd']);
+
+Route::get('/producto', [ProductoController::class, 'getProductsView']);
