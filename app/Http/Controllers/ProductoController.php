@@ -8,9 +8,9 @@ use Illuminate\Support\Facades\DB;
 use App\Models\ViewProduct;
 class ProductoController extends Controller
 {
-    public function getItemProd(Request $request)
+    public function getItemProd($id)
     {
-        $item = Producto::findOrFail($request['id']);
+        $item = Producto::findOrFail($id);
         return response()->json($item->load('uploadImagen'), 201);
     }
 
