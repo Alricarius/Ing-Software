@@ -17,7 +17,7 @@ class CreateViewProductsTable extends Migration
         DB::statement("CREATE OR REPLACE VIEW view_prods AS 
         SELECT distinct(id_prod), nom_prod, precio_prod, img
         FROM producto left join imagen on producto.id_prod = imagen.fk_prod
-        Order By fecha_prod
+        Order By fecha_prod desc
         Limit 20");
     }
 

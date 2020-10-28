@@ -27,7 +27,7 @@ class ProductTest extends TestCase
         ]);
 
         //creo la peticion http por el metodo post que a diferencia del get, requeire un mensaje que le envia el cliente
-        $response = $this->json('POST', 'api/producto', ['id' => $id]);
+        $response = $this->json('GET', "api/producto/$id");
 
         //verificamos que la estructura del json que me devuelve contiene todos estos datos
         $response->assertJsonStructure([
@@ -51,7 +51,7 @@ class ProductTest extends TestCase
     {
         $productos = Producto::factory(25)->create();
 
-        $request = $this->json('GET', 'api/producto');
+        $request = $this->json('GET', 'api/productos');
         $request->assertStatus(200);
         $this->assertCount(20, $request->json());
         $request->assertJsonStructure(['*' =>
