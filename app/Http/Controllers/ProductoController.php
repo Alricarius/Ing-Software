@@ -30,11 +30,21 @@ class ProductoController extends Controller
         $producto->carac_prod = $request->carac;
         $producto->tipo_prod = $request->tipo;
         $producto->precio_prod = $request->precio;
+        $producto->cant_prod = (isset($request->cant)) ? $request->cant:null;
         $producto->save();
+
+        $nombre = null;
+        if(isset($request->img))
+        {
+            $img = $request->file('img');
+            $nombre = time()."_".$img->getClientOriginalName();
+            $img->move('images', $nombre);
+        }
+
 
         $id = Producto::orderby('id_prod', 'desc')->first();
         $imagen = new imagen();
-        $imagen->img = $request->img;
+        $imagen->img = $nombre;
         $imagen->fk_prod = $id->id_prod;
         $imagen->save();
 

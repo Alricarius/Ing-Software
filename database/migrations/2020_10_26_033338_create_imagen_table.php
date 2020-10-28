@@ -16,12 +16,10 @@ class CreateImagenTable extends Migration
     {
         Schema::create('imagen', function (Blueprint $table) {
             $table->id('id_img');
-            $table->binary('img')->nullable();
+            $table->string('img')->nullable();
             $table->biginteger('fk_prod')->unsigned();
             $table->foreign('fk_prod')->references('id_prod')->on('producto');
         });
-
-        DB::statement("ALTER TABLE `imagen` CHANGE `img` `img` LONGBLOB NULL DEFAULT NULL;");
     }
 
     /**
@@ -31,6 +29,6 @@ class CreateImagenTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('imagens');
+        Schema::dropIfExists('imagen');
     }
 }
