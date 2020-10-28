@@ -14,4 +14,4 @@ require('./bootstrap');
 
 require('./components/Example');
 
-require('./components/Item')
+require('./components/ItemList')
