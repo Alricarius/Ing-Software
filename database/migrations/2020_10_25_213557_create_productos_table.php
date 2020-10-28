@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 class CreateProductosTable extends Migration
@@ -23,6 +24,9 @@ class CreateProductosTable extends Migration
             $table->dateTime('fecha_prod');
             $table->integer('cant_prod')->default(0);
         });
+
+        DB::statement("Alter table producto CHANGE fecha_prod fecha_prod DATETIME DEFAULT CURRENT_TIMESTAMP");
+
     }
 
     /**

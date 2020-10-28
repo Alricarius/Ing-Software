@@ -9,6 +9,8 @@ use App\Models\producto;
 use App\Models\imagen;
 use Faker\Factory as FakerFactory;
 use Tests\TestCase;
+use Database\Factories\ProductoFactory;
+
 
 class ProductTest extends TestCase
 {
@@ -56,6 +58,35 @@ class ProductTest extends TestCase
         $this->assertCount(20, $request->json());
         $request->assertJsonStructure(['*' =>
             ['id_prod', 'img', 'nom_prod', 'precio_prod']
+        ]);
+    }
+
+    public function test_insert_new_product()
+    {
+        $name = 'nuevo producto';
+        $producto = [
+            'nom' => $name,
+            'desc' => 'descripcion 1',
+            'carac' => 'caracteristicas',
+            'precio' => 999,
+            'tipo' => 'algun tipo',
+            'img' => null,
+        ];
+
+
+
+        $request = $this->json('POST' , 'api/producto', $producto);
+        $request->assertStatus(201);
+        $this->assertDatabaseHas('producto',[
+            'nom_prod' => $name,
+            'desc_prod' => $producto['desc'],
+            'carac_prod' => $producto['carac'],
+            'precio_prod' => $producto['precio'],
+            'tipo_prod' => $producto['tipo'],
+        ]);
+
+        $this->assertDatabaseHas('imagen',[
+            'img' => null,
         ]);
     }
 }

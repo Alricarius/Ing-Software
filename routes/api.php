@@ -21,3 +21,5 @@ use App\Http\Controllers\ProductoController;
 Route::get('/producto/{id}', [ProductoController::class, 'getItemProd']);
 
 Route::get('/productos', [ProductoController::class, 'getProductsView']);
+
+Route::post('/producto', [ProductoController::class, 'insertProduct']);
