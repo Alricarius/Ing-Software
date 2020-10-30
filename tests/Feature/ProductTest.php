@@ -70,6 +70,7 @@ class ProductTest extends TestCase
             'carac' => 'caracteristicas',
             'precio' => 999,
             'tipo' => 'algun tipo',
+            'cant' => 10,
             'img' => null,
         ];
 
@@ -83,6 +84,7 @@ class ProductTest extends TestCase
             'carac_prod' => $producto['carac'],
             'precio_prod' => $producto['precio'],
             'tipo_prod' => $producto['tipo'],
+            'cant_prod' => $producto['cant'],
         ]);
 
         $this->assertDatabaseHas('imagen',[

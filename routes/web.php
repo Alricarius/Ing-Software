@@ -17,7 +17,12 @@ Route::get('/', function () {
     return view('inicio');
 });
 
-
 Route::get('/form', function () {
     return view('formulario');
 });
+
+Route::get('/pruebaf', function()
+{
+    return view('prueba_form');
+});
+

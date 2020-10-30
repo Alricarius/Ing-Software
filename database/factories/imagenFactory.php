@@ -19,7 +19,7 @@ class imagenFactory extends Factory
     {
         return [
             'id_img' => imagen::factory()->faker->numberBetween($min = 5, $max =100),
-            'img' => null, 
+            'img' => null,
             'fk_prod' => imagen::factory()->faker->randomDigitNotNull,
         ];
     }
