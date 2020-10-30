@@ -21,8 +21,7 @@ Route::get('/form', function () {
     return view('formulario');
 });
 
-Route::get('/pruebaf', function()
+Route::get('/producto/{id}', function($id)
 {
-    return view('prueba_form');
+    return view('producto',array('id_prod'=> $id));
 });
-
