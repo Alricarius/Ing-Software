@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,14 +16,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('inicio');
-});
+})->name('inicio');
 
 Route::get('/form', function () {
     return view('formulario');
 });
 
-Route::get('/pruebaf', function()
-{
-    return view('prueba_form');
-});
+Route::get('producto/{id}',[ProductoController::class, 'getProductView'])->name('producto/{id}');
 
+Route::get('Registro/producto', [ProductoController::class, 'getView'])->name('Registro/producto');

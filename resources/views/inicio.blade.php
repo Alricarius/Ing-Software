@@ -9,9 +9,10 @@
 </head>
 <body>
     <h1>Si funka</h1>
-    <div id='item'></div>
+    <!--<div id='item'></div>-->
     <div id='tabnav'></div>
     <div id='form'></div>
     <script type="text/javascript" src="js/app.js"></script>
+
 </body>
 </html>

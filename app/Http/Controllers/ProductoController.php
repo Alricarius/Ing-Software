@@ -30,7 +30,7 @@ class ProductoController extends Controller
         $producto->carac_prod = $request->carac;
         $producto->tipo_prod = $request->tipo;
         $producto->precio_prod = $request->precio;
-        $producto->cant_prod = (isset($request->cant)) ? $request->cant:null;
+        $producto->cant_prod = (isset($request->cant)) ? $request->cant:0;
         $producto->save();
 
         $nombre = null;
@@ -48,6 +48,16 @@ class ProductoController extends Controller
         $imagen->fk_prod = $id->id_prod;
         $imagen->save();
 
-        return response()->json($producto, 201);
+        $dat = redirect(Route('inicio'), 201);
+    }
+
+    public function getProductView($id)
+    {
+        return 'producto '.$id;//view('producto', compact('id'));
+    }
+
+    public function getProductRegistryView()
+    {
+        return  'Registro de producto'; //view('RegistroProducto');
     }
 }

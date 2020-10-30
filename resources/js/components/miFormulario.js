@@ -54,7 +54,7 @@ const MiApp = () => (
 					<li><a href="#">Novedades</a></li>
 					 <li><a href="#">Asesoria</a></li>
 					<li><a href="#">Contactenos</a></li>
-                    
+                    <li><a href = '#'>registrar un producto</a></li>                       
 					</ul>
                  </nav>
 		    </div>
@@ -88,7 +88,7 @@ const MiApp = () => (
                                 </div>
                                 <div>
                                     <label><strong>Cantidad:</strong> </label>
-                                    <input type= "number" id= "cant" min="1" max="1000" required/>
+                                    <input type= "number" id= "cant" name='cant' min="1" max="1000" required/>
                                 </div>
                                 <div>
                                     <label htmlFor="desc1"><strong>Descripcion Fisica del Producto:</strong> </label>
@@ -132,7 +132,7 @@ const MiApp = () => (
 
         <div className="heafoo">
             <footer className="footer">
-            <p>Direccion: Calle Heroes del Chaco #1336 Zona Sarco<br/>
+            <p>Direccion: Send nudes here - Calle Heroes del Chaco #1336 Zona Sarco<br/>
             Telefono: 4454654<br/>
             Cochabamba - Bolivia
             </p>

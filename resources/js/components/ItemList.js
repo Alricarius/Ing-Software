@@ -45,4 +45,5 @@ class ItemList extends React.Component{
 
 export default ItemList
 
-ReactDOM.render(<ItemList/>, document.getElementById('item'))
+if(document.getElementById('item')){ 
+   ReactDOM.render(<ItemList/>, document.getElementById('item'))}
