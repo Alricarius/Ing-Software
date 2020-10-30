@@ -8,11 +8,34 @@ class TabNav extends React.Component{
         super(props);
 
         this.state = {
-            tabNumb: 0
-        }
+            tabNumb: 1,
+            name: "",
+            desc: "",
+            carac: "",
+            precio: 0,
+
+        };
         this.click1 = this.click1.bind(this);
         this.click2 = this.click2.bind(this);
         this.showPanel = this.showPanel.bind(this);
+    }
+
+    async componentDidMount(){
+        console.log("Entrando al api");
+        var url = "http://127.0.0.1:8000/api/producto/"+id;
+            
+        try{
+            console.log(url);
+            let res = await fetch(url);
+            let data = await res.json();
+            console.log(data);
+            this.setState({
+                name: data.nom_prod
+            });
+        }catch (error){
+            error;
+        }
+        console.log("saliendo de api");
     }
 
     click1(){
@@ -30,7 +53,7 @@ class TabNav extends React.Component{
     showPanel(){
         if(this.state.tabNumb === 1){
             return <ul>
-                        <li>Nombre: </li>
+                        <li>Nombre: {this.state.name}</li>
                         <li>Descripcion: </li>
                         <li>Características: </li>
                         <li>Precio: </li>
@@ -44,6 +67,7 @@ class TabNav extends React.Component{
         
         return (
             <React.Fragment>
+                <h1 id = "nom_p"></h1>
                 <div className="tab_container">
                     <div className="button_container">
                         <button onClick={this.click1}>Imagen</button>
@@ -52,11 +76,13 @@ class TabNav extends React.Component{
                     <div className="tab_panel">{this.showPanel()}</div>
                 </div>
             </React.Fragment>
-        )
+        );
     }
 
 }
 
-export default TabNav
+export default TabNav;
 
-ReactDOM.render(<TabNav/>, document.getElementById('tabnav'))
+if(document.getElementById('tabnav')){
+    ReactDOM.render(<TabNav/>, document.getElementById('tabnav'));
+}

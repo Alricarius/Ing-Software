@@ -37,9 +37,9 @@ function validarImagen(){
           preview.src = "";
         }
     }else{ 
-     alert("Solo se permite formatos .jpg, .png y jpeg");
-     document.getElementById("img_subida").value = null
-     document.getElementById("imagenCont").src = null; 
+        alert("Solo se permite formatos .jpg, .png y jpeg");
+        document.getElementById("img_subida").value = null;
+        document.getElementById("imagenCont").src = null; 
     }
 }
 

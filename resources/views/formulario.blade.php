@@ -20,6 +20,8 @@
             }
         </style>
     </head>
-    <body id='form'></body>
+    <body>
+        <div id='form'></div>
+    </body>
     <script type="text/javascript" src="js/app.js"></script>
 </html>
