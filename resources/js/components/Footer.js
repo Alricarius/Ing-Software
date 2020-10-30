@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-import Search from './Search'
 import './css/Heafoo.css'
 
 class Footer extends React.Component{

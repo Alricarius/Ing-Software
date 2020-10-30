@@ -1,16 +1,16 @@
 .card {
+    height: 100%;
     border: none;
     border-radius: 8px;
     background: linear-gradient(to right, #A74CF2, #617BFB);
 }
-.Item-User-Info {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 200px;
-}
+
 .Item-Card {
-    max-height: 450px;
+    height: 100%;
+    max-height: 100%;
     max-width: 520px;
+    min-width: 100px;
+    min-height: 100px;
 }
 .Item-Card-Info {
     padding-left: 0;

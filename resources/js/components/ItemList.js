@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Item from './Item'
+import './css/list.css'
 
 class ItemList extends React.Component{
 
@@ -35,7 +36,7 @@ class ItemList extends React.Component{
                                                                     prod_price={prod.precio_prod}
                                                                     /></li>);
         return(
-            <ul>
+            <ul className="list">
                 {listItems}
             </ul>
         );
@@ -45,11 +46,6 @@ class ItemList extends React.Component{
 
 export default ItemList;
 
-<<<<<<< HEAD
-if(document.getElementById('item')){ 
-   ReactDOM.render(<ItemList/>, document.getElementById('item'))}
-=======
 if(document.getElementById('item')){
     ReactDOM.render(<ItemList/>, document.getElementById('item'));
 }
->>>>>>> 006b18fcdae12aeb020b8ac1dfc2d37413f542f7

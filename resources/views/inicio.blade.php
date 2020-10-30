@@ -10,7 +10,9 @@
     <body>
         <header id="header_comp"></header>
         <main>
-            <h1>Contenido de la pagina :D</h1>
+            <h1>Inicia Main</h1>
+                <div id="item"></div>
+            <h1>Termina Main</h1>
         </main>
         <footer id="footer_comp"></footer>
     </body>

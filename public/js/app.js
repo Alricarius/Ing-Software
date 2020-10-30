@@ -6415,19 +6415,38 @@ exports.push([module.i, "\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/item.css":
-/*!**************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/item.css ***!
-  \**************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/css/item.css":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/css/item.css ***!
+  \******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, ".card {\r\n    border: none;\r\n    border-radius: 8px;\r\n    background: linear-gradient(to right, #A74CF2, #617BFB);\r\n}\r\n.Item-User-Info {\r\n    margin-top: 50px;\r\n    margin-bottom: 50px;\r\n    margin-left: 200px;\r\n}\r\n.Item-Card {\r\n    max-height: 450px;\r\n    max-width: 520px;\r\n}\r\n.Item-Card-Info {\r\n    padding-left: 0;\r\n    padding-right: 75px;\r\n}\r\n.Item-Card-Info h1{\r\n    font-size: 23px;\r\n    color: white;\r\n}\r\n.Item-Card-Info p{\r\n    font-size: 11px;\r\n    color: white;\r\n}\r\n.Item-Add {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    margin-top: 100px;\r\n    margin-bottom: 0px;\r\n    height: 60px;\r\n}", ""]);
+exports.push([module.i, ".card {\r\n    height: 100%;\r\n    border: none;\r\n    border-radius: 8px;\r\n    background: linear-gradient(to right, #A74CF2, #617BFB);\r\n}\r\n\r\n.Item-Card {\r\n    height: 100%;\r\n    max-height: 100%;\r\n    max-width: 520px;\r\n    min-width: 100px;\r\n    min-height: 100px;\r\n}\r\n.Item-Card-Info {\r\n    padding-left: 0;\r\n    padding-right: 75px;\r\n}\r\n.Item-Card-Info h1{\r\n    font-size: 23px;\r\n    color: white;\r\n}\r\n.Item-Card-Info p{\r\n    font-size: 11px;\r\n    color: white;\r\n}\r\n.Item-Add {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    margin-top: 100px;\r\n    margin-bottom: 0px;\r\n    height: 60px;\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/css/list.css":
+/*!******************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/css/list.css ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".list {\r\n    list-style: none;\r\n}\r\n\r\n.list li{\r\n    display: inline-block;\r\n    padding: 10px;\r\n    width: 25%;\r\n    height: 100%;\r\n}", ""]);
 
 // exports
 
@@ -67274,6 +67293,8 @@ __webpack_require__(/*! ./components/Header */ "./resources/js/components/Header
 
 __webpack_require__(/*! ./components/Footer */ "./resources/js/components/Footer.js");
 
+__webpack_require__(/*! ./components/Items */ "./resources/js/components/Items.js");
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -67374,9 +67395,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Search__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Search */ "./resources/js/components/Search.js");
-/* harmony import */ var _css_Heafoo_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/Heafoo.css */ "./resources/js/components/css/Heafoo.css");
-/* harmony import */ var _css_Heafoo_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_Heafoo_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _css_Heafoo_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/Heafoo.css */ "./resources/js/components/css/Heafoo.css");
+/* harmony import */ var _css_Heafoo_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_Heafoo_css__WEBPACK_IMPORTED_MODULE_2__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -67398,7 +67418,6 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
 
 
 
@@ -67605,8 +67624,8 @@ if (document.getElementById('form')) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _item_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./item.css */ "./resources/js/components/item.css");
-/* harmony import */ var _item_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_item_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_item_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/item.css */ "./resources/js/components/css/item.css");
+/* harmony import */ var _css_item_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_item_css__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -67647,7 +67666,7 @@ var Item = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "card mx-auto Item-Card"
+        className: "card Item-Card"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card-body"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -67667,51 +67686,7 @@ var Item = /*#__PURE__*/function (_React$Component) {
   return Item;
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Item); // import React from 'react'
-// import './item.css'
-// class  Item extends React.Component{
-//     constructor(props){
-//         super(props)
-//         this.state = 
-//                     {
-//             //aqui tiene que llegar los datos de la bd
-//                         data:[
-//                                 {
-//                                     "id":1,
-//                                     "prod_name": "intel core I9",
-//                                     "prod_price": "1200",
-//                                     "prod_img":"https://ejemplo"
-//                                 },{
-//                                     "id":2,
-//                                     "prod_name": "Tarjeta Grafica ",
-//                                     "prod_price": "600",
-//                                     "prod_img":"https://ejemplo"
-//                                 }
-//                             ]
-//                     }
-//     }    //en caso de pedir el id, llamar {Item.id}
-//         render(){
-//             const {prod_name,prod_price,prod_image,id}= this.props
-//             return(
-//                 <React.Fragment>
-//                     {this.state.data.map((Item)=>{
-//                         return(
-//                             <div className="card mx-auto Item-Card">
-//                                 <div className="card-body">
-//                                     <img src={Item.prod_img} width= "250px" height= "250px" className="float-rigth" alt="Baner 01"/>
-//                                     <h5>{Item.prod_name}</h5>
-//                                     <h6>Precio: {Item.prod_price}$</h6>
-//                                     <a href="" className="btn btn-primary" role="button">Ver</a>
-//                                 </div>
-//                             </div>
-//                         )
-//                     }
-//                 )
-//             }
-//             </React.Fragment>)
-//         }
-// }
-// export default Item;
+/* harmony default export */ __webpack_exports__["default"] = (Item);
 
 /***/ }),
 
@@ -67731,6 +67706,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Item__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Item */ "./resources/js/components/Item.js");
+/* harmony import */ var _css_list_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./css/list.css */ "./resources/js/components/css/list.css");
+/* harmony import */ var _css_list_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_css_list_css__WEBPACK_IMPORTED_MODULE_4__);
 
 
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -67758,6 +67735,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -67840,7 +67818,9 @@ var ItemList = /*#__PURE__*/function (_React$Component) {
           prod_price: prod.precio_prod
         }));
       });
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, listItems);
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+        className: "list"
+      }, listItems);
     }
   }]);
 
@@ -67851,6 +67831,115 @@ var ItemList = /*#__PURE__*/function (_React$Component) {
 
 if (document.getElementById('item')) {
   react_dom__WEBPACK_IMPORTED_MODULE_2___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ItemList, null), document.getElementById('item'));
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/Items.js":
+/*!******************************************!*\
+  !*** ./resources/js/components/Items.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_item_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/item.css */ "./resources/js/components/css/item.css");
+/* harmony import */ var _css_item_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_item_css__WEBPACK_IMPORTED_MODULE_2__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+
+var Items = /*#__PURE__*/function (_React$Component) {
+  _inherits(Items, _React$Component);
+
+  var _super = _createSuper(Items);
+
+  function Items(props) {
+    var _this;
+
+    _classCallCheck(this, Items);
+
+    _this = _super.call(this, props);
+    _this.state = {
+      //aqui tiene que llegar los datos de la bd
+      data: [{
+        "id": 1,
+        "prod_name": "intel core I9",
+        "prod_price": "1200",
+        "prod_img": "https://ejemplo"
+      }, {
+        "id": 2,
+        "prod_name": "Tarjeta Grafica ",
+        "prod_price": "600",
+        "prod_img": "https://ejemplo"
+      }]
+    };
+    return _this;
+  } //en caso de pedir el id, llamar {Item.id}
+
+
+  _createClass(Items, [{
+    key: "render",
+    value: function render() {
+      var _this$props = this.props,
+          prod_name = _this$props.prod_name,
+          prod_price = _this$props.prod_price,
+          prod_image = _this$props.prod_image,
+          id = _this$props.id;
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, this.state.data.map(function (Item) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "card mx-auto Item-Card"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "card-body"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          src: Item.prod_img,
+          width: "250px",
+          height: "250px",
+          className: "float-rigth",
+          alt: "Baner 01"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, Item.prod_name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, "Precio: ", Item.prod_price, "$"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+          href: "",
+          className: "btn btn-primary",
+          role: "button"
+        }, "Ver")));
+      }));
+    }
+  }]);
+
+  return Items;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Items);
+
+if (document.getElementById('items')) {
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Items, null), document.getElementById('items'));
 }
 
 /***/ }),
@@ -68180,15 +68269,15 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./resources/js/components/item.css":
-/*!******************************************!*\
-  !*** ./resources/js/components/item.css ***!
-  \******************************************/
+/***/ "./resources/js/components/css/item.css":
+/*!**********************************************!*\
+  !*** ./resources/js/components/css/item.css ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/postcss-loader/src??ref--6-2!./item.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/item.css");
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./item.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/css/item.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -68202,7 +68291,37 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/css/list.css":
+/*!**********************************************!*\
+  !*** ./resources/js/components/css/list.css ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./list.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/css/list.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -68408,8 +68527,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\HP\Documents\Git_repositories\Ing-Software\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\HP\Documents\Git_repositories\Ing-Software\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

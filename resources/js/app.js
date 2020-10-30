@@ -23,3 +23,5 @@ require('./components/Index');
 require('./components/Header');
 
 require('./components/Footer');
+
+require('./components/Items');
