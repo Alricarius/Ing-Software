@@ -1,0 +1,30 @@
+
+.tab_container {
+    width: 80%;
+    height: 350px;
+}
+
+.tab_container .button_container {
+    height: 15%;
+}
+
+.tab_container .button_container button{
+    width: 25%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: darkcyan;
+}
+
+.tab_container .button_container button:hover{
+    background-color: rgb(0, 107, 107);
+}
+
+.tab_container .tab_panel {
+    background-color: darkgray;
+    padding: 30px;
+    box-sizing: border-box;
+}
