@@ -16,7 +16,7 @@ class Header extends React.Component{
                             <li><a href="Novedades">Novedades</a></li>
                             <li><a href="Asesoria">Asesoria</a></li>
                             <li><a href="Contactenos">Contactenos</a></li>
-                            <li><a href ="#">Registrar Producto</a></li>
+                            <li><a href ="Registro">Registrar Producto</a></li>
                             <Search/>
                             </ul>
                         </nav>

@@ -60,7 +60,7 @@ const MiApp = () => (
                                 <label><strong>Tipo de Producto:</strong></label>
                                 <select id="tipo_P" name="tipo">
                                     <option></option>
-                                    <option value="componente">Componente</option>
+                                    <option value="componente" selected>Componente</option>
                                     <option value="computadora">Computadora</option>
                                     <option value="accesorio">Accesorio</option>
                                     <option value="otros">Otros</option>
@@ -68,7 +68,7 @@ const MiApp = () => (
                             </div>
                             <div>
                                 <label><strong>Cantidad:</strong> </label>
-                                <input type= "number" id= "cant" name='cant' min="1" max="1000" required/>
+                                <input type= "number" id= "cant" name="cant" min="1" max="200" size="3" maxLength= "4" required/>
                             </div>
                             <div>
                                 <label htmlFor="desc1"><strong>Descripcion Fisica del Producto:</strong> </label>

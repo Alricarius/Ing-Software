@@ -10,9 +10,7 @@
     <body>
         <header id="header_comp"></header>
         <main>
-            <h1>Inicia Main</h1>
-                <div id="form"></div>
-            <h1>Termina Main</h1>
+                <div id="item"></div>
         </main>
         <footer id="footer_comp"></footer>
     </body>
