@@ -85,7 +85,7 @@ const MiApp = () => (
                         </td>
                         <td>    
                         <div id= "contenedor_img">
-                                    <img src="/images/default.jpg"id="imagenCont" width="500" height="300" alt="Insert image here"/>
+                                    <img src="/images/default.png"id="imagenCont" width="500" height="300" alt="Insert image here"/>
                             </div>
 
                             <div id="cmpPrecio">

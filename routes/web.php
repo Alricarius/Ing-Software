@@ -22,7 +22,11 @@ Route::get('/form', function () {
     return view('formulario');
 });
 
-Route::get('producto/{id}',[ProductoController::class, 'getProductView'])->name('producto/{id}');
+Route::get('/producto/{id}', function ($id) {
+    return view('producto', array('id_prod' => $id));
+});
+
+// Route::get('producto/{id}',[ProductoController::class, 'getProductView'])->name('producto/{id}');
 
 Route::get('Registro/producto', [ProductoController::class, 'getView'])->name('Registro/producto');
 

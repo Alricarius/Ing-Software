@@ -53,6 +53,7 @@ p{
 	font-size: 1.3em;
 }
 .footer{
+	position: relative;
 	background: #333;
 	padding: 0.70rem;
 	text-align: center;
