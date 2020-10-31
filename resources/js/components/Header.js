@@ -10,12 +10,13 @@ class Header extends React.Component{
             <React.Fragment>
                 <header className= "header">
                     <div className="container logo-nav-container">
-                        <a href="imagen" className="logo">MegaComputer</a>
+                        <a href="/" className="logo">MegaComputer</a>
                             <nav className="navegacion">
                             <ul>
-                            <li><a href="#">Novedades</a></li>
-                            <li><a href="#">Asesoria</a></li>
-                            <li><a href="#">Contactenos</a></li>
+                            <li><a href="Novedades">Novedades</a></li>
+                            <li><a href="Asesoria">Asesoria</a></li>
+                            <li><a href="Contactenos">Contactenos</a></li>
+                            <li><a href ="#">Registrar Producto</a></li>
                             <Search/>
                             </ul>
                         </nav>
