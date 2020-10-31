@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/app.css">
         <title>Document</title>
     </head>
-    <body>
+    <body style="background-color:rgb(210,210,210);">
         <header id="header_comp"></header>
         <main>
                 <div id="form"></div>
