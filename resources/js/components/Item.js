@@ -10,7 +10,7 @@ class  Item extends React.Component{
                             <img src={"/images/"+this.props.prod_img} width= "250px" height= "250px" className="float-rigth" alt="Baner 01"/>
                             <h5>{this.props.prod_name}</h5>
                             <h6>Precio: {this.props.prod_price}$</h6>
-                            <a href="www.google.com" className="btn btn-primary" role="button">Ver</a>
+                            <a href={"productoN/"+this.props.prod_id} className="btn btn-primary" role="button">Ver</a>
                             
                        </div>
 

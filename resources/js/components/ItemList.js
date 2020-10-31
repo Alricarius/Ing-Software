@@ -31,6 +31,7 @@ class ItemList extends React.Component{
 
     render(){
         const listItems = this.state.data_prod.map((prod) =>  <li key={prod.id_prod}><Item
+                                                                    prod_id = {prod.id_prod}
                                                                     prod_img={prod.img}
                                                                     prod_name={prod.nom_prod}
                                                                     prod_price={prod.precio_prod}

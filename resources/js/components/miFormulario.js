@@ -82,17 +82,14 @@ const MiApp = () => (
                                 </textarea>
                             </div>
                         </td>
-                        <td>    
-                        <div id= "contenedor_img">
-                                    <img src="/images/default.png"id="imagenCont" width="500" height="300" alt="Insert image here"/>
-                            </div>
+                        <td>   
                             
                             <div id="cmpPrecio" style= {{marginBottom:'70px'}}>
                                 <label><strong>Precio: </strong></label>
                                 <input type="number" name="precio" id="precio_P" min="1" max="100000" placeholder="Precio" required/>
                             </div>
                             <div id= "contenedor_img">
-                                <img src="/images/default.jpg"id="imagenCont" width="500" height="300" alt="Insert image here"/>
+                                <img src="/images/default.png"id="imagenCont" width="500" height="300" alt="Insert image here"/>
                             </div>
 
                         

@@ -75,7 +75,10 @@ class TabNav extends React.Component{
             return <p>Descripcion: {this.state.desc}</p>;
         }
         const image = this.state.img.map(function(imge){return imge.img });
-        return <img src={"/images/"+image[0]}></img>;
+        return(
+        <center>
+            <img src={"/images/"+image[0]} height='500px' width='80%' ></img>
+        </center>);
     }
 
     showButton(){

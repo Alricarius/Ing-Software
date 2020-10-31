@@ -22,13 +22,13 @@ Route::get('/form', function () {
     return view('formulario');
 });
 
-Route::get('/producto/{id}', function ($id) {
+/*Route::get('/producto/{id}', function ($id) {
     return view('producto', array('id_prod' => $id));
-});
+});*/
 
-// Route::get('producto/{id}',[ProductoController::class, 'getProductView'])->name('producto/{id}');
+Route::get('productoN/{id}',[ProductoController::class, 'getProductView'])->name('producto');
 
-Route::get('Registro', [ProductoController::class, 'getProductRegistryView'])->name('Registro/producto');
+Route::get('/Registro', [ProductoController::class, 'getProductRegistryView'])->name('Registro');
 
 Route::get('Novedades', function()
 {

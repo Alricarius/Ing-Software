@@ -6351,7 +6351,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "body{\n\tfont-family: sans-serif;\n\tcolor: black;\n\tfont-size: 1.2rem;\n\tline-height: 1.6em;\n\tmargin: 0;\n}\np{\n\tmargin-bottom: 1.6em;\n}\n.container{\n\twidth: 90%;\n\tmax-width: 1000px;\n\tmargin: 0 auto;\n}\n.header{\n\tbackground: #333;\n\tcolor: white;\n\tpadding: 1rem 0;\n\tposition: relative;\n\ttop: 0;\n\tleft: 0;\n\tright: 0;\n}\n.header a{\n\tcolor: white;\n\ttext-decoration: none;\n}\n.logo-nav-container{\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n}\n.navegacion ul{\n\tmargin: 0;\n\tpadding: 0;\n    list-style: none;\n}\n.navegacion li{\n\tdisplay: inline-block;\n}\n.navegacion ul li a{\n\tdisplay: block;\n\tpadding: 0.5rem 1.2rem;\n\ttransition: all 0.4s linear;\n\tborder-radius: 5px;\n}\n.navegacion ul li a:hover{\n\tbackground: #ccc;\n\tcolor: black;\n} \n.logo{\n\tfont-size: 1.3em;\n}\n.footer{\n\tposition: relative;\n\tbackground: #333;\n\tpadding: 0.70rem;\n\ttext-align: center;\n\tmargin-top: 5rem;\n\tcolor: white;\n\tfont-size: 0.8rem;\n\tpadding-bottom: 0.5rem;\n}\n.main{\n\tpadding-top: 8rem;\n}", ""]);
+exports.push([module.i, "body{\r\n\tfont-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n\tmargin: 0;\r\n}\r\np{\r\n\tmargin-bottom: 1.6em;\r\n}\r\n.container{\r\n\twidth: 90%;\r\n\tmax-width: 1000px;\r\n\tmargin: 0 auto;\r\n}\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem 0;\r\n\tposition: relative;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n\tdisplay: inline-block;\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.2rem;\r\n\ttransition: all 0.4s linear;\r\n\tborder-radius: 5px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n} \r\n.logo{\r\n\tfont-size: 1.3em;\r\n}\r\n.footer{\r\n\tposition: relative;\r\n\tbackground: #333;\r\n\tpadding: 0.70rem;\r\n\ttext-align: center;\r\n\tmargin-top: 5rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n}\r\n.main{\r\n\tpadding-top: 8rem;\r\n}", ""]);
 
 // exports
 
@@ -6408,7 +6408,6 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-
 exports.push([module.i, "\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem 0;\r\n\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n\r\n.footer{\r\n\tbackground: #333;\r\n\tpadding: 0.70rem;\r\n\ttext-align: center;\r\n\tmargin-top: 5rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n}\r\n\r\n#titulo{\r\n    background-color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 30px;\r\n    text-align: center;\r\n    height: 80px;\r\n    color: white;\r\n    padding: 15px 40px !important;\r\n}\r\n\r\nbody{\r\n    color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    /*background:#8ba987 url('E:/React/aprendiendoreact/src/imagenes/fondo.jpg') no-repeat center center fixed;*/\r\n    background-color: white;\r\n    background-size:100% 100%;\r\n}\r\n\r\n#form1{\r\n\r\n    font-size: 22px;\r\n    padding: 60px;\r\n    line-height: 50px;\r\n}\r\n#desc1{\r\n    width: 500px;\r\n    height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n#desc2{\r\n    width: 500px;\r\n    height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n\r\ninput[type=\"file\"]#img_subida {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 70px;\r\n\ttop: 250px;\r\n}\r\n   \r\nlabel[for=\"img_subida\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n   \r\n    border-radius: 20px;\r\n\r\n    right: 250px;\r\n    top: 600px;\r\n    line-height: 15px;\r\n}\r\n   \r\ninput[type=\"submit\"]#btmRegistrar {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 45%;\r\n    top: 800px;\r\n}\r\n   \r\nlabel[for=\"btmRegistrar\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n\r\n    border-radius: 20px;\r\n\r\n    right: 40%;\r\n    top: 1000px;\r\n    line-height: 15px;\r\n}\r\n\r\n#contenedor_img{\r\n    border: 2px solid #ccc;\r\n\tborder-radius: 4px;\r\n\tbackground-color: #f8f8f8;\r\n    height: 300px;\r\n    width: 500px;\r\n    text-align: center;\r\n}\r\n\r\ninput[type=\"text\"], input[type=\"number\"],#tipo_P,textarea{\r\n    font-size: 20px;\r\n    border: black 2px solid;\r\n    border-radius: 10px;\r\n}\r\n\r\n#cmpPrecio{\r\n    right: 200px;\r\n\ttop: 700px;\r\n}\r\n\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n    display: inline-block;\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.2rem;\r\n\ttransition: all 0.4s linear;\r\n\tborder-radius: 5px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n} \r\n.logo{\r\n    font-size: 1.3em;\r\n}\r\n", ""]);
 
 // exports
@@ -67528,7 +67527,7 @@ var Header = /*#__PURE__*/function (_React$Component) {
       }, "Asesoria")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "Contactenos"
       }, "Contactenos")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "Registro"
+        href: "http://127.0.0.1:8000/Registro"
       }, "Registrar Producto")))))));
     }
   }]);
@@ -67679,7 +67678,7 @@ var Item = /*#__PURE__*/function (_React$Component) {
         className: "float-rigth",
         alt: "Baner 01"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, this.props.prod_name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", null, "Precio: ", this.props.prod_price, "$"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "www.google.com",
+        href: "productoN/" + this.props.prod_id,
         className: "btn btn-primary",
         role: "button"
       }, "Ver"))));
@@ -67816,6 +67815,7 @@ var ItemList = /*#__PURE__*/function (_React$Component) {
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
           key: prod.id_prod
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Item__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          prod_id: prod.id_prod,
           prod_img: prod.img,
           prod_name: prod.nom_prod,
           prod_price: prod.precio_prod
@@ -68080,8 +68080,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
                   carac: data.carac_prod,
                   price: data.precio_prod,
                   type: data.tipo_prod,
-                  cant: 1,
-                  //data.cant_prod,
+                  cant: data.cant_prod,
                   img: data.upload_imagen
                 });
                 _context.next = 14;
@@ -68141,9 +68140,11 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
       var image = this.state.img.map(function (imge) {
         return imge.img;
       });
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-        src: "/images/" + image[0]
-      });
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+        src: "/images/" + image[0],
+        height: "500px",
+        width: "80%"
+      }));
     }
   }, {
     key: "showButton",
@@ -68492,14 +68493,6 @@ var MiApp = function MiApp() {
     placeholder: "Ingrese las Caracteristicas del Producto: ",
     required: true
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "contenedor_img"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/images/default.jpg",
-    id: "imagenCont",
-    width: "500",
-    height: "300",
-    alt: "Insert image here"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "cmpPrecio",
     style: {
       marginBottom: '70px'
@@ -68515,7 +68508,7 @@ var MiApp = function MiApp() {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "contenedor_img"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/images/default.jpg",
+    src: "/images/default.png",
     id: "imagenCont",
     width: "500",
     height: "300",
@@ -68563,8 +68556,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\HP\Documents\Git_repositories\Ing-Software\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\HP\Documents\Git_repositories\Ing-Software\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

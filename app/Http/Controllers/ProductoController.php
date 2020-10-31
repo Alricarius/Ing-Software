@@ -53,7 +53,7 @@ class ProductoController extends Controller
 
     public function getProductView($id)
     {
-        return 'producto '.$id;//view('producto', compact('id'));
+        return view('producto', ['id_prod' => $id]);
     }
 
     public function getProductRegistryView()
