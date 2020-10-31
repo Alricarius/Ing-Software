@@ -25,3 +25,18 @@ Route::get('/form', function () {
 Route::get('producto/{id}',[ProductoController::class, 'getProductView'])->name('producto/{id}');
 
 Route::get('Registro/producto', [ProductoController::class, 'getView'])->name('Registro/producto');
+
+Route::get('Novedades', function()
+{
+    return 'Pagina de Novedades aun no implementada';
+})->name('Novedades');
+
+Route::get('Asesoria', function()
+{
+    return 'Pagina de Asesoria aun no implementada';
+})->name('Asesoria');
+
+Route::get('Contactenos', function()
+{
+    return 'Pagina de Contacto aun no implementada';
+})->name('Contactenos');
