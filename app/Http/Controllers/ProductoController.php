@@ -48,7 +48,7 @@ class ProductoController extends Controller
         $imagen->fk_prod = $id->id_prod;
         $imagen->save();
 
-        $dat = redirect(Route('inicio'), 201);
+        return redirect('/', 201);
     }
 
     public function getProductView($id)
@@ -58,6 +58,6 @@ class ProductoController extends Controller
 
     public function getProductRegistryView()
     {
-        return  'Registro de producto'; //view('RegistroProducto');
+        return view('registro_producto');
     }
 }

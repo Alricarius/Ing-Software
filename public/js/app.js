@@ -6408,7 +6408,8 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem 0;\r\n\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n\r\n.footer{\r\n\tbackground: #333;\r\n\tpadding: 0.70rem;\r\n\ttext-align: center;\r\n\tmargin-top: 5rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n}\r\n\r\n#titulo{\r\n    background-color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 30px;\r\n    text-align: center;\r\n    height: 80px;\r\n    color: white;\r\n    padding: 15px 40px !important;\r\n}\r\n\r\nbody{\r\n    color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    /*background:#8ba987 url('E:/React/aprendiendoreact/src/imagenes/fondo.jpg') no-repeat center center fixed;*/\r\n    background-color: white;\r\n    background-size:100% 100%;\r\n}\r\n\r\n#form1{\r\n\r\n    font-size: 22px;\r\n    padding: 60px;\r\n    line-height: 50px;\r\n}\r\n#desc1{\r\n    width: 500px;\r\n    height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n#desc2{\r\n    width: 500px;\r\n    height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n\r\ninput[type=\"file\"]#img_subida {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 70px;\r\n\ttop: 250px;\r\n}\r\n   \r\nlabel[for=\"img_subida\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n   \r\n    border-radius: 20px;\r\n\r\n    right: 250px;\r\n    top: 600px;\r\n    line-height: 15px;\r\n}\r\n   \r\ninput[type=\"submit\"]#btmRegistrar {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 45%;\r\n    top: 800px;\r\n}\r\n   \r\nlabel[for=\"btmRegistrar\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n\r\n    border-radius: 20px;\r\n\r\n    right: 40%;\r\n    top: 1000px;\r\n    line-height: 15px;\r\n}\r\n\r\n#contenedor_img{\r\n    border: 2px solid #ccc;\r\n\tborder-radius: 4px;\r\n\tbackground-color: #f8f8f8;\r\n    height: 300px;\r\n\twidth: 500px;\r\n}\r\n\r\ninput[type=\"text\"], input[type=\"number\"],#tipo_P,textarea{\r\n    font-size: 20px;\r\n    border-radius: 10px;\r\n    border-color: black;\r\n}\r\n\r\n#cmpPrecio{\r\n    right: 200px;\r\n\ttop: 700px;\r\n}\r\n\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n    display: inline-block;\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.2rem;\r\n\ttransition: all 0.4s linear;\r\n\tborder-radius: 5px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n} \r\n.logo{\r\n    font-size: 1.3em;\r\n}\r\n", ""]);
+
+exports.push([module.i, "\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem 0;\r\n\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n\r\n.footer{\r\n\tbackground: #333;\r\n\tpadding: 0.70rem;\r\n\ttext-align: center;\r\n\tmargin-top: 5rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n}\r\n\r\n#titulo{\r\n    background-color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 30px;\r\n    text-align: center;\r\n    height: 80px;\r\n    color: white;\r\n    padding: 15px 40px !important;\r\n}\r\n\r\nbody{\r\n    color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    /*background:#8ba987 url('E:/React/aprendiendoreact/src/imagenes/fondo.jpg') no-repeat center center fixed;*/\r\n    background-color: white;\r\n    background-size:100% 100%;\r\n}\r\n\r\n#form1{\r\n\r\n    font-size: 22px;\r\n    padding: 60px;\r\n    line-height: 50px;\r\n}\r\n#desc1{\r\n    width: 500px;\r\n    height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n#desc2{\r\n    width: 500px;\r\n    height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n\r\ninput[type=\"file\"]#img_subida {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 70px;\r\n\ttop: 250px;\r\n}\r\n   \r\nlabel[for=\"img_subida\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n   \r\n    border-radius: 20px;\r\n\r\n    right: 250px;\r\n    top: 600px;\r\n    line-height: 15px;\r\n}\r\n   \r\ninput[type=\"submit\"]#btmRegistrar {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 45%;\r\n    top: 800px;\r\n}\r\n   \r\nlabel[for=\"btmRegistrar\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n\r\n    border-radius: 20px;\r\n\r\n    right: 40%;\r\n    top: 1000px;\r\n    line-height: 15px;\r\n}\r\n\r\n#contenedor_img{\r\n    border: 2px solid #ccc;\r\n\tborder-radius: 4px;\r\n\tbackground-color: #f8f8f8;\r\n    height: 300px;\r\n    width: 500px;\r\n    text-align: center;\r\n}\r\n\r\ninput[type=\"text\"], input[type=\"number\"],#tipo_P,textarea{\r\n    font-size: 20px;\r\n    border: black 2px solid;\r\n    border-radius: 10px;\r\n}\r\n\r\n#cmpPrecio{\r\n    right: 200px;\r\n\ttop: 700px;\r\n}\r\n\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n    display: inline-block;\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.2rem;\r\n\ttransition: all 0.4s linear;\r\n\tborder-radius: 5px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n} \r\n.logo{\r\n    font-size: 1.3em;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6427,7 +6428,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".card {\r\n    height: 100%;\r\n    border: none;\r\n    border-radius: 8px;\r\n    background: linear-gradient(to right, #A74CF2, #617BFB);\r\n}\r\n\r\n.Item-Card {\r\n    height: 100%;\r\n    max-height: 100%;\r\n    max-width: 520px;\r\n    min-width: 100px;\r\n    min-height: 100px;\r\n}\r\n.Item-Card-Info {\r\n    padding-left: 0;\r\n    padding-right: 75px;\r\n}\r\n.Item-Card-Info h1{\r\n    font-size: 23px;\r\n    color: white;\r\n}\r\n.Item-Card-Info p{\r\n    font-size: 11px;\r\n    color: white;\r\n}\r\n.Item-Add {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    margin-top: 100px;\r\n    margin-bottom: 0px;\r\n    height: 60px;\r\n}", ""]);
+exports.push([module.i, ".card {\r\n    color : white;\r\n    height: 100%;\r\n    border: none;\r\n    border-radius: 8px;\r\n    background: linear-gradient(to right,rgb(30,30,30), rgb(150,150,150));\r\n}\r\n\r\n.Item-Card {\r\n    height: 100%;\r\n    max-height: 100%;\r\n    max-width: 520px;\r\n    min-width: 100px;\r\n    min-height: 100px;\r\n}\r\n.Item-Card-Info {\r\n    padding-left: 0;\r\n    padding-right: 75px;\r\n}\r\n.Item-Card-Info h1{\r\n    font-size: 23px;\r\n    color: white;\r\n}\r\n.Item-Card-Info p{\r\n    font-size: 11px;\r\n    color: white;\r\n}\r\n.Item-Add {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    margin-top: 100px;\r\n    margin-bottom: 0px;\r\n    height: 60px;\r\n}", ""]);
 
 // exports
 
@@ -6446,7 +6447,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".list {\r\n    list-style: none;\r\n}\r\n\r\n.list li{\r\n    display: inline-block;\r\n    padding: 10px;\r\n    width: 25%;\r\n    height: 100%;\r\n}", ""]);
+exports.push([module.i, ".list {\r\n    list-style: none;\r\n}\r\n\r\n.list li{\r\n    display: inline-block;\r\n    padding: 10px;\r\n    width: 25%;\r\n    height: 100%;\r\n    margin-left : -10px;\r\n}", ""]);
 
 // exports
 
@@ -67527,8 +67528,8 @@ var Header = /*#__PURE__*/function (_React$Component) {
       }, "Asesoria")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "Contactenos"
       }, "Contactenos")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "#"
-      }, "Registrar Producto")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Search__WEBPACK_IMPORTED_MODULE_2__["default"], null))))));
+        href: "Registro"
+      }, "Registrar Producto")))))));
     }
   }]);
 
@@ -68458,8 +68459,9 @@ var MiApp = function MiApp() {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Tipo de Producto:")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
     id: "tipo_P",
     name: "tipo"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "componente"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "componente",
+    selected: true
   }, "Componente"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
     value: "computadora"
   }, "Computadora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
@@ -68471,7 +68473,9 @@ var MiApp = function MiApp() {
     id: "cant",
     name: "cant",
     min: "1",
-    max: "1000",
+    max: "200",
+    size: "3",
+    maxLength: "4",
     required: true
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     htmlFor: "desc1"
@@ -68496,7 +68500,10 @@ var MiApp = function MiApp() {
     height: "300",
     alt: "Insert image here"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "cmpPrecio"
+    id: "cmpPrecio",
+    style: {
+      marginBottom: '70px'
+    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Precio: ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "number",
     name: "precio",
@@ -68505,7 +68512,15 @@ var MiApp = function MiApp() {
     max: "100000",
     placeholder: "Precio",
     required: true
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "contenedor_img"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/images/default.jpg",
+    id: "imagenCont",
+    width: "500",
+    height: "300",
+    alt: "Insert image here"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     htmlFor: "img_subida"
   }, "Cargar Imagen"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "file",
@@ -68515,7 +68530,7 @@ var MiApp = function MiApp() {
     accept: ".jpg,.png,.jpeg",
     multiple: true,
     required: true
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     htmlFor: "btmRegistrar"
   }, "Registrar Producto"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "submit",

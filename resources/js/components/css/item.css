@@ -1,8 +1,9 @@
 .card {
+    color : white;
     height: 100%;
     border: none;
     border-radius: 8px;
-    background: linear-gradient(to right, #A74CF2, #617BFB);
+    background: linear-gradient(to right,rgb(30,30,30), rgb(150,150,150));
 }
 
 .Item-Card {

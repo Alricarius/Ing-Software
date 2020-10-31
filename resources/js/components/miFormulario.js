@@ -58,9 +58,8 @@ const MiApp = () => (
                             </div>
                             <div>
                                 <label><strong>Tipo de Producto:</strong></label>
-                                <select id="tipo_P" name="tipo">
-                                    <option></option>
-                                    <option value="componente">Componente</option>
+                                <select id="tipo_P" name="tipo" >
+                                    <option value="componente" selected>Componente</option>
                                     <option value="computadora">Computadora</option>
                                     <option value="accesorio">Accesorio</option>
                                     <option value="otros">Otros</option>
@@ -68,7 +67,7 @@ const MiApp = () => (
                             </div>
                             <div>
                                 <label><strong>Cantidad:</strong> </label>
-                                <input type= "number" id= "cant" name='cant' min="1" max="1000" required/>
+                                <input type= "number" id= "cant" name="cant" min="1" max="200" size="3" maxLength= "4" required/>
                             </div>
                             <div>
                                 <label htmlFor="desc1"><strong>Descripcion Fisica del Producto:</strong> </label>
@@ -87,16 +86,20 @@ const MiApp = () => (
                         <div id= "contenedor_img">
                                     <img src="/images/default.png"id="imagenCont" width="500" height="300" alt="Insert image here"/>
                             </div>
-
-                            <div id="cmpPrecio">
+                            
+                            <div id="cmpPrecio" style= {{marginBottom:'70px'}}>
                                 <label><strong>Precio: </strong></label>
                                 <input type="number" name="precio" id="precio_P" min="1" max="100000" placeholder="Precio" required/>
                             </div>
-                        
+                            <div id= "contenedor_img">
+                                <img src="/images/default.jpg"id="imagenCont" width="500" height="300" alt="Insert image here"/>
+                            </div>
 
-                            <label htmlFor="img_subida">Cargar Imagen</label>
-                            <input type="file" name="img" id="img_subida" onChange={validarImagen} accept=".jpg,.png,.jpeg" multiple required/>
                         
+                            <center>
+                                <label htmlFor="img_subida">Cargar Imagen</label>
+                                <input type="file" name="img" id="img_subida" onChange={validarImagen} accept=".jpg,.png,.jpeg" multiple required/>
+                            </center>
                             <br/>
                         </td>
                     </tr>

@@ -28,7 +28,7 @@ Route::get('/producto/{id}', function ($id) {
 
 // Route::get('producto/{id}',[ProductoController::class, 'getProductView'])->name('producto/{id}');
 
-Route::get('Registro/producto', [ProductoController::class, 'getView'])->name('Registro/producto');
+Route::get('Registro', [ProductoController::class, 'getProductRegistryView'])->name('Registro/producto');
 
 Route::get('Novedades', function()
 {

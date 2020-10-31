@@ -7,12 +7,10 @@
         <link rel="stylesheet" href="css/app.css">
         <title>Document</title>
     </head>
-    <body>
+    <body style="background-color:rgb(210,210,210);">
         <header id="header_comp"></header>
         <main>
-            <h1>Inicia Main</h1>
-                <div id="tabnav"></div>
-            <h1>Termina Main</h1>
+                <div id="item"></div>
         </main>
         <footer id="footer_comp"></footer>
     </body>
