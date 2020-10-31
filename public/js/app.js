@@ -6408,7 +6408,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem 0;\r\n\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n\r\n.footer{\r\n\tbackground: #333;\r\n\tpadding: 0.70rem;\r\n\ttext-align: center;\r\n\tmargin-top: 5rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n}\r\n\r\n#titulo{\r\n    background-color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 40px;\r\n    text-align: center;\r\n    height: 80px;\r\n    color: white;\r\n    padding: 15px 40px !important;\r\n}\r\n\r\nbody{\r\n    color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    /*background:#8ba987 url('E:/React/aprendiendoreact/src/imagenes/fondo.jpg') no-repeat center center fixed;*/\r\n    background-color: white;\r\n    background-size:100% 100%;\r\n}\r\n\r\n#form1{\r\n\r\n    font-size: 22px;\r\n    padding: 60px;\r\n    line-height: 50px;\r\n}\r\n#desc1{\r\n    width: 500px;\r\n    height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n#desc2{\r\n    width: 500px;\r\n    height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n\r\ninput[type=\"file\"]#img_subida {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 70px;\r\n\ttop: 250px;\r\n}\r\n   \r\nlabel[for=\"img_subida\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n   \r\n    border-radius: 20px;\r\n\r\n    right: 250px;\r\n    top: 600px;\r\n    line-height: 15px;\r\n}\r\n   \r\ninput[type=\"submit\"]#btmRegistrar {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 45%;\r\n    top: 800px;\r\n}\r\n   \r\nlabel[for=\"btmRegistrar\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n\r\n    border-radius: 20px;\r\n\r\n    right: 40%;\r\n    top: 1000px;\r\n    line-height: 15px;\r\n}\r\n\r\n#contenedor_img{\r\n    border: 2px solid #ccc;\r\n\tborder-radius: 4px;\r\n\tbackground-color: #f8f8f8;\r\n    height: 300px;\r\n\twidth: 500px;\r\n}\r\n\r\ninput[type=\"text\"], input[type=\"number\"],#tipo_P,textarea{\r\n    font-size: 20px;\r\n    border-radius: 10px;\r\n    border-color: black;\r\n}\r\n\r\n#cmpPrecio{\r\n    right: 200px;\r\n\ttop: 700px;\r\n}\r\n\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n\tdisplay: inline-block;\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.2rem;\r\n\ttransition: all 0.4s linear;\r\n\tborder-radius: 5px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n} \r\n.logo{\r\n    font-size: 1.3em;\r\n}\r\n\r\n/*\r\n    Intentando crear mis propios estilos para mejorar \r\n    la organizacion de los elemntos dentro el formulario\r\n    @modificador: Nug\r\n */\r\n\r\n.table_div{\r\n    width: 100%;\r\n    padding: 10px 50px;\r\n}\r\n\r\n.table_data {\r\n    width: 100%;\r\n    display: block;\r\n    padding: 10px 50px;\r\n    background-color: #ccc;\r\n}\r\n\r\n/* .table_data tbody tr td{\r\n    width: 50%;\r\n    padding: 50px 50px;\r\n} */", ""]);
+exports.push([module.i, "\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem 0;\r\n\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n\r\n.footer{\r\n\tbackground: #333;\r\n\tpadding: 0.70rem;\r\n\ttext-align: center;\r\n\tmargin-top: 5rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n}\r\n\r\n#titulo{\r\n    background-color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 40px;\r\n    text-align: center;\r\n    height: 80px;\r\n    color: white;\r\n    padding: 15px 40px !important;\r\n}\r\n\r\nbody{\r\n    color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    /*background:#8ba987 url('E:/React/aprendiendoreact/src/imagenes/fondo.jpg') no-repeat center center fixed;*/\r\n    background-color: white;\r\n    background-size:100% 100%;\r\n}\r\n\r\n#form1{\r\n\r\n    font-size: 22px;\r\n    padding: 60px;\r\n    line-height: 50px;\r\n}\r\n#desc1{\r\n    width: 500px;\r\n    height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n#desc2{\r\n    width: 500px;\r\n    height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n\r\ninput[type=\"file\"]#img_subida {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 70px;\r\n\ttop: 250px;\r\n}\r\n   \r\nlabel[for=\"img_subida\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n   \r\n    border-radius: 20px;\r\n\r\n    right: 250px;\r\n    top: 600px;\r\n    line-height: 15px;\r\n}\r\n   \r\ninput[type=\"submit\"]#btmRegistrar {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 45%;\r\n    top: 800px;\r\n}\r\n   \r\nlabel[for=\"btmRegistrar\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n\r\n    border-radius: 20px;\r\n\r\n    right: 40%;\r\n    top: 1000px;\r\n    line-height: 15px;\r\n}\r\n\r\n#contenedor_img{\r\n    border: 2px solid #ccc;\r\n\tborder-radius: 4px;\r\n\tbackground-color: #f8f8f8;\r\n    height: 300px;\r\n\twidth: 500px;\r\n}\r\n\r\ninput[type=\"text\"], input[type=\"number\"],#tipo_P,textarea{\r\n    font-size: 20px;\r\n    border-radius: 10px;\r\n    border-color: black;\r\n}\r\n\r\n#cmpPrecio{\r\n    right: 200px;\r\n\ttop: 700px;\r\n}\r\n\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n\tdisplay: inline-block;\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.2rem;\r\n\ttransition: all 0.4s linear;\r\n\tborder-radius: 5px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n} \r\n.logo{\r\n    font-size: 1.3em;\r\n}\r\n\r\n.table_div{\r\n    width: 100%;\r\n    padding: 10px 50px;\r\n}\r\n\r\n/*\r\n    Intentando crear mis propios estilos para mejorar\r\n */\r\n\r\n.table_data {\r\n    width: 100%;\r\n    display: block;\r\n    padding: 10px 50px;\r\n    background-color: #ccc;\r\n}\r\n\r\n/* .table_data tbody tr td{\r\n    width: 50%;\r\n    padding: 50px 50px;\r\n} */", ""]);
 
 // exports
 
@@ -67598,7 +67598,7 @@ var Form = /*#__PURE__*/function (_React$Component) {
   _createClass(Form, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Aqui empieza formulario"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_miFormulario__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Aqui termina formulario"));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_miFormulario__WEBPACK_IMPORTED_MODULE_2__["default"], null));
     }
   }]);
 
@@ -67670,7 +67670,7 @@ var Item = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card-body"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: this.props.prod_img,
+        src: "images/" + this.props.prod_img,
         width: "250px",
         height: "250px",
         className: "float-rigth",
@@ -68340,10 +68340,10 @@ if(false) {}
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/estilos.css */ "./resources/js/components/css/estilos.css");
-/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_estilos_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/estilos.css */ "./resources/js/components/css/estilos.css");
+/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_estilos_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_Heafoo_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/Heafoo.css */ "./resources/js/components/css/Heafoo.css");
+/* harmony import */ var _css_Heafoo_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_Heafoo_css__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
@@ -68391,40 +68391,23 @@ function validarImagen() {
 }
 
 var MiApp = function MiApp() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "heafoo"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
-    className: "header"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container logo-nav-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "imagen",
-    className: "logo"
-  }, "MegaComputer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "navegacion"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#"
-  }, "Novedades")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#"
-  }, "Asesoria")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#"
-  }, "Contactenos")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#"
-  }, "registrar un producto")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "titulo"
-  }, "Registro De Un Producto")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: ".table_div"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
     id: "form1",
     action: "api/producto",
     method: "POST",
     encType: "multipart/form-data"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", {
-    className: ".table_data"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
+    cellSpacing: "40px",
+    cellPadding: "40px"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     htmlFor: "cmpNombre"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Nombre del Producto: ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "text",
+    style: {
+      borderColor: "black"
+    },
     id: "cmpNombre",
     name: "nom",
     pattern: "[A-Za-z0-9\\s]{1,50}",
@@ -68464,6 +68447,14 @@ var MiApp = function MiApp() {
     placeholder: "Ingrese las Caracteristicas del Producto: ",
     required: true
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "contenedor_img"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "...",
+    id: "imagenCont",
+    width: "500",
+    height: "300",
+    alt: "Insert image here"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "cmpPrecio"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Precio: ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "number",
@@ -68471,15 +68462,8 @@ var MiApp = function MiApp() {
     id: "precio_P",
     min: "1",
     max: "100000",
-    placeholder: "Precio en BS",
+    placeholder: "Precio",
     required: true
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "contenedor_img"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "...",
-    id: "imagenCont",
-    width: "500",
-    height: "300"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     htmlFor: "img_subida"
   }, "Cargar Imagen"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -68496,11 +68480,7 @@ var MiApp = function MiApp() {
     type: "submit",
     value: "Registrar",
     id: "btmRegistrar"
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "heafoo"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
-    className: "footer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Direccion: Send nudes here - Calle Heroes del Chaco #1336 Zona Sarco", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Telefono: 4454654", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Cochabamba - Bolivia"))));
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (MiApp); //<script src="./componentes/miFormIMG.js"></script>

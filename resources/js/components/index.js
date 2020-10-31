@@ -6,9 +6,7 @@ import './css/estilos.css'
 class Form extends React.Component{
     render(){
         return(<React.Fragment>
-            <h2>Aqui empieza formulario</h2>
               <MiApp/>
-              <h2>Aqui termina formulario</h2>
           </React.Fragment>);
     }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import './css/estilos.css'
+import './css/Heafoo.css'
 
 /*function previewFile() {
     var preview = document.querySelector('img');
@@ -44,102 +44,72 @@ function validarImagen(){
 }
 
 const MiApp = () => (    
-    <div>
-        <div className="heafoo">
-            <header className= "header">
-		    <div className="container logo-nav-container">
-			    <a href="imagen" className="logo">MegaComputer</a>
-				    <nav className="navegacion">
-					<ul>
-					<li><a href="#">Novedades</a></li>
-					 <li><a href="#">Asesoria</a></li>
-					<li><a href="#">Contactenos</a></li>
-                    <li><a href = '#'>registrar un producto</a></li>                       
-					</ul>
-                 </nav>
-		    </div>
-	        </header>
-
-            <div id="titulo">
-                Registro De Un Producto
-            </div>
-       </div>
-        
-        <div className=".table_div">
-            <form id="form1" action="api/producto" method="POST" encType="multipart/form-data">
-                <table>
-                    <tbody className=".table_data">
-                        <tr>
-                            <td>
-                            
-                                <div>
-                                    <label htmlFor="cmpNombre"><strong>Nombre del Producto: </strong></label>
-                                    <input type="text" id="cmpNombre" name="nom" pattern="[A-Za-z0-9\s]{1,50}" maxLength= "51" placeholder="Ingrese el nombre del producto..." required/>
-                                </div>
-                                <div>
-                                    <label><strong>Tipo de Producto:</strong></label>
-                                    <select id="tipo_P" name="tipo">
-                                        <option></option>
-                                        <option value="componente">Componente</option>
-                                        <option value="computadora">Computadora</option>
-                                        <option value="accesorio">Accesorio</option>
-                                        <option value="otros">Otros</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <label><strong>Cantidad:</strong> </label>
-                                    <input type= "number" id= "cant" name='cant' min="1" max="1000" required/>
-                                </div>
-                                <div>
-                                    <label htmlFor="desc1"><strong>Descripcion Fisica del Producto:</strong> </label>
-                                    <br/>
-                                    <textarea id="desc1" name="desc" placeholder="Ingrese una descripcion del producto..." required>
-                                    </textarea>
-                                </div>
-                                <div>
-                                    <label htmlFor="desc2"><strong>Caracteristicas Tecnicas del Producto:</strong> </label>
-                                    <br/>
-                                    <textarea id="desc2" name="carac" placeholder="Ingrese las Caracteristicas del Producto: " required>
-                                    </textarea>
-                                </div>
-                            </td>
-                            <td>    
-                                <div id="cmpPrecio">
-                                    <label><strong>Precio: </strong></label>
-                                    <input type="number" name="precio" id="precio_P" min="1" max="100000" placeholder="Precio en BS" required/>
-                                </div>
-                            
-                                <div id= "contenedor_img">
-                                        <img src="..."id="imagenCont" width="500" height="300"/>
-                                </div>
-
-                                <label htmlFor="img_subida">Cargar Imagen</label>
-                                <input type="file" name="img" id="img_subida" onChange={validarImagen} accept=".jpg,.png,.jpeg" multiple required/>
-                            
+    <div className="heafoo">
+        <center>
+        <form id="form1" action="api/producto" method="POST" encType="multipart/form-data">
+            <table cellSpacing="40px" cellPadding="40px">
+                <tbody>
+                    <tr>
+                        <td>
+                        
+                            <div>
+                                <label htmlFor="cmpNombre"><strong>Nombre del Producto: </strong></label>
+                                <input type="text" id="cmpNombre" name="nom" pattern="[A-Za-z0-9\s]{1,50}" maxLength= "51" placeholder="Ingrese el nombre del producto..." required/>
+                            </div>
+                            <div>
+                                <label><strong>Tipo de Producto:</strong></label>
+                                <select id="tipo_P" name="tipo">
+                                    <option></option>
+                                    <option value="componente">Componente</option>
+                                    <option value="computadora">Computadora</option>
+                                    <option value="accesorio">Accesorio</option>
+                                    <option value="otros">Otros</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label><strong>Cantidad:</strong> </label>
+                                <input type= "number" id= "cant" name='cant' min="1" max="1000" required/>
+                            </div>
+                            <div>
+                                <label htmlFor="desc1"><strong>Descripcion Fisica del Producto:</strong> </label>
                                 <br/>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div>
-                    <label htmlFor="btmRegistrar">Registrar Producto</label>
-                    <input type= "submit" value= "Registrar" id="btmRegistrar"/>
-                </div>
+                                <textarea id="desc1" name="desc" placeholder="Ingrese una descripcion del producto..." required>
+                                </textarea>
+                            </div>
+                            <div>
+                                <label htmlFor="desc2"><strong>Caracteristicas Tecnicas del Producto:</strong> </label>
+                                <br/>
+                                <textarea id="desc2" name="carac" placeholder="Ingrese las Caracteristicas del Producto: " required>
+                                </textarea>
+                            </div>
+                        </td>
+                        <td>    
+                        <div id= "contenedor_img">
+                                    <img src="/images/default.jpg"id="imagenCont" width="500" height="300" alt="Insert image here"/>
+                            </div>
 
-            </form>
-        </div>
-        
+                            <div id="cmpPrecio">
+                                <label><strong>Precio: </strong></label>
+                                <input type="number" name="precio" id="precio_P" min="1" max="100000" placeholder="Precio" required/>
+                            </div>
+                        
 
-        <div className="heafoo">
-            <footer className="footer">
-            <p>Direccion: Send nudes here - Calle Heroes del Chaco #1336 Zona Sarco<br/>
-            Telefono: 4454654<br/>
-            Cochabamba - Bolivia
-            </p>
-            </footer>  
-        </div>
-           
-    </div>              
+                            <label htmlFor="img_subida">Cargar Imagen</label>
+                            <input type="file" name="img" id="img_subida" onChange={validarImagen} accept=".jpg,.png,.jpeg" multiple required/>
+                        
+                            <br/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <label htmlFor="btmRegistrar">Registrar Producto</label>
+                <input type= "submit" value= "Registrar" id="btmRegistrar"/>
+            </div>
+
+        </form>
+        </center>
+    </div>         
     );
 
 export default MiApp;

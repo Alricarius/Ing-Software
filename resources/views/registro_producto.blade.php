@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta name= "csrf-token"    content = "{{ csrf_token() }}">
         <meta charset="UTF-8">
@@ -8,13 +8,7 @@
         <title>Document</title>
     </head>
     <body>
-        <header id="header_comp"></header>
-        <main>
-            <h1>Inicia Main</h1>
-                <div id="form"></div>
-            <h1>Termina Main</h1>
-        </main>
-        <footer id="footer_comp"></footer>
+        <div id='form'></div>
     </body>
     <script type="text/javascript" src="js/app.js"></script>
 </html>
