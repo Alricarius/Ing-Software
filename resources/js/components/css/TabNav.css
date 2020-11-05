@@ -12,7 +12,7 @@
 
 .button_container button{
     display: block;
-    /* width: 30%; */
+    width: 33.33%; 
     height: 100%;
     float: left;
     border: none;
@@ -20,6 +20,18 @@
     cursor: pointer;
     padding: 10px;
     background-color: darkcyan;
+}
+
+.button_selected button{
+    display: block;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color:rgb(0, 107, 107);
 }
 
 .tab_container .button_container button:hover{
