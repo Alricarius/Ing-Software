@@ -2,6 +2,7 @@
 .tab_container {
     width: 80%;
     margin-top: 20px;
+    min-height: 100%;
 }
 
 .button_container {
@@ -11,7 +12,7 @@
 
 .button_container button{
     display: block;
-    width: 30%;
+    /* width: 30%; */
     height: 100%;
     float: left;
     border: none;
@@ -31,11 +32,11 @@
     padding: 30px;
     box-sizing: border-box;
     text-align: left;
-    min-height: 400px;
+    min-height: 100%;
+    margin-top: 36px;
 }
 
 .set_button{
-    
     position: relative;
     text-align: right;
     margin-right: 2%;
@@ -65,4 +66,9 @@
     font-size: 30px;
     font-style: oblique;
     color: black;
+}
+
+.image {
+    max-width: 80%;
+    max-height: 80%;
 }

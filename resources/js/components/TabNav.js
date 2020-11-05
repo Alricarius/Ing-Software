@@ -77,7 +77,7 @@ class TabNav extends React.Component{
         const image = this.state.img.map(function(imge){return imge.img });
         return(
         <center>
-            <img src={"/images/"+image[0]} height='500px' width='80%' ></img>
+            <img src={"/images/"+image[0]} className="image" ></img>
         </center>);
     }
 

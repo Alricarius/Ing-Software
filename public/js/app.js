@@ -6351,7 +6351,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "body{\r\n\tfont-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n\tmargin: 0;\r\n}\r\np{\r\n\tmargin-bottom: 1.6em;\r\n}\r\n.container{\r\n\twidth: 90%;\r\n\tmax-width: 1000px;\r\n\tmargin: 0 auto;\r\n}\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem 0;\r\n\tposition: relative;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n\tdisplay: inline-block;\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.2rem;\r\n\ttransition: all 0.4s linear;\r\n\tborder-radius: 5px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n} \r\n.logo{\r\n\tfont-size: 1.3em;\r\n}\r\n.footer{\r\n\tposition: relative;\r\n\tbackground: #333;\r\n\tpadding: 0.70rem;\r\n\ttext-align: center;\r\n\tmargin-top: 5rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n}\r\n.main{\r\n\tpadding-top: 8rem;\r\n}", ""]);
+exports.push([module.i, "body{\n\tfont-family: sans-serif;\n\tcolor: black;\n\tfont-size: 1.2rem;\n\tline-height: 1.6em;\n\tmargin: 0;\n}\np{\n\tmargin-bottom: 1.6em;\n}\n.container{\n\twidth: 90%;\n\tmax-width: 1000px;\n\tmargin: 0 auto;\n}\n.header{\n\tbackground: #333;\n\tcolor: white;\n\tpadding: 1rem 0;\n\tposition: relative;\n\ttop: 0;\n\tleft: 0;\n\tright: 0;\n}\n.header a{\n\tcolor: white;\n\ttext-decoration: none;\n}\n.logo-nav-container{\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n}\n.navegacion ul{\n\tmargin: 0;\n\tpadding: 0;\n    list-style: none;\n}\n.navegacion li{\n\tdisplay: inline-block;\n}\n.navegacion ul li a{\n\tdisplay: block;\n\tpadding: 0.5rem 1.2rem;\n\ttransition: all 0.4s linear;\n\tborder-radius: 5px;\n}\n.navegacion ul li a:hover{\n\tbackground: #ccc;\n\tcolor: black;\n} \n.logo{\n\tfont-size: 1.3em;\n}\n.footer{\n\tposition: relative;\n\tbackground: #333;\n\tpadding: 0.70rem;\n\ttext-align: center;\n\tmargin-top: 5rem;\n\tcolor: white;\n\tfont-size: 0.8rem;\n\tpadding-bottom: 0.5rem;\n}\n.main{\n\tpadding-top: 8rem;\n}", ""]);
 
 // exports
 
@@ -6389,7 +6389,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\r\n.tab_container {\r\n    width: 80%;\r\n    margin-top: 20px;\r\n}\r\n\r\n.button_container {\r\n    height: 15%;\r\n    display: block;\r\n}\r\n\r\n.button_container button{\r\n    display: block;\r\n    width: 30%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: darkcyan;\r\n}\r\n\r\n.tab_container .button_container button:hover{\r\n    background-color: rgb(0, 107, 107);\r\n}\r\n\r\n.tab_panel {\r\n    display: block;\r\n    background-color: silver;\r\n    padding: 30px;\r\n    box-sizing: border-box;\r\n    text-align: left;\r\n    min-height: 400px;\r\n}\r\n\r\n.set_button{\r\n    \r\n    position: relative;\r\n    text-align: right;\r\n    margin-right: 2%;\r\n}\r\n.set_button .button_color label {     \r\n    width: 5%;\r\n    height: 60%;\r\n    padding: 5px;\r\n    background-color: rgb(0, 255, 0);\r\n}\r\n.set_button .button_color1 label {     \r\n    width: 5%;\r\n    height: 50%; \r\n    padding: 5px;\r\n    background-color: rgb(255, 0, 0);\r\n}\r\n\r\n.set_stilos {\r\n    font-family: Verdana;\r\n    font-size: medium;\r\n    font-style: oblique;\r\n    color: aliceblue;\r\n}\r\n.set_stilostitle {\r\n    margin-left: 2%;\r\n    font-family: Verdana;\r\n    font-size: 30px;\r\n    font-style: oblique;\r\n    color: black;\r\n}", ""]);
+exports.push([module.i, "\r\n.tab_container {\r\n    width: 80%;\r\n    margin-top: 20px;\r\n    min-height: 100%;\r\n}\r\n\r\n.button_container {\r\n    height: 15%;\r\n    display: block;\r\n}\r\n\r\n.button_container button{\r\n    display: block;\r\n    /* width: 30%; */\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: darkcyan;\r\n}\r\n\r\n.tab_container .button_container button:hover{\r\n    background-color: rgb(0, 107, 107);\r\n}\r\n\r\n.tab_panel {\r\n    display: block;\r\n    background-color: silver;\r\n    padding: 30px;\r\n    box-sizing: border-box;\r\n    text-align: left;\r\n    min-height: 100%;\r\n    margin-top: 36px;\r\n}\r\n\r\n.set_button{\r\n    position: relative;\r\n    text-align: right;\r\n    margin-right: 2%;\r\n}\r\n.set_button .button_color label {     \r\n    width: 5%;\r\n    height: 60%;\r\n    padding: 5px;\r\n    background-color: rgb(0, 255, 0);\r\n}\r\n.set_button .button_color1 label {     \r\n    width: 5%;\r\n    height: 50%; \r\n    padding: 5px;\r\n    background-color: rgb(255, 0, 0);\r\n}\r\n\r\n.set_stilos {\r\n    font-family: Verdana;\r\n    font-size: medium;\r\n    font-style: oblique;\r\n    color: aliceblue;\r\n}\r\n.set_stilostitle {\r\n    margin-left: 2%;\r\n    font-family: Verdana;\r\n    font-size: 30px;\r\n    font-style: oblique;\r\n    color: black;\r\n}\r\n\r\n.image {\r\n    max-width: 80%;\r\n    max-height: 80%;\r\n}\r\n", ""]);
 
 // exports
 
@@ -68142,8 +68142,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
       });
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
         src: "/images/" + image[0],
-        height: "500px",
-        width: "80%"
+        className: "image"
       }));
     }
   }, {
@@ -68556,8 +68555,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\HP\Documents\Git_repositories\Ing-Software\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\HP\Documents\Git_repositories\Ing-Software\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
