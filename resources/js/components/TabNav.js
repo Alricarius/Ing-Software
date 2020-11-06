@@ -77,8 +77,40 @@ class TabNav extends React.Component{
         const image = this.state.img.map(function(imge){return imge.img });
         return(
         <center>
-            <img src={"/images/"+image[0]} height='500px' width='80%' ></img>
+            <img src={"/images/"+image[0]} className="image" ></img>
         </center>);
+    }
+
+    showButtonSelected(){
+        if(this.state.tabNumb === 1){
+            return <div className="button_container">
+                        <button onClick={this.click1}>Imagen</button>
+                        <div className="button_selected">
+                        <button onClick={this.click2}>Características</button>                        
+                        </div>
+                        <button onClick={this.click3}>Descripcion fisica</button>
+                    </div>
+                    
+        }
+        if(this.state.tabNumb === 2){
+            return <div className="button_container">
+            <button onClick={this.click1}>Imagen</button>                                
+            <button onClick={this.click2}>Características</button>
+            <div className="button_selected">            
+            <button onClick={this.click3}>Descripcion fisica</button>            
+            </div>
+            </div>
+        }
+
+        return(
+            <div className="button_container">
+            <div className="button_selected">
+            <button onClick={this.click1}>Imagen</button>          
+            </div>
+            <button onClick={this.click2}>Características</button>  
+            <button onClick={this.click3}>Descripcion fisica</button>           
+            </div>
+        )
     }
 
     showButton(){
@@ -102,7 +134,7 @@ class TabNav extends React.Component{
                 </h1>
 
                 <div className="set_button">
-                    Precio: {this.state.price}
+                    Precio: {this.state.price} $
                 </div>
 
                 
@@ -113,11 +145,7 @@ class TabNav extends React.Component{
 
                 <center>
                     <div className="tab_container">
-                        <div className="button_container">
-                            <button onClick={this.click1}>Imagen</button>
-                            <button onClick={this.click2}>Características</button>
-                            <button onClick={this.click3}>Descripcion fisica</button>
-                        </div>
+                        <div>{this.showButtonSelected()}</div>
                         <div className="tab_panel">{this.showPanel()}</div>
                     </div>
                 </center>
