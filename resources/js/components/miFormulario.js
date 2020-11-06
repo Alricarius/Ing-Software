@@ -43,6 +43,63 @@ function validarImagen(){
     }
 }
 
+//validacion para el campo nombre
+var campoNombre;
+function iniciar(){
+    campoNombre = document.getElementById("cmpNombre");
+    campoNombre.addEventListener("input",validacion);
+    validacion();
+}
+
+function validacion(){
+    if(campoNombre.value.length > 50){
+        campoNombre.setCustomValidity("Maximo 50 caracteres");
+
+    }else{
+        campoNombre.setCustomValidity("");
+    }
+}
+window.addEventListener("load", iniciar);
+///
+
+//validacion para el campo descripcion fisica
+var campoDesc1;
+function iniciar1(){
+    campoDesc1 = document.getElementById("desc1");
+    campoDesc1.addEventListener("input",validacion1);
+    validacion1();
+}
+
+function validacion1(){
+    if(campoDesc1.value.length > 1000){
+        campoDesc1.setCustomValidity("Maximo 1000 caracteres");
+
+    }else{
+        campoDesc1.setCustomValidity("");
+    }
+}
+window.addEventListener("load", iniciar1);
+///
+
+//validacion del campo caracteristicas
+var campoDesc2;
+function iniciar2(){
+    campoDesc2 = document.getElementById("desc2");
+    campoDesc2.addEventListener("input",validacion2);
+    validacion2();
+}
+
+function validacion2(){
+    if(campoDesc2.value.length > 1000){
+        campoDesc2.setCustomValidity("Maximo 1000 caracteres");
+
+    }else{
+        campoDesc2.setCustomValidity("");
+    }
+}
+window.addEventListener("load", iniciar2);
+///
+
 const MiApp = () => (    
     <div className="heafoo">
         <center>
