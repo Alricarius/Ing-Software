@@ -68130,11 +68130,11 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
     key: "showPanel",
     value: function showPanel() {
       if (this.state.tabNumb === 1) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, "Nombre: ", this.state.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, "Caracter\xEDsticas: ", this.state.carac, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, "Tipo: ", this.state.type));
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, "Nombre: ", this.state.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("pre", null, "Caracter\xEDsticas: ", this.state.carac), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, "Tipo: ", this.state.type));
       }
 
       if (this.state.tabNumb === 2) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Descripcion: ", this.state.desc);
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("pre", null, "Descripcion: ", this.state.desc);
       }
 
       var image = this.state.img.map(function (imge) {
@@ -68208,7 +68208,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
         className: "set_stilostitle"
       }, "Nombre del producto: ", this.state.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "set_button"
-      }, "Precio: ", this.state.price, " $"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Precio: ", this.state.price, " $")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "set_button"
       }, this.showButton()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "tab_container"
@@ -68544,7 +68544,6 @@ var MiApp = function MiApp() {
     type: "text",
     id: "cmpNombre",
     name: "nom",
-    pattern: "[A-Za-z0-9\\s]{1,50}",
     maxLength: "51",
     placeholder: "Ingrese el nombre del producto...",
     required: true
@@ -68647,8 +68646,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\HP\Documents\Git_repositories\Ing-Software\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\HP\Documents\Git_repositories\Ing-Software\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

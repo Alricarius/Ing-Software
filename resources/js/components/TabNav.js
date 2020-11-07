@@ -67,12 +67,12 @@ class TabNav extends React.Component{
         if(this.state.tabNumb === 1){
             return <ul>
                         <li>Nombre: {this.state.name}</li>
-                        <li>Características: {this.state.carac} </li>
+                        <li><pre>Características: {this.state.carac}</pre> </li>
                         <li>Tipo: {this.state.type}</li>
                     </ul>;
         }
         if(this.state.tabNumb === 2){
-            return <p>Descripcion: {this.state.desc}</p>;
+            return <pre>Descripcion: {this.state.desc}</pre>;
         }
         const image = this.state.img.map(function(imge){return imge.img });
         return(
@@ -134,7 +134,7 @@ class TabNav extends React.Component{
                 </h1>
 
                 <div className="set_button">
-                    Precio: {this.state.price} $
+                    <h2>Precio: {this.state.price} $</h2>
                 </div>
 
                 

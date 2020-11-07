@@ -111,7 +111,7 @@ const MiApp = () => (
                         
                             <div>
                                 <label htmlFor="cmpNombre"><strong>Nombre del Producto: </strong></label>
-                                <input type="text" id="cmpNombre" name="nom" pattern="[A-Za-z0-9\s]{1,50}" maxLength= "51" placeholder="Ingrese el nombre del producto..." required/>
+                                <input type="text" id="cmpNombre" name="nom" maxLength= "51" placeholder="Ingrese el nombre del producto..." required/>
                             </div>
                             <div>
                                 <label><strong>Tipo de Producto:</strong></label>
