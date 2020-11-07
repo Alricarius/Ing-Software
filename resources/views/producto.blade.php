@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="min-height: 100%; height: 100%;">
     <head>
         <meta name= "csrf-token"    content = "{{ csrf_token() }}">
         <meta charset="UTF-8">
@@ -7,12 +7,14 @@
         <!-- <link rel="stylesheet" href="../css/app.css"> -->
         <title>Document</title>
     </head>
-    <body>
-        <header id="header_comp"></header>
-        <main>
-                <div id="tabnav"></div>
-        </main>
-        <footer id="footer_comp"></footer>
+    <body style="height: inherit; min-height: 100%; width: 100%;">
+        <div style = "display: flex; min-height: 100%; flex-direction: column;">
+            <header id="header_comp"></header>
+            <main style="flex:1;">
+                    <div id="tabnav"></div>
+            </main>
+            <footer id="footer_comp"></footer>
+        </div>
     </body>
     
     <script>
