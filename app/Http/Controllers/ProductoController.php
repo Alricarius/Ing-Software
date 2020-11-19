@@ -60,4 +60,13 @@ class ProductoController extends Controller
     {
         return view('registro_producto');
     }
+
+    public function verifyProductExists($nombre)
+    {
+        $columna = DB::table('producto')->where('nom_prod', '<=', $nombre)->count();
+
+        $estado = ($columna>0) ? true:false;
+
+        return response()->json(['estado' => $estado],200);
+    }
 }
