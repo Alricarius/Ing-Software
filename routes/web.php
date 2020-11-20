@@ -49,3 +49,6 @@ Route::get('Contactenos', function()
 Route::get('/Ingresar', function(){
     return 'vista del login';
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
