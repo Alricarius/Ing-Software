@@ -111,5 +111,22 @@ class ProductTest extends TestCase
         $this->json('POST', 'api/producto', $data);
         $request = $this->json('GET', "api/verificar/$nombre");
         $this->assertTrue($request->json()['estado']);
+        $data2 = [
+            'nom' => 'palabra',
+            'desc' => 'descripcion 1',
+            'carac' => 'caracteristicas',
+            'precio' => 999,
+            'tipo' => 'algun tipo',
+            'cant' => 10,
+            'img' => null,
+        ];
+        $nombre2 = 'palabra';
+
+        $request = $this->json('GET', "api/verificar/$nombre2");
+        $this->assertFalse($request->json()['estado']);
+
+        $this->json('POST', 'api/producto', $data2);
+        $request = $this->json('GET', "api/verificar/$nombre2");
+        $this->assertTrue($request->json()['estado']);
     }
 }
