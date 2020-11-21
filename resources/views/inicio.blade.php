@@ -11,7 +11,7 @@
         <div style = "display: flex; min-height: 100%; flex-direction: column;">
             <header id="header_comp"></header>
             <main style="flex:1;">
-                    <div id="item"></div>
+                    <div id="registro"></div>
             </main>
             <footer id="footer_comp"></footer>
         </div>
