@@ -13,3 +13,17 @@ require('./bootstrap');
  */
 
 require('./components/Example');
+
+require('./components/Example');
+
+require('./components/ItemList');
+
+require('./components/TabNav');
+
+require('./components/Index');
+
+require('./components/Header');
+
+require('./components/Footer');
+
+require('./components/Items');
