@@ -67,16 +67,15 @@
 }
 
 .set_stilos {
-    font-family: Verdana;
+    font-family: sans-serif;
     font-size: medium;
     font-style: oblique;
     color: aliceblue;
 }
-.set_stilostitle {
+.set_stilostitle  {
     margin-left: 2%;
-    font-family: Verdana;
-    font-size: 30px;
-    font-style: oblique;
+    font-family: sans-serif;
+    font-size: 25px;
     color: black;
 }
 

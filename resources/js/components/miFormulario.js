@@ -110,7 +110,7 @@ const MiApp = () => (
                         <td>
                         
                             <div>
-                                <label htmlFor="cmpNombre"><strong>Nombre del Producto: </strong></label>
+                                <label htmlFor="cmpNombre">Nombre del Producto:</label>
                                 <input type="text" id="cmpNombre" name="nom" maxLength= "51" placeholder="Ingrese el nombre del producto..." required/>
                             </div>
                             <div>
