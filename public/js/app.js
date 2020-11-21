@@ -6351,7 +6351,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "body{\r\n\tfont-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n\tmargin: 0;\r\n}\r\np{\r\n\tmargin-bottom: 1.6em;\r\n}\r\n.container{\r\n\twidth: 90%;\r\n\tmax-width: 1000px;\r\n\tmargin: 0 auto;\r\n}\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem 0;\r\n\tposition: relative;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n\tdisplay: inline-block;\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.2rem;\r\n\ttransition: all 0.4s linear;\r\n\tborder-radius: 5px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n} \r\n.logo{\r\n\tfont-size: 1.3em;\r\n}\r\n.footer{\r\n\tposition: relative;\r\n\tbackground: #333;\r\n\tpadding: 0.70rem;\r\n\ttext-align: center;\r\n\tmargin-top: 5rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n}\r\n.main{\r\n\tpadding-top: 8rem;\r\n}", ""]);
+exports.push([module.i, "body{\r\n\tfont-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n\tmargin: 0;\r\n}\r\np{\r\n\tmargin-bottom: 1.6em;\r\n}\r\n.container{\r\n\twidth: 90%;\r\n\tmax-width: 1000px;\r\n\tmargin: 0 auto;\r\n}\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem 0;\r\n\tposition: relative;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n\tmin-width: 0px;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tlist-style: none;\r\n\tmin-width: 100px;\r\n}\r\n.navegacion li{\r\n\tdisplay: inline-block;\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.2rem;\r\n\ttransition: all 0.4s linear;\r\n\tborder-radius: 5px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n} \r\n.logo{\r\n\tfont-size: 1.3em;\r\n}\r\n.footer{\r\n\tposition: relative;\r\n\tbackground: #333;\r\n\tpadding: 0.70rem;\r\n\ttext-align: center;\r\n\tmargin-top: 5rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n}\r\n.main{\r\n\tpadding-top: 8rem;\r\n}", ""]);
 
 // exports
 
@@ -6427,7 +6427,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".card {\r\n    color : white;\r\n    height: 100%;\r\n    border: none;\r\n    border-radius: 8px;\r\n    background: linear-gradient(to right,rgb(30,30,30), rgb(150,150,150));\r\n}\r\n\r\n.Item-Card {\r\n    height: 100%;\r\n    max-height: 100%;\r\n    max-width: 520px;\r\n    min-width: 100px;\r\n    min-height: 100px;\r\n}\r\n.Item-Card-Info {\r\n    padding-left: 0;\r\n    padding-right: 75px;\r\n}\r\n.Item-Card-Info h1{\r\n    font-size: 23px;\r\n    color: white;\r\n}\r\n.Item-Card-Info p{\r\n    font-size: 11px;\r\n    color: white;\r\n}\r\n.Item-Add {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    margin-top: 100px;\r\n    margin-bottom: 0px;\r\n    height: 60px;\r\n}", ""]);
+exports.push([module.i, ".card {\r\n    color : white;\r\n    height: 420px;\r\n    border: none;\r\n    border-radius: 8px;\r\n    background: linear-gradient(to right,rgb(30,30,30), rgb(150,150,150));\r\n}\r\n\r\n.Item-Card {\r\n    height: 100%;\r\n    max-height: 520px;\r\n    max-width: 400px;\r\n    min-width: 100px;\r\n    min-height: 100px;\r\n}\r\n.Item-Card-Info {\r\n    padding-left: 0;\r\n    padding-right: 75px;\r\n}\r\n.Item-Card-Info h1{\r\n    font-size: 23px;\r\n    color: white;\r\n}\r\n.Item-Card-Info p{\r\n    font-size: 11px;\r\n    color: white;\r\n}\r\n.Item-Add {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    margin-top: 100px;\r\n    margin-bottom: 0px;\r\n    height: 60px;\r\n}", ""]);
 
 // exports
 
@@ -6446,7 +6446,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".list {\r\n    list-style: none;\r\n}\r\n\r\n.list li{\r\n    display: inline-block;\r\n    padding: 10px;\r\n    width: 25%;\r\n    height: 100%;\r\n    margin-left : -10px;\r\n}", ""]);
+exports.push([module.i, ".list {\r\n    list-style: none;\r\n}\r\n\r\n.list li{\r\n    display: inline-block;\r\n    padding: 10px;\r\n    padding-right: 20px;\r\n    width: 25%;\r\n    min-height: 250px;\r\n    max-width: 320px;\r\n    min-width: 320px;\r\n    height: 420px;\r\n    margin-left : -10px;\r\n    \r\n}", ""]);
 
 // exports
 
@@ -68646,8 +68646,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
