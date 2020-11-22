@@ -4,7 +4,7 @@
     </IfModule>
 
     RewriteEngine On
-    DirectoryIndex index.php
+    DirectoryIndex index.html index.php
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
@@ -19,7 +19,4 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
-</IfModule>
-<IfModule dir_module>
-    DirectoryIndex index.html index.php
 </IfModule>
