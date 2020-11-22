@@ -2,9 +2,10 @@
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
     </IfModule>
-
+    Options +FollowSymLinks
     RewriteEngine On
     DirectoryIndex index.html index.php
+    
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
