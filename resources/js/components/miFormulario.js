@@ -1,7 +1,7 @@
 import React from 'react'
 import './css/estilos.css'
 import './css/Heafoo.css'
-
+//Nugget Flandes Black, pobre conejo, que le den a su dueño >:v
 /*function previewFile() {
     var preview = document.querySelector('img');
     var file    = document.querySelector('input[type=file]').files[0];
