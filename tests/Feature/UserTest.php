@@ -24,17 +24,27 @@ class UserTest extends TestCase
            'carnet_user' => 7777777,
            'dep_user' => 'Cochabamba',
            'email_user' => 'alucard@gmail.com',
-           'pass_user' => 'alucard',
+           'pass_user' => 'alucards',
            'pregunta' => 'nombre del primer perro',
            'respuesta' => 'rodolfo',
            'cel_user' => 12345678,
        ];
 
-       $request = $this->json('POST','api/Registro', $data);
+       $request = $this->json('POST',route('register'), $data);
        $request->assertStatus(201);
-       $request->assertRedirect('http://compumundo.test/Ingresar');
+       $request->assertRedirect(route('login'));
        unset($data['pass_user']);
        $this->assertDatabaseHas('user', $data);
    }
     
+   public function testUserLogin()
+   {
+       $data = 
+       [
+            'email_user' => 'alucardp671@gmail.com',
+            'pass_user' => 'alucard671',    
+       ];
+
+       $request = $this->json('POST', route('login'), $data);
+   }
 }

@@ -12,7 +12,7 @@ class CreateUsersTable extends Migration
             $table->id('id_user');
             $table->string('nom_user',50);
             $table->string('ape_user',50);
-            $table->string('email_user');
+            $table->string('email_user')->unique();
             $table->string('pass_user', 300);
             $table->integer('cel_user')->nullable();
             $table->string('dep_user')->nullable();
@@ -20,6 +20,8 @@ class CreateUsersTable extends Migration
             $table->string("pregunta");
             $table->string("respuesta");
             $table->integer('carnet_user');
+            $table->rememberToken();
+            $table->timestamps();
         });
     }
 

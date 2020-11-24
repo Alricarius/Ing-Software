@@ -29,7 +29,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    protected $redirectTo = RouteServiceProvider::LOGIN;
 
     /**
      * Create a new controller instance.
@@ -50,9 +50,12 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'nom_user' => ['required', 'string', 'max:50', 'min:1'],
+            'ape_user' => ['required', 'string', 'max:50', 'min:1'],
+            'carnet_user' => ['required', 'max:8', 'min:4'],
+            'cel_user' => ['required', 'max:12', 'min:6'],
+            'email_user' => ['required', 'string', 'email', 'max:50', 'unique:user', 'min:1'],
+            'pass_user' => ['required', 'string', 'min:7','max:20'],
         ]);
     }
 
@@ -65,9 +68,16 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']),
+            'nom_user' => $data['nom_user'],
+            'ape_user' => $data['ape_user'],
+            'carnet_user' => $data['carnet_user'],
+            'dep_user' => $data['dep_user'],
+            'email_user' => $data['email_user'],
+            'pregunta' => $data['pregunta'],
+            'respuesta' => $data['respuesta'],
+            'cel_user' => $data['cel_user'],
+            'pass_user' => Hash::make($data['pass_user']),
+            'tipo_user' => 0,
         ]);
     }
 }
