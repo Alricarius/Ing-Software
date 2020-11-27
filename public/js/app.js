@@ -6389,7 +6389,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\r\n.tab_container {\r\n    width: 80%;\r\n    margin-top: 20px;\r\n    min-height: 100%;\r\n}\r\n\r\n.button_container {\r\n    height: 15%;\r\n    display: block;\r\n}\r\n\r\n.button_container button{\r\n    display: block;\r\n    width: 33.33%; \r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: darkcyan;\r\n}\r\n\r\n.button_selected button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color:rgb(0, 107, 107);\r\n}\r\n\r\n.tab_container .button_container button:hover{\r\n    background-color: rgb(0, 107, 107);\r\n}\r\n\r\n.tab_panel {\r\n    display: block;\r\n    background-color: silver;\r\n    padding: 30px;\r\n    box-sizing: border-box;\r\n    text-align: left;\r\n    min-height: 100%;\r\n    margin-top: 36px;\r\n}\r\n\r\n.set_button{\r\n    position: relative;\r\n    text-align: right;\r\n    margin-right: 2%;\r\n}\r\n.set_button .button_color label {     \r\n    width: 5%;\r\n    height: 60%;\r\n    padding: 5px;\r\n    background-color: rgb(0, 255, 0);\r\n}\r\n.set_button .button_color1 label {     \r\n    width: 5%;\r\n    height: 50%; \r\n    padding: 5px;\r\n    background-color: rgb(255, 0, 0);\r\n}\r\n\r\n.set_stilos {\r\n    font-family: Verdana;\r\n    font-size: medium;\r\n    font-style: oblique;\r\n    color: aliceblue;\r\n}\r\n.set_stilostitle {\r\n    margin-left: 2%;\r\n    font-family: Verdana;\r\n    font-size: 30px;\r\n    font-style: oblique;\r\n    color: black;\r\n}\r\n\r\n.image {\r\n    max-width: 80%;\r\n    max-height: 80%;\r\n}\r\n", ""]);
+exports.push([module.i, "\r\n.tab_container {\r\n    width: 80%;\r\n    margin-top: 20px;\r\n}\r\n\r\n.button_container {\r\n    height: 15%;\r\n    display: block;\r\n}\r\n\r\n.button_container button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #333;\r\n    color: aliceblue;\r\n    font-family: sans-serif;\r\n    /*border: 30px solid #333;*/\r\n}\r\n/*Esto se agrego */\r\n.button_selected button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #ccc;\r\n    color: black;\r\n    font-family: sans-serif;\r\n    /*border: 5px solid #333;*/\r\n}\r\n\r\n.tab_container .button_container button:hover{\r\n    background-color: #ccc;\r\n    color: black;\r\n\r\n}\r\n\r\n.tab_panel {\r\n    display: flex;\r\n    background-color: #ccc;\r\n    padding: 30px;\r\n    box-sizing: border-box;\r\n    text-align: left;\r\n    min-height: 400px;\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n    line-height: 1.6em;\r\n    border: 3px solid #333;\r\n}\r\n\r\n.set_button{\r\n    \r\n    position: relative;\r\n    text-align: right;\r\n    margin-right: 2%;\r\n}\r\n.set_button-precio{\r\n    margin-left: 0%;\r\n    position: relative;\r\n    text-align: left;\r\n    \r\n}\r\n.set_button1{   \r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1rem;\r\n\tline-height: 1.6em;\r\n}\r\n.set_button-precio .button_color label {     \r\n    margin-left: 5%; \r\n    width: 5%;\r\n    height: 60%;\r\n    padding: 5px;\r\n    background-color: rgb(0, 255, 0);\r\n    font-family: sans-serif;\r\n}\r\n.set_button-precio .button_color1 label {     \r\n    margin-left: 5%;\r\n    width: 5%;\r\n    height: 60%; \r\n    padding: 5px;\r\n    background-color: rgb(255, 0, 0);\r\n    font-family: sans-serif;\r\n}\r\n\r\n.set_stilos {\r\n    font-family: sans-serif;\r\n    font-size: medium;\r\n    color: aliceblue;\r\n}\r\n.set_stilostitle {\r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n}\r\n.image {\r\n    max-width: 80%;\r\n    max-height: 80%;\r\n}\r\n.set_stilos-panel{\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n}\r\n", ""]);
 
 // exports
 
@@ -68130,11 +68130,19 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
     key: "showPanel",
     value: function showPanel() {
       if (this.state.tabNumb === 1) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, "Nombre: ", this.state.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, "Caracter\xEDsticas: ", this.state.carac, " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, "Tipo: ", this.state.type));
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+          className: "set_stilos-panel"
+        }, "Nombre: ", this.state.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("pre", {
+          className: "set_stilos-panel"
+        }, "Caracter\xEDsticas: ", this.state.carac), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+          className: "set_stilos-panel"
+        }, "Tipo: ", this.state.type));
       }
 
       if (this.state.tabNumb === 2) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Descripcion: ", this.state.desc);
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("pre", {
+          className: "set_stilos-panel"
+        }, "Descripci\xF3n: ", this.state.desc);
       }
 
       var image = this.state.img.map(function (imge) {
@@ -68159,7 +68167,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
           onClick: this.click2
         }, "Caracter\xEDsticas")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
           onClick: this.click3
-        }, "Descripcion fisica"));
+        }, "Descripci\xF3n fisica"));
       }
 
       if (this.state.tabNumb === 2) {
@@ -68173,7 +68181,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
           className: "button_selected"
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
           onClick: this.click3
-        }, "Descripcion fisica")));
+        }, "Descripci\xF3n fisica")));
       }
 
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -68186,7 +68194,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
         onClick: this.click2
       }, "Caracter\xEDsticas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         onClick: this.click3
-      }, "Descripcion fisica"));
+      }, "Descripci\xF3n fisica"));
     }
   }, {
     key: "showButton",
@@ -68206,10 +68214,10 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
         className: "set_stilostitle"
-      }, "Nombre del producto: ", this.state.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "set_button"
+      }, "Nombre del producto: ", this.state.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+        className: "set_button1"
       }, "Precio: ", this.state.price, " $"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "set_button"
+        className: "set_button-precio"
       }, this.showButton()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "tab_container"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, this.showButtonSelected()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -68544,7 +68552,6 @@ var MiApp = function MiApp() {
     type: "text",
     id: "cmpNombre",
     name: "nom",
-    pattern: "[A-Za-z0-9\\s]{1,50}",
     maxLength: "51",
     placeholder: "Ingrese el nombre del producto...",
     required: true
@@ -68647,8 +68654,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\HP\Documents\Git_repositories\Ing-Software\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\HP\Documents\Git_repositories\Ing-Software\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! E:\IngSoftware\proyectos\Trabajo\Ing-Software\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! E:\IngSoftware\proyectos\Trabajo\Ing-Software\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

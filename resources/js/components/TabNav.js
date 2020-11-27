@@ -66,13 +66,13 @@ class TabNav extends React.Component{
     showPanel(){
         if(this.state.tabNumb === 1){
             return <ul>
-                        <li>Nombre: {this.state.name}</li>
-                        <li>Características: {this.state.carac} </li>
-                        <li>Tipo: {this.state.type}</li>
+                        <li className = 'set_stilos-panel'>Nombre: {this.state.name}</li>
+                        <li><pre className = 'set_stilos-panel'>Características: {this.state.carac}</pre> </li>
+                        <li className = 'set_stilos-panel'>Tipo: {this.state.type}</li>
                     </ul>;
         }
         if(this.state.tabNumb === 2){
-            return <p>Descripcion: {this.state.desc}</p>;
+            return <pre className = 'set_stilos-panel'>Descripción: {this.state.desc}</pre>;
         }
         const image = this.state.img.map(function(imge){return imge.img });
         return(
@@ -88,7 +88,7 @@ class TabNav extends React.Component{
                         <div className="button_selected">
                         <button onClick={this.click2}>Características</button>                        
                         </div>
-                        <button onClick={this.click3}>Descripcion fisica</button>
+                        <button onClick={this.click3}>Descripción fisica</button>
                     </div>
                     
         }
@@ -97,7 +97,7 @@ class TabNav extends React.Component{
             <button onClick={this.click1}>Imagen</button>                                
             <button onClick={this.click2}>Características</button>
             <div className="button_selected">            
-            <button onClick={this.click3}>Descripcion fisica</button>            
+            <button onClick={this.click3}>Descripción fisica</button>            
             </div>
             </div>
         }
@@ -108,7 +108,7 @@ class TabNav extends React.Component{
             <button onClick={this.click1}>Imagen</button>          
             </div>
             <button onClick={this.click2}>Características</button>  
-            <button onClick={this.click3}>Descripcion fisica</button>           
+            <button onClick={this.click3}>Descripción fisica</button>           
             </div>
         )
     }
@@ -131,14 +131,12 @@ class TabNav extends React.Component{
             <React.Fragment>
                 <h1 className="set_stilostitle">
                     Nombre del producto: {this.state.name}
-                </h1>
-
-                <div className="set_button">
+                </h1>                
+                <h2 className="set_button1">
                     Precio: {this.state.price} $
-                </div>
+                </h2>
 
-                
-                    <div className="set_button">
+                    <div className="set_button-precio">
                         {this.showButton()}
                     </div>
 

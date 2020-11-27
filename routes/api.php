@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductoController;
+use App\Http\Controllers\UserController;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -18,8 +20,14 @@ use App\Http\Controllers\ProductoController;
     return $request->user();
 });*/
 
+//api de producto
 Route::get('/producto/{id}', [ProductoController::class, 'getItemProd']);
 
 Route::get('/productos', [ProductoController::class, 'getProductsView']);
 
 Route::post('/producto', [ProductoController::class, 'insertProduct']);
+
+Route::get('/verificar/{nombre}', [ProductoController::class, 'verifyProductExists']);
+
+//api de usuario
+Route::post('/Registro', [UserController::class, 'insertUser']);
