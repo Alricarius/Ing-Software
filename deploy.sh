@@ -1,2 +1,4 @@
-Run Database Migrations
+#Run Database Migrations
 php artisan migrate:fresh
+
+#
