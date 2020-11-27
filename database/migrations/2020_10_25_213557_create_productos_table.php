@@ -21,11 +21,11 @@ class CreateProductosTable extends Migration
             $table->string('carac_prod', 1000);
             $table->integer('precio_prod');
             $table->string('tipo_prod');
-            $table->dateTime('fecha_prod');
+            $table->dateTime('fecha_prod')->nullable();
             $table->integer('cant_prod')->default(0);
         });
 
-        DB::statement("Alter table producto CHANGE fecha_prod fecha_prod DATETIME DEFAULT CURRENT_TIMESTAMP");
+        
 
     }
 
