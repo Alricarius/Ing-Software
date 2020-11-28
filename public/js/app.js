@@ -67527,7 +67527,7 @@ var Header = /*#__PURE__*/function (_React$Component) {
       }, "login")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "Contactenos"
       }, "Contactenos")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://compumundomeganet2.herokuapp.com/Registro"
+        href: server + "/Registro"
       }, "Registrar Producto")))))));
     }
   }]);
@@ -67772,7 +67772,7 @@ var ItemList = /*#__PURE__*/function (_React$Component) {
               case 0:
                 _context.prev = 0;
                 _context.next = 3;
-                return fetch("http://compumundomeganet2.herokuapp.com/api/productos");
+                return fetch(server + "/api/productos");
 
               case 3:
                 res = _context.sent;
@@ -68062,7 +68062,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                url = "http://127.0.0.1:8000/api/producto/" + id;
+                url = server + "/api/producto/" + id;
                 _context.prev = 1;
                 _context.next = 4;
                 return fetch(url);
@@ -68527,7 +68527,7 @@ function _repetido() {
             break;
 
           case 6:
-            url = "http://127.0.0.1:8000/api/verificar/" + name;
+            url = server + "/api/verificar/" + name;
             _context.next = 9;
             return fetch(url);
 
@@ -68729,8 +68729,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\IngSoftware\proyectos\Trabajo\Ing-Software\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! E:\IngSoftware\proyectos\Trabajo\Ing-Software\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

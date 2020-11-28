@@ -15,7 +15,7 @@
                             <label for="nombre" class="col-md-4 col-form-label text-md-right">{{ __('Nombre') }}</label>
 
                             <div class="col-md-6">
-                                <input id="nombre" type="text" class="form-control @error('nombre') is-invalid @enderror" name="nombre" value="{{ old('nombre') }}" required autocomplete="nombre" autofocus>
+                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="nombre" autofocus>
                             </div>
                         </div>
 
@@ -23,7 +23,7 @@
                             <label for="apellido" class="col-md-4 col-form-label text-md-right">{{ __('Apellido') }}</label>
 
                             <div class="col-md-6">
-                                <input id="apellido" type="text" class="form-control @error('apellido') is-invalid @enderror" name="apellido" value="{{ old('apellido') }}" required autocomplete="apellido" autofocus>
+                                <input id="ape_user" type="text" class="form-control @error('ape_user') is-invalid @enderror" name="ape_user" value="{{ old('ape_user') }}" required autocomplete="apellido" autofocus>
                             </div>
                         </div>
 
@@ -31,14 +31,14 @@
                             <label for="carnet" class="col-md-4 col-form-label text-md-right">{{ __('Carnet') }}</label>
 
                             <div class="col-md-6">
-                                <input id="carnet" type="carnet" class="form-control @error('carnet') is-invalid @enderror" name="carnet" required autocomplete="new-carnet">
+                                <input id="carnet_user" type="number" class="form-control @error('carnet_user') is-invalid @enderror" name="carnet_user" required autocomplete="new-carnet">
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label for="departamento" class="col-md-4 col-form-label text-md-right">{{ __('Departamento') }}</label>
                             <div class="col-md-6">
-                                  <select name="departamento" id = "departamento">
+                                  <select name="dep_user" id = "dep_user">
                                          <option value ="Cochabamba" selcted>Cochabamba</option>
                                          <option value ="Santa Cruz" selcted>Santa Cruz</option>
                                          <option value ="Oruro" selcted>Oruro</option>
@@ -57,7 +57,7 @@
                             <label for="celular" class="col-md-4 col-form-label text-md-right">{{ __('Celular') }}</label>
 
                             <div class="col-md-6">
-                                <input id="celular" type="text" class="form-control @error('celular') is-invalid @enderror" name="celular" value="{{ old('celular') }}" required autocomplete="celular" autofocus>
+                                <input id="cel_user" type="text" class="form-control @error('cel_user') is-invalid @enderror" name="cel_user" value="{{ old('cel_user') }}" required autocomplete="celular" autofocus>
                             </div>
                         </div>
 
@@ -88,7 +88,7 @@
                         <div class="form-group row">
                             <label for="pregunta secreta" class="col-md-4 col-form-label text-md-right">{{ __('Pregunta secreta') }}</label>
                             <div class="col-md-6">
-                            <select name="Pregunta_Secreta" id = "Pregunta_Secreta">
+                            <select name="pregunta" id = "pregunta">
                                    <option value ="Nombre de tu primera mascota?" selcted>Nombre de tu primera mascota?</option>
                                    <option value ="Marca de Tenis preferida?" selcted>Marca de Tenis preferida?</option>
                                    <option value ="Deporte preferido?" selcted>Deporte preferido?</option>
