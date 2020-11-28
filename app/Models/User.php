@@ -10,16 +10,14 @@ use Illuminate\Notifications\Notifiable;
 class User extends Authenticatable
 {
     use HasFactory, Notifiable;
-    protected $id = 'id_user';
-    protected $table = 'user';
 
     protected $fillable = [
-        'nom_user',
+        'name',
         'ape_user',
         'carnet_user',
         'dep_user',
-        'email_user',
-        'pass_user',
+        'email',
+        'password',
         'pregunta',
         'respuesta',
         'cel_user',
