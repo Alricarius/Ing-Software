@@ -59,6 +59,34 @@ function validacion(){
         campoNombre.setCustomValidity("");
     }
 }
+
+async function repetido(){
+    let esRepetido = false;
+    try {
+        let name = campoNombre.value;
+        if(name === ""){
+
+        }else{
+            let url = server+"/api/verificar/"+name;
+            let res = await fetch(url);
+            let data = await res.json();
+            esRepetido = data.estado === true;
+        }
+    } catch (error) {
+        error;
+        console.log("hubo error");
+    }
+    if(campoNombre.value.length > 50){
+        campoNombre.setCustomValidity("Maximo 50 caracteres");
+
+    } else if(esRepetido){
+        campoNombre.setCustomValidity("nombre repetido");
+    }else{
+        campoNombre.setCustomValidity("");
+    }
+    
+}
+
 window.addEventListener("load", iniciar);
 ///
 
@@ -111,7 +139,7 @@ const MiApp = () => (
                         
                             <div>
                                 <label htmlFor="cmpNombre"><strong>Nombre del Producto: </strong></label>
-                                <input type="text" id="cmpNombre" name="nom" maxLength= "51" placeholder="Ingrese el nombre del producto..." required/>
+                                <input type="text" id="cmpNombre" onBlur={repetido} name="nom" maxLength= "51" placeholder="Ingrese el nombre del producto..." required/>
                             </div>
                             <div>
                                 <label><strong>Tipo de Producto:</strong></label>

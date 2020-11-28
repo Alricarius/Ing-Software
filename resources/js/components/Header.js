@@ -14,10 +14,11 @@ class Header extends React.Component{
                             <nav className="navegacion">
                             <ul>
                             <li><a href="Novedades">Novedades</a></li>
-                            <li><a href="Asesoria">Asesoria</a></li>
+                            <li><a href="http://127.0.0.1:8000/login">login</a></li>
                             <li><a href="Contactenos">Contactenos</a></li>
-                            <li><a href ="http://127.0.0.1:8000/Registro">Registrar Producto</a></li>
+                            <li><a href ={server + "/Registro"}>Registrar Producto</a></li>
                             </ul>
+                            
                         </nav>
                     </div>
                 </header>

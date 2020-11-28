@@ -11,6 +11,30 @@ class User extends Authenticatable
 {
     use HasFactory, Notifiable;
 
-    public $timestamp = false;
-    protected $primaryKey = 'id_user';
+    protected $fillable = [
+        'name',
+        'ape_user',
+        'carnet_user',
+        'dep_user',
+        'email',
+        'password',
+        'pregunta',
+        'respuesta',
+        'cel_user',
+        'tipo_user',
+    ];
+
+    protected $hidden = [
+        'pass_user',
+        'remember_token',
+    ];
+
+    /**
+     * The attributes that should be cast to native types.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'email_verified_at' => 'datetime',
+    ];
 }

@@ -16,5 +16,6 @@
             <footer id="footer_comp"></footer>
         </div>
     </body>
+    <script type="text/javascript" src="js/global.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 </html>
