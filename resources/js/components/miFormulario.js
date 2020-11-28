@@ -67,7 +67,7 @@ async function repetido(){
         if(name === ""){
 
         }else{
-            let url = "http://127.0.0.1:8000/api/verificar/"+name;
+            let url = server+"/api/verificar/"+name;
             let res = await fetch(url);
             let data = await res.json();
             esRepetido = data.estado === true;
