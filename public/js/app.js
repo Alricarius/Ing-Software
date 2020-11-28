@@ -6446,7 +6446,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".list {\r\n    list-style: none;\r\n}\r\n\r\n.list li{\r\n    display: inline-block;\r\n    padding: 10px;\r\n    width: 25%;\r\n    height: 100%;\r\n    margin-left : -10px;\r\n}", ""]);
+exports.push([module.i, ".list {\r\n    list-style: none;\r\n}\r\n\r\n.list li{\r\n    display: inline-block;\r\n    padding: 10px;\r\n    padding-right: 20px;\r\n    width: 25%;\r\n    min-height: 250px;\r\n    max-width: 320px;\r\n    min-width: 320px;\r\n    height: 420px;\r\n    margin-left : -10px;\r\n    \r\n}", ""]);
 
 // exports
 
@@ -67521,13 +67521,13 @@ var Header = /*#__PURE__*/function (_React$Component) {
       }, "MegaComputer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
         className: "navegacion"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "{{ route('logout') }}"
+        href: "Novedades"
       }, "Novedades")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "http://127.0.0.1:8000/login"
       }, "login")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "Contactenos"
       }, "Contactenos")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "http://127.0.0.1:8000/Registro"
+        href: "https://compumundomeganet2.herokuapp.com/Registro"
       }, "Registrar Producto")))))));
     }
   }]);
@@ -67772,7 +67772,7 @@ var ItemList = /*#__PURE__*/function (_React$Component) {
               case 0:
                 _context.prev = 0;
                 _context.next = 3;
-                return fetch("http://127.0.0.1:8000/api/productos");
+                return fetch("http://compumundomeganet2.herokuapp.com/api/productos");
 
               case 3:
                 res = _context.sent;
