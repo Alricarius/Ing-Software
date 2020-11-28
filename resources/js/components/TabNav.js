@@ -26,7 +26,7 @@ class TabNav extends React.Component{
     }
 
     async componentDidMount(){
-        var url = "http://127.0.0.1:8000/api/producto/"+id;
+        var url = server+"/api/producto/"+id;
             
         try{
             let res = await fetch(url);

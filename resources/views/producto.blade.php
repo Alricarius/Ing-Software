@@ -20,5 +20,6 @@
     <script>
         var id = "{{$id_prod}}"
     </script>
-    <script type="text/javascript" src="../js/app.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </html>
