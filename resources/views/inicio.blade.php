@@ -13,9 +13,36 @@
             <main style="flex:1;">
                     <div id="item"></div>
             </main>
+            @if(session()->has('name'))
+                {{'el name es '.session('name')}}
+            @else
+                {{'no hay name'}}
+            @endif
+            @if(session()->has('id'))
+                {{'el id es '.session('id')}}
+            @else
+                {{'no hay id'}}
+            @endif
+            @if(session()->has('type_user'))
+                {{'el tipo es '.session('type_user')}}
+            @else
+                {{'no hay tipo'}}
+            @endif
             <footer id="footer_comp"></footer>
         </div>
     </body>
+    @if(session()->has('id'))
+        <script>
+            let user_is_logged = true;
+            let user_id = "{{session('id')}}";
+            let user_name = "{{session('name')}}";
+            let user_is_admin = "{{session('type_user')}}"; // 0 = false | 1 = true
+        </script>
+    @else
+        <script>
+            let user_is_logged = false;
+        </script>
+    @endif
     <script type="text/javascript" src="js/global.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 </html>

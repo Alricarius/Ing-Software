@@ -67509,6 +67509,29 @@ var Header = /*#__PURE__*/function (_React$Component) {
   }
 
   _createClass(Header, [{
+    key: "logged",
+    value: function logged() {
+      if (user_is_logged) {
+        if (user_is_admin === "1") {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            style: {
+              color: 'yellow'
+            }
+          }, "(A)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            style: {
+              color: 'green'
+            }
+          }, user_name + " " + user_id));
+        } else {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            style: {
+              color: 'green'
+            }
+          }, user_name + " " + user_id));
+        }
+      }
+    }
+  }, {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
@@ -67518,7 +67541,7 @@ var Header = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "/",
         className: "logo"
-      }, "MegaComputer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+      }, "MegaComputer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.logged()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
         className: "navegacion"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "Novedades"
@@ -68442,6 +68465,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 
 
+ //Nugget Flandes Black, pobre conejo, que le den a su dueño >:v
 
 /*function previewFile() {
     var preview = document.querySelector('img');
@@ -68729,8 +68753,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\HP\Documents\Git_repositories\Ing-Software\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\HP\Documents\Git_repositories\Ing-Software\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
