@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.fondo{
+    size: 100px;
+    font-size: large;
+    background-color: blue;
+    background-image: url(../js/components/images/fondo.jpg);
+}
