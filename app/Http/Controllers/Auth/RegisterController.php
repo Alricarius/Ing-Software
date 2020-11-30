@@ -8,6 +8,9 @@ use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Http\Request;
+use Illuminate\Auth\Events\Registered;
 
 class RegisterController extends Controller
 {
@@ -24,12 +27,42 @@ class RegisterController extends Controller
 
     use RegistersUsers;
 
+    public function register(Request $request)
+    {
+        $this->validator($request->all())->validate();
+
+        event(new Registered($user = $this->create($request->all())));
+
+        $this->guard()->login($user);
+        
+        $this->saveRegisterDataSession($request);
+            
+        if ($response = $this->registered($request, $user)) {
+            return $response;
+        }
+
+        return $request->wantsJson()
+                    ? new JsonResponse([], 201)
+                    : redirect($this->redirectPath());
+    }
+
+    protected function saveRegisterDataSession(Request $request){
+        $email = $request->email;
+        $data = DB::table('users')->select(array('id','name','tipo_user'))->where('email',$email)->first();
+        $id = $data->id;
+        $name = $request->name;
+        $type_user = $data->tipo_user;
+        session(['id' => $id]);
+        session(['name' => $name]);
+        session(['type_user' => $type_user]);
+    }
+
     /**
      * Where to redirect users after registration.
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    protected $redirectTo = RouteServiceProvider::RAIZ;
 
     /**
      * Create a new controller instance.
