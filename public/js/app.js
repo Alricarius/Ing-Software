@@ -6351,7 +6351,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "body{\r\n\tfont-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n\tmargin: 0;\r\n}\r\np{\r\n\tmargin-bottom: 1.6em;\r\n}\r\n.container{\r\n\twidth: 90%;\r\n\tmax-width: 1000px;\r\n\tmargin: 0 auto;\r\n}\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem 0;\r\n\tposition: relative;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n\tdisplay: inline-block;\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.2rem;\r\n\ttransition: all 0.4s linear;\r\n\tborder-radius: 5px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n} \r\n.logo{\r\n\tfont-size: 1.3em;\r\n}\r\n.footer{\r\n\tposition: relative;\r\n\tbackground: #333;\r\n\tpadding: 0.70rem;\r\n\ttext-align: center;\r\n\tmargin-top: 5rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n}\r\n.main{\r\n\tpadding-top: 8rem;\r\n}", ""]);
+exports.push([module.i, "body{\r\n\tfont-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n\tmargin: 0;\r\n}\r\np{\r\n\tmargin-bottom: 1.6em;\r\n}\r\n.container{\r\n\twidth: 90%;\r\n\tmax-width: 1000px;\r\n\tmargin: 0 auto;\r\n}\r\n.usr{\r\n\tborder-radius: 4px;\r\n\ttransition: all 0.4s linear;\r\n\tcolor: green;\r\n}\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem;\r\n\tposition: relative;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n\tflex-wrap: wrap;\r\n}\r\nul, ol{\r\n\tlist-style: none;\r\n}\r\n.navegacion li a{\r\n\ttext-decoration: none;\r\n\tpadding: 0.5rem 1.7rem;\r\n\tborder-radius: 4px;\r\n\tdisplay: block;\r\n\ttransition: all 0.4s linear;\r\n\r\n}\r\n.navegacion li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n}\r\n.navegacion > li{\r\n\tfloat:left;\r\n}\r\n.navegacion li ul{\r\n\tdisplay:none;\r\n\tposition: absolute;\r\n\tmin-width: 140px;\r\n}\r\n.navegacion li:hover > ul{\r\n\tdisplay: block;\r\n\tbackground-color: #333;\r\n\tborder-radius: 4px;\r\n}\r\n/*.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n\tdisplay: inline-block;\r\n\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.7rem;\r\n\tborder-radius: 4px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n}\r\n*/\r\n\r\n@media only screen and (max-width: 845px){\r\n\t.navegacion{\r\n\t\twidth: 100%;\r\n\t\tmargin-top: 1rem;\r\n\t\tdisplay: grid;\r\n\t}\r\n\t.navegacion li a{\r\n\t\tdisplay: grid;\r\n\t\tpadding: auto;\r\n\t\tborder-radius: 4px;\r\n\t\ttransition: all 0.4s linear;\r\n\t}\r\n\t.navegacion li ul{\r\n\t\tposition: absolute;\r\n\t\tpadding: 1rem 0.5rem;\r\n\t\tborder-radius: 4px;\r\n\t}\r\n\t\r\n}\r\n\r\n.logo{\r\n\tfont-size: 1.3em;\r\n}\r\n.footer{\r\n\tbackground: #333;\r\n\tpadding: 0.6rem;\r\n\ttext-align: center;\r\n\tmargin-top: 2rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n\tbottom: 0;\r\n}\r\n.main{\r\n\tpadding-top: 8rem;\r\n}", ""]);
 
 // exports
 
@@ -6389,7 +6389,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\r\n.tab_container {\r\n    width: 80%;\r\n    margin-top: 20px;\r\n    min-height: 100%;\r\n}\r\n\r\n.button_container {\r\n    height: 15%;\r\n    display: block;\r\n}\r\n\r\n.button_container button{\r\n    display: block;\r\n    width: 33.33%; \r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: darkcyan;\r\n}\r\n\r\n.button_selected button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color:rgb(0, 107, 107);\r\n}\r\n\r\n.tab_container .button_container button:hover{\r\n    background-color: rgb(0, 107, 107);\r\n}\r\n\r\n.tab_panel {\r\n    display: block;\r\n    background-color: silver;\r\n    padding: 30px;\r\n    box-sizing: border-box;\r\n    text-align: left;\r\n    min-height: 100%;\r\n    margin-top: 36px;\r\n}\r\n\r\n.set_button{\r\n    position: relative;\r\n    text-align: right;\r\n    margin-right: 2%;\r\n}\r\n.set_button .button_color label {     \r\n    width: 5%;\r\n    height: 60%;\r\n    padding: 5px;\r\n    background-color: rgb(0, 255, 0);\r\n}\r\n.set_button .button_color1 label {     \r\n    width: 5%;\r\n    height: 50%; \r\n    padding: 5px;\r\n    background-color: rgb(255, 0, 0);\r\n}\r\n\r\n.set_stilos {\r\n    font-family: Verdana;\r\n    font-size: medium;\r\n    font-style: oblique;\r\n    color: aliceblue;\r\n}\r\n.set_stilostitle {\r\n    margin-left: 2%;\r\n    font-family: Verdana;\r\n    font-size: 30px;\r\n    font-style: oblique;\r\n    color: black;\r\n}\r\n\r\n.image {\r\n    max-width: 80%;\r\n    max-height: 80%;\r\n}\r\n", ""]);
+exports.push([module.i, "\r\n.tab_container {\r\n    width: 80%;\r\n    margin-top: 20px;\r\n}\r\n\r\n.button_container {\r\n    height: 15%;\r\n    display: block;\r\n}\r\n\r\n.button_container button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #333;\r\n    color: aliceblue;\r\n    font-family: sans-serif;\r\n    /*border: 30px solid #333;*/\r\n}\r\n/*Esto se agrego */\r\n.button_selected button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #ccc;\r\n    color: black;\r\n    font-family: sans-serif;\r\n    /*border: 5px solid #333;*/\r\n}\r\n\r\n.tab_container .button_container button:hover{\r\n    background-color: #ccc;\r\n    color: black;\r\n\r\n}\r\n\r\n.tab_panel {\r\n    display: flex;\r\n    background-color: #ccc;\r\n    padding: 30px;\r\n    box-sizing: border-box;\r\n    text-align: left;\r\n    min-height: 400px;\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n    line-height: 1.6em;\r\n    border: 3px solid #333;\r\n}\r\n\r\n.set_button{\r\n    \r\n    position: relative;\r\n    text-align: right;\r\n    margin-right: 2%;\r\n}\r\n.set_button-precio{\r\n    margin-left: 0%;\r\n    position: relative;\r\n    text-align: left;\r\n    \r\n}\r\n.set_button1{   \r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1rem;\r\n\tline-height: 1.6em;\r\n}\r\n.set_button-precio .button_color label {     \r\n    margin-left: 5%; \r\n    width: 5%;\r\n    height: 60%;\r\n    padding: 5px;\r\n    background-color: rgb(0, 255, 0);\r\n    font-family: sans-serif;\r\n}\r\n.set_button-precio .button_color1 label {     \r\n    margin-left: 5%;\r\n    width: 5%;\r\n    height: 60%; \r\n    padding: 5px;\r\n    background-color: rgb(255, 0, 0);\r\n    font-family: sans-serif;\r\n}\r\n\r\n.set_stilos {\r\n    font-family: sans-serif;\r\n    font-size: medium;\r\n    color: aliceblue;\r\n}\r\n.set_stilostitle {\r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n}\r\n.image {\r\n    max-width: 80%;\r\n    max-height: 80%;\r\n}\r\n.set_stilos-panel{\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6446,7 +6446,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".list {\r\n    list-style: none;\r\n}\r\n\r\n.list li{\r\n    display: inline-block;\r\n    padding: 10px;\r\n    width: 25%;\r\n    height: 100%;\r\n    margin-left : -10px;\r\n}", ""]);
+exports.push([module.i, ".list {\r\n    list-style: none;\r\n}\r\n\r\n.list li{\r\n    display: inline-block;\r\n    padding: 10px;\r\n    padding-right: 20px;\r\n    width: 25%;\r\n    min-height: 250px;\r\n    max-width: 320px;\r\n    min-width: 320px;\r\n    height: 420px;\r\n    margin-left : -10px;\r\n    \r\n}", ""]);
 
 // exports
 
@@ -67511,6 +67511,75 @@ var Header = /*#__PURE__*/function (_React$Component) {
   }
 
   _createClass(Header, [{
+    key: "user_session",
+    value: function user_session() {
+      if (user_is_logged) {
+        if (user_is_admin === "1") {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+            style: {
+              color: 'yellow',
+              marginRight: '0.5rem'
+            }
+          }, "(A)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+            className: "usr"
+          }, user_name + " " + user_id));
+        } else {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+            className: "usr"
+          }, user_name + " " + user_id));
+        }
+      }
+    }
+  }, {
+    key: "dropdown_buttons",
+    value: function dropdown_buttons() {
+      var btn_login = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        style: {
+          display: 'block'
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: server + "/login"
+      }, "Iniciar Sesion"));
+      var btn_register = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        style: {
+          display: 'block'
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: server + "/register"
+      }, "Registrate"));
+      var btn_logout = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        style: {
+          display: 'block'
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: server + "/logout"
+      }, "Salir"));
+      var btn_prod_register = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        style: {
+          display: 'block'
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: server + "/Registro"
+      }, "Registrar Producto"));
+      var btn_add_admin = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        style: {
+          display: 'block'
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#"
+      }, "Agregar Administrador"));
+
+      if (user_is_logged) {
+        if (user_is_admin === "1") {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, btn_prod_register, btn_add_admin, btn_logout);
+        } else {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, btn_logout);
+        }
+      } else {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, btn_login, btn_register);
+      }
+    }
+  }, {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
@@ -67520,17 +67589,15 @@ var Header = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "/",
         className: "logo"
-      }, "MegaComputer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+      }, "MegaComputer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), this.user_session(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "navegacion"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "Novedades"
       }, "Novedades")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "Asesoria"
       }, "Asesoria")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "Contactenos"
-      }, "Contactenos")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "http://127.0.0.1:8000/Registro"
-      }, "Registrar Producto")))))));
+      }, "Contactenos")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Cuenta"), this.dropdown_buttons())))));
     }
   }]);
 
@@ -67774,7 +67841,7 @@ var ItemList = /*#__PURE__*/function (_React$Component) {
               case 0:
                 _context.prev = 0;
                 _context.next = 3;
-                return fetch("http://127.0.0.1:8000/api/productos");
+                return fetch(server + "/api/productos");
 
               case 3:
                 res = _context.sent;
@@ -68064,7 +68131,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                url = "http://127.0.0.1:8000/api/producto/" + id;
+                url = server + "/api/producto/" + id;
                 _context.prev = 1;
                 _context.next = 4;
                 return fetch(url);
@@ -68132,11 +68199,19 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
     key: "showPanel",
     value: function showPanel() {
       if (this.state.tabNumb === 1) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, "Nombre: ", this.state.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("pre", null, "Caracter\xEDsticas: ", this.state.carac), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, "Tipo: ", this.state.type));
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+          className: "set_stilos-panel"
+        }, "Nombre: ", this.state.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("pre", {
+          className: "set_stilos-panel"
+        }, "Caracter\xEDsticas: ", this.state.carac), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+          className: "set_stilos-panel"
+        }, "Tipo: ", this.state.type));
       }
 
       if (this.state.tabNumb === 2) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("pre", null, "Descripcion: ", this.state.desc);
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("pre", {
+          className: "set_stilos-panel"
+        }, "Descripci\xF3n: ", this.state.desc);
       }
 
       var image = this.state.img.map(function (imge) {
@@ -68161,7 +68236,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
           onClick: this.click2
         }, "Caracter\xEDsticas")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
           onClick: this.click3
-        }, "Descripcion fisica"));
+        }, "Descripci\xF3n fisica"));
       }
 
       if (this.state.tabNumb === 2) {
@@ -68175,7 +68250,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
           className: "button_selected"
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
           onClick: this.click3
-        }, "Descripcion fisica")));
+        }, "Descripci\xF3n fisica")));
       }
 
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -68188,7 +68263,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
         onClick: this.click2
       }, "Caracter\xEDsticas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         onClick: this.click3
-      }, "Descripcion fisica"));
+      }, "Descripci\xF3n fisica"));
     }
   }, {
     key: "showButton",
@@ -68208,10 +68283,10 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
         className: "set_stilostitle"
-      }, "Nombre del producto: ", this.state.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "set_button"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Precio: ", this.state.price, " $")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "set_button"
+      }, "Nombre del producto: ", this.state.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+        className: "set_button1"
+      }, "Precio: ", this.state.price, " $"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "set_button-precio"
       }, this.showButton()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "tab_container"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, this.showButtonSelected()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -68420,12 +68495,20 @@ if(false) {}
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/estilos.css */ "./resources/js/components/css/estilos.css");
-/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_estilos_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _css_Heafoo_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/Heafoo.css */ "./resources/js/components/css/Heafoo.css");
-/* harmony import */ var _css_Heafoo_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_Heafoo_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/estilos.css */ "./resources/js/components/css/estilos.css");
+/* harmony import */ var _css_estilos_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_estilos_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _css_Heafoo_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/Heafoo.css */ "./resources/js/components/css/Heafoo.css");
+/* harmony import */ var _css_Heafoo_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_Heafoo_css__WEBPACK_IMPORTED_MODULE_3__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 
 
 
@@ -68489,6 +68572,72 @@ function validacion() {
   }
 }
 
+function repetido() {
+  return _repetido.apply(this, arguments);
+}
+
+function _repetido() {
+  _repetido = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+    var esRepetido, name, url, res, data;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            esRepetido = false;
+            _context.prev = 1;
+            name = campoNombre.value;
+
+            if (!(name === "")) {
+              _context.next = 6;
+              break;
+            }
+
+            _context.next = 14;
+            break;
+
+          case 6:
+            url = server + "/api/verificar/" + name;
+            _context.next = 9;
+            return fetch(url);
+
+          case 9:
+            res = _context.sent;
+            _context.next = 12;
+            return res.json();
+
+          case 12:
+            data = _context.sent;
+            esRepetido = data.estado === true;
+
+          case 14:
+            _context.next = 20;
+            break;
+
+          case 16:
+            _context.prev = 16;
+            _context.t0 = _context["catch"](1);
+            _context.t0;
+            console.log("hubo error");
+
+          case 20:
+            if (campoNombre.value.length > 50) {
+              campoNombre.setCustomValidity("Maximo 50 caracteres");
+            } else if (esRepetido) {
+              campoNombre.setCustomValidity("nombre repetido");
+            } else {
+              campoNombre.setCustomValidity("");
+            }
+
+          case 21:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee, null, [[1, 16]]);
+  }));
+  return _repetido.apply(this, arguments);
+}
+
 window.addEventListener("load", iniciar); ///
 //validacion para el campo descripcion fisica
 
@@ -68530,38 +68679,39 @@ function validacion2() {
 window.addEventListener("load", iniciar2); ///
 
 var MiApp = function MiApp() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "heafoo"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
     id: "form1",
     action: "api/producto",
     method: "POST",
     encType: "multipart/form-data"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("table", {
     cellSpacing: "40px",
     cellPadding: "40px"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
     htmlFor: "cmpNombre"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Nombre del Producto: ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Nombre del Producto: ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
     type: "text",
     id: "cmpNombre",
+    onBlur: repetido,
     name: "nom",
     maxLength: "51",
     placeholder: "Ingrese el nombre del producto...",
     required: true
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Tipo de Producto:")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Tipo de Producto:")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("select", {
     id: "tipo_P",
     name: "tipo"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "componente",
     selected: true
-  }, "Componente"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+  }, "Componente"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "computadora"
-  }, "Computadora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+  }, "Computadora"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "accesorio"
-  }, "Accesorio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+  }, "Accesorio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "otros"
-  }, "Otros"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Cantidad:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+  }, "Otros"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Cantidad:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
     type: "number",
     id: "cant",
     name: "cant",
@@ -68570,26 +68720,26 @@ var MiApp = function MiApp() {
     size: "3",
     maxLength: "4",
     required: true
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
     htmlFor: "desc1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Descripcion Fisica del Producto:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Descripcion Fisica del Producto:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", {
     id: "desc1",
     name: "desc",
     placeholder: "Ingrese una descripcion del producto...",
     required: true
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
     htmlFor: "desc2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Caracteristicas Tecnicas del Producto:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Caracteristicas Tecnicas del Producto:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", {
     id: "desc2",
     name: "carac",
     placeholder: "Ingrese las Caracteristicas del Producto: ",
     required: true
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "cmpPrecio",
     style: {
       marginBottom: '70px'
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Precio: ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Precio: ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
     type: "number",
     name: "precio",
     id: "precio_P",
@@ -68597,17 +68747,17 @@ var MiApp = function MiApp() {
     max: "100000",
     placeholder: "Precio",
     required: true
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "contenedor_img"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     src: "/images/default.png",
     id: "imagenCont",
     width: "500",
     height: "300",
     alt: "Insert image here"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
     htmlFor: "img_subida"
-  }, "Cargar Imagen"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+  }, "Cargar Imagen"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
     type: "file",
     name: "img",
     id: "img_subida",
@@ -68615,9 +68765,9 @@ var MiApp = function MiApp() {
     accept: ".jpg,.png,.jpeg",
     multiple: true,
     required: true
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
     htmlFor: "btmRegistrar"
-  }, "Registrar Producto"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+  }, "Registrar Producto"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
     type: "submit",
     value: "Registrar",
     id: "btmRegistrar"

@@ -4,34 +4,21 @@
         <meta name= "csrf-token"    content = "{{ csrf_token() }}">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- <link rel="stylesheet" href="../css/app.css"> -->
+        <link rel="stylesheet" href="../css/app.css">
         <title>Document</title>
     </head>
     <body style="height: inherit; min-height: 100%; width: 100%;">
         <div style = "display: flex; min-height: 100%; flex-direction: column;">
             <header id="header_comp"></header>
-            <main style="flex:1;">
-                    <div id="tabnav"></div>
+            <main style="flex:1;padding-top:5%;padding-bottom:5%;">
+            @yield('content')
             </main>
             <footer id="footer_comp"></footer>
         </div>
     </body>
-    
-    <script>
-        var id = "{{$id_prod}}"
+    <script> 
+        let user_is_logged = false;
     </script>
-    @if(session()->has('id'))
-        <script>
-            let user_is_logged = true;
-            let user_id = "{{session('id')}}";
-            let user_name = "{{session('name')}}";
-            let user_is_admin = "{{session('type_user')}}"; // 0 = false | 1 = true
-        </script>
-    @else
-        <script>
-            let user_is_logged = false;
-        </script>
-    @endif
     <script type="text/javascript" src="js/global.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 </html>
