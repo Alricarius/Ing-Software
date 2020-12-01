@@ -31,7 +31,13 @@
                             <label for="carnet" class="col-md-4 col-form-label text-md-right">{{ __('Carnet') }}</label>
 
                             <div class="col-md-6">
-                                <input id="carnet_user" type="number" class="form-control @error('carnet_user') is-invalid @enderror" name="carnet_user" required autocomplete="new-carnet" autofocus>
+                                <input id="carnet_user" type="number" class="form-control @error('carnet_user') is-invalid @enderror" name="carnet_user" required autocomplete="new-carnet" autofocus >
+                                <style>
+                                input[type=number]::-webkit-inner-spin-button, 
+                                input[type=number]::-webkit-outer-spin-button { 
+                                -webkit-appearance: none; margin: 0;}
+                                </style>
+                            
                             </div>
                         </div>
 
