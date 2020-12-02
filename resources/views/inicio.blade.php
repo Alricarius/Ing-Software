@@ -8,12 +8,18 @@
         <link rel="stylesheet" href="../css/app.css">
         <title>Document</title>
     </head>
-    <body style="height: inherit; min-height: 100%; width: 100%;">
+    <body style="height: inherit; min-height: 100%; width: 100%;" >
+    
         <div style = "display: flex; min-height: 100%; flex-direction: column;">
             <header id="header_comp"></header>
-            <main style="flex:1;">
+            <main style="flex:1; " class= "fondo" >
+                
                     <div id="item"></div>
+<<<<<<< HEAD
                     
+=======
+                
+>>>>>>> 373d9afa701ee8da81aaeadbdcfac07ed4c191d8
             </main>
             @if(session()->has('name'))
                 {{'el name es '.session('name')}}

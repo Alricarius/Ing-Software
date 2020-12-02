@@ -27,3 +27,4 @@ require('./components/Header');
 require('./components/Footer');
 
 require('./components/Items');
+//require('./components/fondo');
