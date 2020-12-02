@@ -1,8 +1,6 @@
 .list {
     list-style: none;
-    background-image: url(../images/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     font-size: 22px;
     padding-bottom: 0px;
     margin-bottom: 0px;

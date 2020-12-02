@@ -42,16 +42,16 @@ body{
 }
 
 #form1{
-    background-image: url(../images/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     font-size: 22px;
     padding: 60px;
     line-height: 50px;
 }
 #desc1{
     width: 500px;
+    min-width: 200px;
     height: 200px;
+    min-height: 200px;
     border-radius: 10px;
     resize: none;
     border-color: black;
