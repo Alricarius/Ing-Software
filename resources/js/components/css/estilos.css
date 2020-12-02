@@ -137,7 +137,7 @@ label[for="btmRegistrar"] {
     text-align: center;
 }
 
-input[type="text"], input[type="number"],#tipo_P,textarea{
+input[type="text"],input[type="password"], input[type="number"],#tipo_P,textarea{
     font-size: 20px;
     border: black 2px solid;
     border-radius: 10px;

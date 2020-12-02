@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE html > 
+
 <html lang="en" style="min-height: 100%; height: 100%;">
     <head>
         <meta name= "csrf-token"    content = "{{ csrf_token() }}">
@@ -14,7 +15,7 @@
             <main style="flex:1; " class= "fondo" >
                 
                     <div id="item"></div>
-                
+                    
             </main>
         <footer id="footer_comp"></footer>
         </div>
