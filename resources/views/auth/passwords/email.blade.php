@@ -33,7 +33,7 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button button type="submit" class="btn btn-primary" Style= "background-color: #ff9800; color: black; border: 1px solid black;">
+                                <button button type="submit" class="btn btn-primary" Style= "; color: black; border: 1px solid black;">
                                     {{ __('Buscar') }}
                                 </button>
                             </div>
