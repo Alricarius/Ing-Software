@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE html > 
+
 <html lang="en" style="min-height: 100%; height: 100%;">
     <head>
         <meta name= "csrf-token"    content = "{{ csrf_token() }}">
@@ -14,24 +15,9 @@
             <main style="flex:1; " class= "fondo" >
                 
                     <div id="item"></div>
-                
+                    
             </main>
-            @if(session()->has('name'))
-                {{'el name es '.session('name')}}
-            @else
-                {{'no hay name'}}
-            @endif
-            @if(session()->has('id'))
-                {{'el id es '.session('id')}}
-            @else
-                {{'no hay id'}}
-            @endif
-            @if(session()->has('type_user'))
-                {{'el tipo es '.session('type_user')}}
-            @else
-                {{'no hay tipo'}}
-            @endif
-            <footer id="footer_comp"></footer>
+        <footer id="footer_comp"></footer>
         </div>
     </body>
     @if(session()->has('id'))

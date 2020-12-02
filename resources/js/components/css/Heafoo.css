@@ -1,4 +1,5 @@
 body{
+	background-image: url(../images/fondoxd.jpg);
 	font-family: sans-serif;
 	color: black;
 	font-size: 1.2rem;
@@ -26,6 +27,7 @@ p{
 	top: 0;
 	left: 0;
 	right: 0;
+	z-index: 10;
 }
 .header a{
 	color: white;
@@ -108,15 +110,22 @@ ul, ol{
 .logo{
 	font-size: 1.3em;
 }
+#fondo
+{
+	width: 100%;
+	z-index: -10;
+}
+
 .footer{
 	background: #333;
 	padding: 0.6rem;
 	text-align: center;
-	margin-top: 2rem;
+	margin-top: 0rem;
 	color: white;
 	font-size: 0.8rem;
 	padding-bottom: 0.5rem;
 	bottom: 0;
+	    
 }
 .main{
 	padding-top: 8rem;
