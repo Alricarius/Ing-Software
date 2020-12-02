@@ -43,7 +43,7 @@
                         <div class="form-group row">
                             <label for="departamento" class="col-md-4 col-form-label text-md-right">{{ __('Departamento') }}</label>
                             <div class="col-md-6">
-                                  <select name="dep_user" id = "dep_user">
+                                  <select name="dep_user" id="tipo_P">
                                          <option value ="Cochabamba" selcted>Cochabamba</option>
                                          <option value ="Santa Cruz" selcted>Santa Cruz</option>
                                          <option value ="Oruro" selcted>Oruro</option>
@@ -83,7 +83,7 @@
                         </div>
                         
                         <div class="form-group row">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirmar contrseña') }}</label>
+                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirmar contraseña') }}</label>
 
                             <div class="col-md-6">
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
@@ -93,7 +93,7 @@
                         <div class="form-group row">
                             <label for="pregunta secreta" class="col-md-4 col-form-label text-md-right">{{ __('Pregunta secreta') }}</label>
                             <div class="col-md-6">
-                            <select name="pregunta" id = "pregunta">
+                            <select name="pregunta" id="tipo_P">
                                    <option value ="Nombre de tu primera mascota?" selcted>Nombre de tu primera mascota?</option>
                                    <option value ="Marca de Tenis preferida?" selcted>Marca de Tenis preferida?</option>
                                    <option value ="Deporte preferido?" selcted>Deporte preferido?</option>
@@ -115,6 +115,7 @@
                                 </button>
                             </div>
                         </div>
+                              
                                
                             </div>
                         </div>
