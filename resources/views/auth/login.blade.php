@@ -17,11 +17,13 @@
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
+                                
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                        <strong>{{ 'El correo electrónico o contraseña son incorrectos' }}</strong>
                                     </span>
                                 @enderror
+                                
                             </div>
                         </div>
 
@@ -51,21 +53,28 @@
                             </div>
                         </div>
                     
+                        @error('email')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary" Style= "background-color: #ff9800; color: black; border: 1px solid black;" >
+                                <button type="submit" class="btn btn-primary" Style= " color: black; border: 1px solid black;" >
                                     {{ __('Iniciar Sesión') }}
                                 </button>
 
                                 @if (Route::has('register'))                                
                                     <a class="btn btn-link" href="{{ route('register') }}" Style = "color: white;">{{ __('Registrarse') }}</a>
                                 @endif                              
-                    
+                                
                                 @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}" Style = "color: white;">
+                                    <a class="btn btn-link" href="{{ route('password.request') }}" Style = "color: white; display: none;">
                                         {{ __('Olvidaste tu contraseña?') }}
                                     </a>
                                 @endif
+                                
                             </div>
                         </div>
                     </form>
