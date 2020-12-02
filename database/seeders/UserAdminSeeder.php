@@ -27,7 +27,7 @@ class UserAdminSeeder extends Seeder
             'respuesta' => 'admin',
             'cel_user' => 12345678,
             'tipo_user' => 1,
-            'email_verified_at' => '2020/12/02',
+          
         ]);
     }
 }
