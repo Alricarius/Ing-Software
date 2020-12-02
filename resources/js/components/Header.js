@@ -11,13 +11,13 @@ class Header extends React.Component{
                 return(
                     <div>
                         <label style={{color: 'yellow',marginRight: '0.5rem'}}>(A)</label>
-                        <label className="usr">{user_name+" "+user_id}</label>
+                        <label className="usr">{user_name}</label>
                     </div>
                 );
             }else{
                 return(
                     <div>
-                        <label className="usr">{user_name+" "+user_id}</label>
+                        <label className="usr">{user_name}</label>
                     </div>
                 );
             }
