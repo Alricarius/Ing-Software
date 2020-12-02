@@ -5,14 +5,14 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Registro') }}</div>
+                <div class="card-header offset-md-5">{{ __('Registro') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 
                         <div class="form-group row">
-                            <label for="nombre" class="col-md-4 col-form-label text-md-right">{{ __('Nombre') }}</label>
+                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nombre') }}</label>
 
                             <div class="col-md-6">
                                 <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="nombre" autofocus>
@@ -20,7 +20,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="apellido" class="col-md-4 col-form-label text-md-right">{{ __('Apellido') }}</label>
+                            <label for="ape_user" class="col-md-4 col-form-label text-md-right">{{ __('Apellido') }}</label>
 
                             <div class="col-md-6">
                                 <input id="ape_user" type="text" class="form-control @error('ape_user') is-invalid @enderror" name="ape_user" value="{{ old('ape_user') }}" required autocomplete="apellido" autofocus>
@@ -28,17 +28,22 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="carnet" class="col-md-4 col-form-label text-md-right">{{ __('Carnet') }}</label>
+                            <label for="carnet_user" class="col-md-4 col-form-label text-md-right">{{ __('Carnet') }}</label>
 
                             <div class="col-md-6">
-                                <input id="carnet_user" type="number" class="form-control @error('carnet_user') is-invalid @enderror" name="carnet_user" required autocomplete="new-carnet">
+                                <input id="carnet_user" type="number" class="form-control @error('carnet_user') is-invalid @enderror" name="carnet_user" required autocomplete="new-carnet" autofocus >
+                                <style>
+                                input[type=number]::-webkit-inner-spin-button, 
+                                input[type=number]::-webkit-outer-spin-button { 
+                                -webkit-appearance: none; margin: 0;}
+                                </style>                            
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label for="departamento" class="col-md-4 col-form-label text-md-right">{{ __('Departamento') }}</label>
+                            <label for="dep_user" class="col-md-4 col-form-label text-md-right">{{ __('Departamento') }}</label>
                             <div class="col-md-6">
-                                  <select name="dep_user" id = "dep_user">
+                                  <select name="dep_user" id="tipo_P">
                                          <option value ="Cochabamba" selcted>Cochabamba</option>
                                          <option value ="Santa Cruz" selcted>Santa Cruz</option>
                                          <option value ="Oruro" selcted>Oruro</option>
@@ -54,7 +59,7 @@
 
 
                         <div class="form-group row">
-                            <label for="celular" class="col-md-4 col-form-label text-md-right">{{ __('Celular') }}</label>
+                            <label for="cel_user" class="col-md-4 col-form-label text-md-right">{{ __('Celular') }}</label>
 
                             <div class="col-md-6">
                                 <input id="cel_user" type="text" class="form-control @error('cel_user') is-invalid @enderror" name="cel_user" value="{{ old('cel_user') }}" required autocomplete="celular" autofocus>
@@ -62,15 +67,15 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Correo electronico') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+                                <input id="email" type="text" placeholder="ejm.@gmail.com" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" >
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
+                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Contraseña') }}</label>
 
                             <div class="col-md-6">
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
@@ -78,7 +83,7 @@
                         </div>
                         
                         <div class="form-group row">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
+                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirmar contraseña') }}</label>
 
                             <div class="col-md-6">
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
@@ -86,9 +91,9 @@
                         </div>
                                 
                         <div class="form-group row">
-                            <label for="pregunta secreta" class="col-md-4 col-form-label text-md-right">{{ __('Pregunta secreta') }}</label>
+                            <label for="pregunta" class="col-md-4 col-form-label text-md-right">{{ __('Pregunta secreta') }}</label>
                             <div class="col-md-6">
-                            <select name="pregunta" id = "pregunta">
+                            <select name="pregunta" id="tipo_P">
                                    <option value ="Nombre de tu primera mascota?" selcted>Nombre de tu primera mascota?</option>
                                    <option value ="Marca de Tenis preferida?" selcted>Marca de Tenis preferida?</option>
                                    <option value ="Deporte preferido?" selcted>Deporte preferido?</option>
@@ -104,21 +109,14 @@
                             </div>
                         </div>
                             
+                        <label class="col-md-5 " ></label>
+                                <button type="submit"   >
+                                    {{ __('Registrarse') }}
+                                </button>
                             </div>
-                        </div>       
-
-                        <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" id ="btmReg" class="btn btn-primary">
-                                    {{ __('Register') }}
-                                </button>
-                          
-                        <div class="form-group row mb-6">
-                            <div class="col-md-0 o644ffset-md-5">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Cancelar registro') }}
-                                </button>
- 
+                        </div>
+                              
+                               
                             </div>
                         </div>
                     </form>
@@ -131,7 +129,7 @@
     //validacion para el campo nombre
     var nombre;
     function iniciar(){
-        nombre = document.getElementById("nombre");
+        nombre = document.getElementById("name");
         nombre.addEventListener("input",validacion);
         validacion();
     }
@@ -151,7 +149,7 @@
 //validacion para el campo apellido
     var apellido;
     function iniciar1(){
-        apellido = document.getElementById("apellido");
+        apellido = document.getElementById("ape_user");
         apellido.addEventListener("input",validacion1);
         validacion1();
     }
@@ -170,7 +168,7 @@
 //validacion para el campo carnet
     var carnet;
     function iniciar2(){
-        carnet = document.getElementById("carnet");
+        carnet = document.getElementById("carnet_user");
         carnet.addEventListener("input",validacion2);
         validacion2();
     }
@@ -187,7 +185,7 @@
     //validacion para el campo celular
     var celular;
     function iniciar3(){
-        celular = document.getElementById("celular");
+        celular = document.getElementById("cel_user");
         celular.addEventListener("input",validacion3);
         validacion3();
     }
@@ -255,6 +253,20 @@ var contraseña_conf;
             respuesta.setCustomValidity("");
         }
     }
-    window.addEventListener("load", iniciar6);  
+    window.addEventListener("load", iniciar6);
+    
+    //Limpiar los campos del registro
+    var correo;
+    function limpiarReg(){
+        correo = document.getElementById("email");
+
+        nombre.value = "";
+        apellido.value = "";
+        carnet.value = "";
+        celular.value = "";
+        respuesta.value = "";
+        correo.value = "";
+    }
+    window.addEventListener("unload", limpiarReg);
 </script>
 @endsection

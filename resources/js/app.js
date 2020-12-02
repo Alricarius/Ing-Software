@@ -14,6 +14,8 @@ require('./bootstrap');
 
 require('./components/Example');
 
+require('./components/Example');
+
 require('./components/ItemList');
 
 require('./components/TabNav');

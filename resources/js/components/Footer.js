@@ -6,6 +6,7 @@ class Footer extends React.Component{
     render(){
         return(
             <React.Fragment>
+                
                 <footer className="footer">
                     <p>Direccion: Calle Heroes del Chaco #1336 Zona Sarco<br/>
                     Telefono: 4454654<br/>
