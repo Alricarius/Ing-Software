@@ -11,13 +11,13 @@ class Header extends React.Component{
                 return(
                     <div>
                         <label style={{color: 'yellow',marginRight: '0.5rem'}}>(A)</label>
-                        <label className="usr">{user_name+" "+user_id}</label>
+                        <label className="usr">{user_name}</label>
                     </div>
                 );
             }else{
                 return(
                     <div>
-                        <label className="usr">{user_name+" "+user_id}</label>
+                        <label className="usr">{user_name}</label>
                     </div>
                 );
             }
@@ -28,7 +28,7 @@ class Header extends React.Component{
         let btn_login = <li style={{display: 'block'}}><a href={server+"/login"}>Iniciar Sesion</a></li>;
         let btn_register = <li style={{display: 'block'}}><a href={server+"/register"}>Registrate</a></li>;
         let btn_logout = <li style={{display: 'block'}}><a href={server+"/logout"}>Salir</a></li>;
-        let btn_prod_register = <li style={{display: 'block'}}><a href={server+"/Registro"}>Registrar Producto</a></li>;
+        let btn_prod_register = <li style={{display: 'block'}}><a href={server+"/RegistroProducto"}>Registrar Producto</a></li>;
         let btn_add_admin = <li style={{display: 'block'}}><a href="#">Agregar Administrador</a></li>;
         if(user_is_logged){
             if(user_is_admin === "1"){

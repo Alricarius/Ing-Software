@@ -110,7 +110,7 @@
                         </div>
                             
                         <label class="col-md-5 " ></label>
-                                <button type="submit"   >
+                                <button type="submit" class="btn btn-primary" Style= " color: black; border: 1px solid black;">
                                     {{ __('Registrarse') }}
                                 </button>
                             </div>

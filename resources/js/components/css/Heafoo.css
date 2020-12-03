@@ -17,7 +17,7 @@ p{
 .usr{
 	border-radius: 4px;
 	transition: all 0.4s linear;
-	color: green;
+	color: rgb(81, 253, 1);
 }
 .header{
 	background: #333;
