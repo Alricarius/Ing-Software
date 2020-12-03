@@ -1,1 +1,1 @@
-let server = "https://megacomputer2.herokuapp.com"
+let server = "http://127.0.0.1:8000"

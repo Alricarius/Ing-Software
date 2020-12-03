@@ -191,8 +191,8 @@
     }
 
     function validacion3(){
-        if(celular.value.length > 7){
-            celular.setCustomValidity("Ingrese un maximo de 7 digitos");
+        if(celular.value.length > 8){
+            celular.setCustomValidity("Ingrese un maximo de 8 digitos");
         }else{
             celular.setCustomValidity("");
         }
