@@ -6352,7 +6352,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "body{\r\n\tbackground-image: url(" + escape(__webpack_require__(/*! ../images/fondoxd.jpg */ "./resources/js/components/images/fondoxd.jpg")) + ");\r\n\tfont-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n\tmargin: 0;\r\n}\r\np{\r\n\tmargin-bottom: 1.6em;\r\n}\r\n.container{\r\n\twidth: 90%;\r\n\tmax-width: 1000px;\r\n\tmargin: 0 auto;\r\n}\r\n.usr{\r\n\tborder-radius: 4px;\r\n\ttransition: all 0.4s linear;\r\n\tcolor: rgb(81, 253, 1);\r\n}\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem;\r\n\tposition: relative;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n\tz-index: 10;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n\tflex-wrap: wrap;\r\n}\r\nul, ol{\r\n\tlist-style: none;\r\n}\r\n.navegacion li a{\r\n\ttext-decoration: none;\r\n\tpadding: 0.5rem 1.7rem;\r\n\tborder-radius: 4px;\r\n\tdisplay: block;\r\n\ttransition: all 0.4s linear;\r\n\r\n}\r\n.navegacion li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n}\r\n.navegacion > li{\r\n\tfloat:left;\r\n}\r\n.navegacion li ul{\r\n\tdisplay:none;\r\n\tposition: absolute;\r\n\tmin-width: 140px;\r\n}\r\n.navegacion li:hover > ul{\r\n\tdisplay: block;\r\n\tbackground-color: #333;\r\n\tborder-radius: 4px;\r\n}\r\n/*.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n\tdisplay: inline-block;\r\n\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.7rem;\r\n\tborder-radius: 4px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n}\r\n*/\r\n\r\n@media only screen and (max-width: 845px){\r\n\t.navegacion{\r\n\t\twidth: 100%;\r\n\t\tmargin-top: 1rem;\r\n\t\tdisplay: grid;\r\n\t}\r\n\t.navegacion li a{\r\n\t\tdisplay: grid;\r\n\t\tpadding: auto;\r\n\t\tborder-radius: 4px;\r\n\t\ttransition: all 0.4s linear;\r\n\t}\r\n\t.navegacion li ul{\r\n\t\tposition: absolute;\r\n\t\tpadding: 1rem 0.5rem;\r\n\t\tborder-radius: 4px;\r\n\t}\r\n\t\r\n}\r\n\r\n.logo{\r\n\tfont-size: 1.3em;\r\n}\r\n#fondo\r\n{\r\n\twidth: 100%;\r\n\tz-index: -10;\r\n}\r\n\r\n.footer{\r\n\tbackground: #333;\r\n\tpadding: 0.6rem;\r\n\ttext-align: center;\r\n\tmargin-top: 0rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n\tbottom: 0;\r\n\t    \r\n}\r\n.main{\r\n\tpadding-top: 8rem;\r\n}", ""]);
+exports.push([module.i, "body{\r\n\tbackground-image: url(" + escape(__webpack_require__(/*! ../images/fondoxd.jpg */ "./resources/js/components/images/fondoxd.jpg")) + ");\r\n\tfont-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n\tmargin: 0;\r\n}\r\np{\r\n\tmargin-bottom: 1.6em;\r\n}\r\n.container{\r\n\twidth: 90%;\r\n\tmax-width: 1000px;\r\n\tmargin: 0 auto;\r\n}\r\n.usr{\r\n\tborder-radius: 4px;\r\n\ttransition: all 0.4s linear;\r\n\tcolor: rgb(81, 253, 1);\r\n}\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem;\r\n\tposition: relative;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n\tz-index: 10;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n\tflex-wrap: wrap;\r\n}\r\nul, ol{\r\n\tlist-style: none;\r\n}\r\n.navegacion li a{\r\n\ttext-decoration: none;\r\n\tpadding: 0.5rem 1.7rem;\r\n\tborder-radius: 4px;\r\n\tdisplay: block;\r\n\ttransition: all 0.4s linear;\r\n\r\n}\r\n.navegacion li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n}\r\n.navegacion > li{\r\n\tfloat:left;\r\n}\r\n.navegacion li ul{\r\n\tdisplay:none;\r\n\tposition: absolute;\r\n\tmin-width: 140px;\r\n}\r\n.navegacion li:hover > ul{\r\n\tdisplay: block;\r\n\tbackground-color: #333;\r\n\tborder-radius: 4px;\r\n}\r\n/*.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n\tdisplay: inline-block;\r\n\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.7rem;\r\n\tborder-radius: 4px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n}\r\n*/\r\n\r\n@media only screen and (max-width: 845px){\r\n\t.navegacion{\r\n\t\twidth: 100%;\r\n\t\tmargin-top: 1rem;\r\n\t\tdisplay: grid;\r\n\t}\r\n\t.navegacion li a{\r\n\t\tdisplay: grid;\r\n\t\tpadding: auto;\r\n\t\tborder-radius: 4px;\r\n\t\ttransition: all 0.4s linear;\r\n\t}\r\n\t.navegacion li ul{\r\n\t\tposition: absolute;\r\n\t\tpadding: 1rem 0.5rem;\r\n\t\tborder-radius: 4px;\r\n\t}\r\n\t\r\n}\r\n\r\n.logo{\r\n\tfont-size: 1.3em;\r\n}\r\n#fondo\r\n{\r\n\twidth: 100%;\r\n\tz-index: -10;\r\n}\r\n\r\n.footer{\r\n\tbackground: #333;\r\n\tpadding: 0.6rem;\r\n\ttext-align: center;\r\n\tmargin-top: 0rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n\tbottom: 0;\r\n\t    \r\n}\r\n.main{\r\n\tpadding-top: 8rem;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6390,7 +6390,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\r\n.tab_container {\r\n    width: 80%;\r\n    margin-top: 20px;\r\n    white-space: initial;\r\n}\r\n\r\n.button_container {\r\n    height: 15%;\r\n    display: block;\r\n}\r\n\r\n.button_container button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #333;\r\n    color: aliceblue;\r\n    font-family: sans-serif;\r\n    /*border: 30px solid #333;*/\r\n}\r\n/*Esto se agrego */\r\n.button_selected button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #ccc;\r\n    color: black;\r\n    font-family: sans-serif;\r\n    /*border: 5px solid #333;*/\r\n}\r\n\r\n.tab_container .button_container button:hover{\r\n    background-color: #ccc;\r\n    color: black;\r\n\r\n}\r\n\r\n.tab_panel {\r\n    display: flex;\r\n    background-color: #ccc;\r\n    padding: 30px;\r\n    box-sizing: border-box;\r\n    text-align: left;\r\n    min-height: 400px;\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n    line-height: 1.6em;\r\n    border: 3px solid #333;\r\n    white-space: initial;\r\n}\r\n\r\n.set_button{\r\n    \r\n    position: relative;\r\n    text-align: right;\r\n    margin-right: 2%;\r\n}\r\n.set_button-precio{\r\n    margin-left: 0%;\r\n    position: relative;\r\n    text-align: left;\r\n    \r\n}\r\n.set_button1{   \r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1rem;\r\n\tline-height: 1.6em;\r\n}\r\n.set_button-precio .button_color label {     \r\n    margin-left: 5%; \r\n    width: 5%;\r\n    height: 60%;\r\n    padding: 5px;\r\n    background-color: rgb(0, 255, 0);\r\n    font-family: sans-serif;\r\n}\r\n.set_button-precio .button_color1 label {     \r\n    margin-left: 5%;\r\n    width: 5%;\r\n    height: 60%; \r\n    padding: 5px;\r\n    background-color: rgb(255, 0, 0);\r\n    font-family: sans-serif;\r\n}\r\n\r\n.set_stilos {\r\n    font-family: sans-serif;\r\n    font-size: medium;\r\n    color: aliceblue;\r\n}\r\n.set_stilostitle {\r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n}\r\n.image {\r\n    max-width: 80%;\r\n    max-height: 80%;\r\n}\r\n.set_stilos-panel{\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n    line-height: 1.6em;\r\n    text-align: left;\r\n    white-space: initial;\r\n}\r\n", ""]);
+exports.push([module.i, "\r\n.tab_container {\r\n    width: 80%;\r\n    margin-top: 20px;\r\n    white-space: initial;\r\n    overflow: hidden;\r\n}\r\n\r\n.button_container {\r\n    height: 15%;\r\n    display: block;\r\n}\r\n\r\n.button_container button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #333;\r\n    color: aliceblue;\r\n    font-family: sans-serif;\r\n    /*border: 30px solid #333;*/\r\n}\r\n/*Esto se agrego */\r\n.button_selected button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #ccc;\r\n    color: black;\r\n    font-family: sans-serif;\r\n    /*border: 5px solid #333;*/\r\n}\r\n\r\n.tab_container .button_container button:hover{\r\n    background-color: #ccc;\r\n    color: black;\r\n\r\n}\r\n\r\n.tab_panel {\r\n    display: flex;\r\n    background-color: #ccc;\r\n    padding: 30px;\r\n    box-sizing: border-box;\r\n    text-align: left;\r\n    min-height: 400px;\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n    line-height: 1.6em;\r\n    border: 3px solid #333;\r\n    white-space: initial;\r\n}\r\n\r\n.set_button{\r\n    \r\n    position: relative;\r\n    text-align: right;\r\n    margin-right: 2%;\r\n}\r\n.set_button-precio{\r\n    margin-left: 0%;\r\n    position: relative;\r\n    text-align: left;\r\n    \r\n}\r\n.set_button1{   \r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1rem;\r\n\tline-height: 1.6em;\r\n}\r\n.set_button-precio .button_color label {     \r\n    margin-left: 5%; \r\n    width: 5%;\r\n    height: 60%;\r\n    padding: 5px;\r\n    background-color: rgb(0, 255, 0);\r\n    font-family: sans-serif;\r\n}\r\n.set_button-precio .button_color1 label {     \r\n    margin-left: 5%;\r\n    width: 5%;\r\n    height: 60%; \r\n    padding: 5px;\r\n    background-color: rgb(255, 0, 0);\r\n    font-family: sans-serif;\r\n}\r\n\r\n.set_stilos {\r\n    font-family: sans-serif;\r\n    font-size: medium;\r\n    color: aliceblue;\r\n}\r\n.set_stilostitle {\r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n}\r\n.image {\r\n    max-width: 80%;\r\n    max-height: 80%;\r\n}\r\n.set_stilos-panel{\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n    line-height: 1.6em;\r\n    text-align: left;\r\n    white-space: initial;\r\n    overflow: hidden;\r\n}\r\n\r\n#list\r\n{\r\n    width: 80%;\r\n}\r\n", ""]);
 
 // exports
 
@@ -67599,7 +67599,7 @@ var Header = /*#__PURE__*/function (_React$Component) {
 
       if (user_is_logged) {
         if (user_is_admin === "1") {
-          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, btn_prod_register, btn_add_admin, btn_logout);
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, btn_prod_register, btn_logout);
         } else {
           return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, btn_logout);
         }
@@ -67619,13 +67619,7 @@ var Header = /*#__PURE__*/function (_React$Component) {
         className: "logo"
       }, "MegaComputer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), this.user_session(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "navegacion"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "Novedades"
-      }, "Novedades")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "Asesoria"
-      }, "Asesoria")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "Contactenos"
-      }, "Contactenos")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Cuenta"), this.dropdown_buttons())))));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Cuenta"), this.dropdown_buttons())))));
     }
   }]);
 
@@ -68227,7 +68221,9 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
     key: "showPanel",
     value: function showPanel() {
       if (this.state.tabNumb === 1) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+          id: "list"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
           className: "set_stilos-panel"
         }, "Nombre: ", this.state.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("pre", {
           className: "set_stilos-panel"
@@ -68264,7 +68260,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
           onClick: this.click2
         }, "Caracter\xEDsticas")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
           onClick: this.click3
-        }, "Descripci\xF3n fisica"));
+        }, "Descripci\xF3n"));
       }
 
       if (this.state.tabNumb === 2) {
@@ -68278,7 +68274,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
           className: "button_selected"
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
           onClick: this.click3
-        }, "Descripci\xF3n fisica")));
+        }, "Descripci\xF3n")));
       }
 
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -68291,7 +68287,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
         onClick: this.click2
       }, "Caracter\xEDsticas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         onClick: this.click3
-      }, "Descripci\xF3n fisica"));
+      }, "Descripci\xF3n"));
     }
   }, {
     key: "showButton",

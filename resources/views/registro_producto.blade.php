@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/app.css">
-        <title>Document</title>
+        <title>RegistroProducto</title>
     </head>
     <body style="background-color: rgb(210,210,210); height: inherit; min-height: 100%; width: 100%;">
         <div style = "display: flex; min-height: 100%; flex-direction: column;">

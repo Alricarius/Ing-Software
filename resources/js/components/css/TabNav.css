@@ -3,6 +3,7 @@
     width: 80%;
     margin-top: 20px;
     white-space: initial;
+    overflow: hidden;
 }
 
 .button_container {
@@ -120,4 +121,10 @@
     line-height: 1.6em;
     text-align: left;
     white-space: initial;
+    overflow: hidden;
+}
+
+#list
+{
+    width: 80%;
 }
