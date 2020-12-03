@@ -128,7 +128,11 @@ function validacion2(){
 window.addEventListener("load", iniciar2);
 ///
 
-const MiApp = () => (    
+const MiApp = () => (
+    <html>     
+    <head>
+        <meta name="viewport" content="width=device-witdh, usee-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    </head>
     <div className="heafoo">
         <center>
         <form id="form1" action="api/producto" method="POST" encType="multipart/form-data">
@@ -137,11 +141,11 @@ const MiApp = () => (
                     <tr>
                         <td>
                         
-                            <div>
+                            <div className ="secNom">
                                 <label htmlFor="cmpNombre"><strong>Nombre del Producto: </strong></label>
                                 <input type="text" id="cmpNombre" onBlur={repetido} name="nom" maxLength= "51" placeholder="Ingrese el nombre del producto..." required/>
                             </div>
-                            <div>
+                            <div className ="secApe">
                                 <label><strong>Tipo de Producto:</strong></label>
                                 <select id="tipo_P" name="tipo" >
                                     <option value="componente" selected>Componente</option>
@@ -150,17 +154,17 @@ const MiApp = () => (
                                     <option value="otros">Otros</option>
                                 </select>
                             </div>
-                            <div>
+                            <div className = "secCant">
                                 <label><strong>Cantidad:</strong> </label>
                                 <input type= "number" id= "cant" name="cant" min="1" max="200" size="3" maxLength= "4" required/>
                             </div>
-                            <div>
+                            <div className = "secDesc1">
                                 <label htmlFor="desc1"><strong>Descripcion Fisica del Producto:</strong> </label>
                                 <br/>
                                 <textarea id="desc1" name="desc" placeholder="Ingrese una descripcion del producto..." required>
                                 </textarea>
                             </div>
-                            <div>
+                            <div className = "secDesc2">
                                 <label htmlFor="desc2"><strong>Caracteristicas Tecnicas del Producto:</strong> </label>
                                 <br/>
                                 <textarea id="desc2" name="carac" placeholder="Ingrese las Caracteristicas del Producto: " required>
@@ -168,7 +172,7 @@ const MiApp = () => (
                             </div>
                         </td>
                         <td>   
-                            
+                            <div id = "contDerecho">
                             <div id="cmpPrecio" style= {{marginBottom:'70px'}}>
                                 <label><strong>Precio: </strong></label>
                                 <input type="number" name="precio" id="precio_P" min="1" max="100000" placeholder="Precio" required/>
@@ -183,6 +187,7 @@ const MiApp = () => (
                                 <input type="file" name="img" id="img_subida" onChange={validarImagen} accept=".jpg,.png,.jpeg" multiple required/>
                             </center>
                             <br/>
+                            </div>
                         </td>
                     </tr>
                 </tbody>
@@ -194,7 +199,8 @@ const MiApp = () => (
 
         </form>
         </center>
-    </div>         
+    </div>
+    </html>         
     );
 
 export default MiApp;

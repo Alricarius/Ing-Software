@@ -28,13 +28,12 @@ class Header extends React.Component{
         let btn_login = <li style={{display: 'block'}}><a href={server+"/login"}>Iniciar Sesion</a></li>;
         let btn_register = <li style={{display: 'block'}}><a href={server+"/register"}>Registrate</a></li>;
         let btn_logout = <li style={{display: 'block'}}><a href={server+"/logout"}>Salir</a></li>;
-        let btn_prod_register = <li style={{display: 'block'}}><a href={server+"/Registro"}>Registrar Producto</a></li>;
+        let btn_prod_register = <li style={{display: 'block'}}><a href={server+"/RegistroProducto"}>Registrar Producto</a></li>;
         let btn_add_admin = <li style={{display: 'block'}}><a href="#">Agregar Administrador</a></li>;
         if(user_is_logged){
             if(user_is_admin === "1"){
                 return (<ul>
                             {btn_prod_register}
-                            {btn_add_admin}
                             {btn_logout}
                         </ul>);
             }else {
@@ -59,9 +58,9 @@ class Header extends React.Component{
                         <br/>
                         {this.user_session()}
                         <ul className="navegacion">
-                            <li><a href="Novedades">Novedades</a></li>
+                            {/*<li><a href="Novedades">Novedades</a></li>
                             <li><a href="Asesoria">Asesoria</a></li>
-                            <li><a href="Contactenos">Contactenos</a></li>
+                            <li><a href="Contactenos">Contactenos</a></li>*/}
                             <li><a>Cuenta</a>
                                 {this.dropdown_buttons()}
                             </li>	

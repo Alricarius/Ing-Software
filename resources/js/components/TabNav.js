@@ -65,14 +65,15 @@ class TabNav extends React.Component{
 
     showPanel(){
         if(this.state.tabNumb === 1){
-            return <ul>
-                        <li className = 'set_stilos-panel'>Nombre: {this.state.name}</li>
-                        <li><pre className = 'set_stilos-panel'>Características: {this.state.carac}</pre> </li>
+            return <ul id = 'list'>
+                        <li className = 'set_stilos-panel'  >Nombre: {this.state.name}</li>
+                        <li><pre className = 'set_stilos-panel' >Características: {this.state.carac}</pre> </li>
                         <li className = 'set_stilos-panel'>Tipo: {this.state.type}</li>
+                        
                     </ul>;
         }
         if(this.state.tabNumb === 2){
-            return <pre className = 'set_stilos-panel'>Descripción: {this.state.desc}</pre>;
+            return <p className = 'set_stilos-panel' >Descripción: {this.state.desc}</p>;
         }
         const image = this.state.img.map(function(imge){return imge.img });
         return(
@@ -88,7 +89,7 @@ class TabNav extends React.Component{
                         <div className="button_selected">
                         <button onClick={this.click2}>Características</button>                        
                         </div>
-                        <button onClick={this.click3}>Descripción fisica</button>
+                        <button onClick={this.click3}>Descripción</button>
                     </div>
                     
         }
@@ -97,7 +98,7 @@ class TabNav extends React.Component{
             <button onClick={this.click1}>Imagen</button>                                
             <button onClick={this.click2}>Características</button>
             <div className="button_selected">            
-            <button onClick={this.click3}>Descripción fisica</button>            
+            <button onClick={this.click3}>Descripción</button>            
             </div>
             </div>
         }
@@ -108,7 +109,7 @@ class TabNav extends React.Component{
             <button onClick={this.click1}>Imagen</button>          
             </div>
             <button onClick={this.click2}>Características</button>  
-            <button onClick={this.click3}>Descripción fisica</button>           
+            <button onClick={this.click3}>Descripción</button>           
             </div>
         )
     }

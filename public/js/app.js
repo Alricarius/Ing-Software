@@ -6352,7 +6352,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "body{\r\n\tbackground-image: url(" + escape(__webpack_require__(/*! ../images/fondoxd.jpg */ "./resources/js/components/images/fondoxd.jpg")) + ");\r\n\tfont-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n\tmargin: 0;\r\n}\r\np{\r\n\tmargin-bottom: 1.6em;\r\n}\r\n.container{\r\n\twidth: 90%;\r\n\tmax-width: 1000px;\r\n\tmargin: 0 auto;\r\n}\r\n.usr{\r\n\tborder-radius: 4px;\r\n\ttransition: all 0.4s linear;\r\n\tcolor: rgb(81, 253, 1);\r\n}\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem;\r\n\tposition: relative;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n\tz-index: 10;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n\tflex-wrap: wrap;\r\n}\r\nul, ol{\r\n\tlist-style: none;\r\n}\r\n.navegacion li a{\r\n\ttext-decoration: none;\r\n\tpadding: 0.5rem 1.7rem;\r\n\tborder-radius: 4px;\r\n\tdisplay: block;\r\n\ttransition: all 0.4s linear;\r\n\r\n}\r\n.navegacion li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n}\r\n.navegacion > li{\r\n\tfloat:left;\r\n}\r\n.navegacion li ul{\r\n\tdisplay:none;\r\n\tposition: absolute;\r\n\tmin-width: 140px;\r\n}\r\n.navegacion li:hover > ul{\r\n\tdisplay: block;\r\n\tbackground-color: #333;\r\n\tborder-radius: 4px;\r\n}\r\n/*.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n\tdisplay: inline-block;\r\n\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.7rem;\r\n\tborder-radius: 4px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n}\r\n*/\r\n\r\n@media only screen and (max-width: 845px){\r\n\t.navegacion{\r\n\t\twidth: 100%;\r\n\t\tmargin-top: 1rem;\r\n\t\tdisplay: grid;\r\n\t}\r\n\t.navegacion li a{\r\n\t\tdisplay: grid;\r\n\t\tpadding: auto;\r\n\t\tborder-radius: 4px;\r\n\t\ttransition: all 0.4s linear;\r\n\t}\r\n\t.navegacion li ul{\r\n\t\tposition: absolute;\r\n\t\tpadding: 1rem 0.5rem;\r\n\t\tborder-radius: 4px;\r\n\t}\r\n\t\r\n}\r\n\r\n.logo{\r\n\tfont-size: 1.3em;\r\n}\r\n#fondo\r\n{\r\n\twidth: 100%;\r\n\tz-index: -10;\r\n}\r\n\r\n.footer{\r\n\tbackground: #333;\r\n\tpadding: 0.6rem;\r\n\ttext-align: center;\r\n\tmargin-top: 0rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n\tbottom: 0;\r\n\t    \r\n}\r\n.main{\r\n\tpadding-top: 8rem;\r\n}", ""]);
+exports.push([module.i, "body{\r\n\tbackground-image: url(" + escape(__webpack_require__(/*! ../images/fondoxd.jpg */ "./resources/js/components/images/fondoxd.jpg")) + ");\r\n\tfont-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n\tmargin: 0;\r\n}\r\np{\r\n\tmargin-bottom: 1.6em;\r\n}\r\n.container{\r\n\twidth: 90%;\r\n\tmax-width: 1000px;\r\n\tmargin: 0 auto;\r\n}\r\n.usr{\r\n\tborder-radius: 4px;\r\n\ttransition: all 0.4s linear;\r\n\tcolor: rgb(81, 253, 1);\r\n}\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem;\r\n\tposition: relative;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n\tz-index: 10;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n\tflex-wrap: wrap;\r\n}\r\nul, ol{\r\n\tlist-style: none;\r\n}\r\n.navegacion li a{\r\n\ttext-decoration: none;\r\n\tpadding: 0.5rem 1.7rem;\r\n\tborder-radius: 4px;\r\n\tdisplay: block;\r\n\ttransition: all 0.4s linear;\r\n\r\n}\r\n.navegacion li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n}\r\n.navegacion > li{\r\n\tfloat:left;\r\n}\r\n.navegacion li ul{\r\n\tdisplay:none;\r\n\tposition: absolute;\r\n\tmin-width: 140px;\r\n}\r\n.navegacion li:hover > ul{\r\n\tdisplay: block;\r\n\tbackground-color: #333;\r\n\tborder-radius: 4px;\r\n}\r\n/*.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n\tdisplay: inline-block;\r\n\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.7rem;\r\n\tborder-radius: 4px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n}\r\n*/\r\n\r\n@media only screen and (max-width: 845px){\r\n\t.navegacion{\r\n\t\twidth: 100%;\r\n\t\tmargin-top: 1rem;\r\n\t\tdisplay: grid;\r\n\t}\r\n\t.navegacion li a{\r\n\t\tdisplay: grid;\r\n\t\tpadding: auto;\r\n\t\tborder-radius: 4px;\r\n\t\ttransition: all 0.4s linear;\r\n\t}\r\n\t.navegacion li ul{\r\n\t\tposition: absolute;\r\n\t\tpadding: 1rem 0.5rem;\r\n\t\tborder-radius: 4px;\r\n\t}\r\n\t\r\n}\r\n\r\n.logo{\r\n\tfont-size: 1.3em;\r\n}\r\n#fondo\r\n{\r\n\twidth: 100%;\r\n\tz-index: -10;\r\n}\r\n\r\n.footer{\r\n\tbackground: #333;\r\n\tpadding: 0.6rem;\r\n\ttext-align: center;\r\n\tmargin-top: 0rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n\tbottom: 0;\r\n\t    \r\n}\r\n.main{\r\n\tpadding-top: 8rem;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6390,7 +6390,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\r\n.tab_container {\r\n    width: 80%;\r\n    margin-top: 20px;\r\n}\r\n\r\n.button_container {\r\n    height: 15%;\r\n    display: block;\r\n}\r\n\r\n.button_container button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #333;\r\n    color: aliceblue;\r\n    font-family: sans-serif;\r\n    /*border: 30px solid #333;*/\r\n}\r\n/*Esto se agrego */\r\n.button_selected button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #ccc;\r\n    color: black;\r\n    font-family: sans-serif;\r\n    /*border: 5px solid #333;*/\r\n}\r\n\r\n.tab_container .button_container button:hover{\r\n    background-color: #ccc;\r\n    color: black;\r\n\r\n}\r\n\r\n.tab_panel {\r\n    display: flex;\r\n    background-color: #ccc;\r\n    padding: 30px;\r\n    box-sizing: border-box;\r\n    text-align: left;\r\n    min-height: 400px;\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n    line-height: 1.6em;\r\n    border: 3px solid #333;\r\n}\r\n\r\n.set_button{\r\n    \r\n    position: relative;\r\n    text-align: right;\r\n    margin-right: 2%;\r\n}\r\n.set_button-precio{\r\n    margin-left: 0%;\r\n    position: relative;\r\n    text-align: left;\r\n    \r\n}\r\n.set_button1{   \r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1rem;\r\n\tline-height: 1.6em;\r\n}\r\n.set_button-precio .button_color label {     \r\n    margin-left: 5%; \r\n    width: 5%;\r\n    height: 60%;\r\n    padding: 5px;\r\n    background-color: rgb(0, 255, 0);\r\n    font-family: sans-serif;\r\n}\r\n.set_button-precio .button_color1 label {     \r\n    margin-left: 5%;\r\n    width: 5%;\r\n    height: 60%; \r\n    padding: 5px;\r\n    background-color: rgb(255, 0, 0);\r\n    font-family: sans-serif;\r\n}\r\n\r\n.set_stilos {\r\n    font-family: sans-serif;\r\n    font-size: medium;\r\n    color: aliceblue;\r\n}\r\n.set_stilostitle {\r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n}\r\n.image {\r\n    max-width: 80%;\r\n    max-height: 80%;\r\n}\r\n.set_stilos-panel{\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n}\r\n", ""]);
+exports.push([module.i, "\r\n.tab_container {\r\n    width: 80%;\r\n    margin-top: 20px;\r\n    white-space: initial;\r\n    overflow: hidden;\r\n}\r\n\r\n.button_container {\r\n    height: 15%;\r\n    display: block;\r\n}\r\n\r\n.button_container button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #333;\r\n    color: aliceblue;\r\n    font-family: sans-serif;\r\n    /*border: 30px solid #333;*/\r\n}\r\n/*Esto se agrego */\r\n.button_selected button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #ccc;\r\n    color: black;\r\n    font-family: sans-serif;\r\n    /*border: 5px solid #333;*/\r\n}\r\n\r\n.tab_container .button_container button:hover{\r\n    background-color: #ccc;\r\n    color: black;\r\n\r\n}\r\n\r\n.tab_panel {\r\n    display: flex;\r\n    background-color: #ccc;\r\n    padding: 30px;\r\n    box-sizing: border-box;\r\n    text-align: left;\r\n    min-height: 400px;\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n    line-height: 1.6em;\r\n    border: 3px solid #333;\r\n    white-space: initial;\r\n}\r\n\r\n.set_button{\r\n    \r\n    position: relative;\r\n    text-align: right;\r\n    margin-right: 2%;\r\n}\r\n.set_button-precio{\r\n    margin-left: 0%;\r\n    position: relative;\r\n    text-align: left;\r\n    \r\n}\r\n.set_button1{   \r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1rem;\r\n\tline-height: 1.6em;\r\n}\r\n.set_button-precio .button_color label {     \r\n    margin-left: 5%; \r\n    width: 5%;\r\n    height: 60%;\r\n    padding: 5px;\r\n    background-color: rgb(0, 255, 0);\r\n    font-family: sans-serif;\r\n}\r\n.set_button-precio .button_color1 label {     \r\n    margin-left: 5%;\r\n    width: 5%;\r\n    height: 60%; \r\n    padding: 5px;\r\n    background-color: rgb(255, 0, 0);\r\n    font-family: sans-serif;\r\n}\r\n\r\n.set_stilos {\r\n    font-family: sans-serif;\r\n    font-size: medium;\r\n    color: aliceblue;\r\n}\r\n.set_stilostitle {\r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n}\r\n.image {\r\n    max-width: 80%;\r\n    max-height: 80%;\r\n}\r\n.set_stilos-panel{\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n    line-height: 1.6em;\r\n    text-align: left;\r\n    white-space: initial;\r\n    overflow: hidden;\r\n}\r\n\r\n#list\r\n{\r\n    width: 80%;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6409,7 +6409,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem 0;\r\n\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n\r\n.footer{\r\n\tbackground: #333;\r\n\tpadding: 0.70rem;\r\n\ttext-align: center;\r\n\tmargin-top: 5rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n}\r\n\r\n#titulo{\r\n    background-color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 30px;\r\n    text-align: center;\r\n    height: 80px;\r\n    color: white;\r\n    padding: 15px 40px !important;\r\n}\r\n\r\nbody{\r\n    color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    /*background:#8ba987 url('E:/React/aprendiendoreact/src/imagenes/fondo.jpg') no-repeat center center fixed;*/\r\n    background-color: white;\r\n    background-size:100% 100%;\r\n}\r\n\r\n#form1{\r\n    \r\n    font-size: 22px;\r\n    padding: 60px;\r\n    line-height: 50px;\r\n}\r\n#desc1{\r\n    width: 500px;\r\n    min-width: 200px;\r\n    height: 200px;\r\n    min-height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n#desc2{\r\n    width: 500px;\r\n    height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n\r\ninput[type=\"file\"]#img_subida {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 70px;\r\n\ttop: 250px;\r\n}\r\n   \r\nlabel[for=\"img_subida\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n   \r\n    border-radius: 20px;\r\n\r\n    right: 250px;\r\n    top: 600px;\r\n    line-height: 15px;\r\n}\r\n   \r\ninput[type=\"submit\"]#btmRegistrar {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 45%;\r\n    top: 800px;\r\n}\r\n   \r\nlabel[for=\"btmRegistrar\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n\r\n    border-radius: 20px;\r\n\r\n    right: 40%;\r\n    top: 1000px;\r\n    line-height: 15px;\r\n}\r\n\r\n#contenedor_img{\r\n    border: 2px solid #ccc;\r\n\tborder-radius: 4px;\r\n\tbackground-color: #f8f8f8;\r\n    height: 300px;\r\n    width: 500px;\r\n    text-align: center;\r\n}\r\n\r\ninput[type=\"text\"],input[type=\"password\"], input[type=\"number\"],#tipo_P,textarea{\r\n    font-size: 20px;\r\n    border: black 2px solid;\r\n    border-radius: 10px;\r\n    height: 100%;\r\n    width: 100%;\r\n    min-width: 200px;\r\n}\r\n\r\n#cmpPrecio{\r\n    right: 200px;\r\n\ttop: 700px;\r\n}\r\n\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n    display: inline-block;\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.2rem;\r\n\ttransition: all 0.4s linear;\r\n\tborder-radius: 5px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n} \r\n.logo{\r\n    font-size: 1.3em;\r\n}\r\n", ""]);
+exports.push([module.i, "\r\n.header{\r\n\tbackground: #333;\r\n\tcolor: white;\r\n\tpadding: 1rem 0;\r\n\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n}\r\n.header a{\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n}\r\n\r\n.footer{\r\n\tbackground: #333;\r\n\tpadding: 0.70rem;\r\n\ttext-align: center;\r\n\tmargin-top: 5rem;\r\n\tcolor: white;\r\n\tfont-size: 0.8rem;\r\n\tpadding-bottom: 0.5rem;\r\n}\r\n\r\n#titulo{\r\n    background-color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    font-size: 30px;\r\n    text-align: center;\r\n    height: 80px;\r\n    color: white;\r\n    padding: 15px 40px !important;\r\n}\r\n\r\nbody{\r\n    color: #333;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    /*background:#8ba987 url('E:/React/aprendiendoreact/src/imagenes/fondo.jpg') no-repeat center center fixed;*/\r\n    background-color: white;\r\n    background-size:100% 100%;\r\n}\r\n\r\n#form1{\r\n    font-size: 22px;\r\n    padding: 60px;\r\n    line-height: 50px;\r\n}\r\n#desc1{\r\n    width: 500px;\r\n    height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n#desc2{\r\n    width: 500px;\r\n    height: 200px;\r\n    border-radius: 10px;\r\n    resize: none;\r\n    border-color: black;\r\n}\r\n\r\ninput[type=\"file\"]#img_subida {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 70px;\r\n\ttop: 250px;\r\n}\r\n   \r\nlabel[for=\"img_subida\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n   \r\n    border-radius: 20px;\r\n\r\n    right: 250px;\r\n    top: 600px;\r\n    line-height: 15px;\r\n}\r\n   \r\ninput[type=\"submit\"]#btmRegistrar {\r\n    width: 0.1px;\r\n    height: 0.1px;\r\n    opacity: 0;\r\n    overflow: hidden;\r\n    z-index: -1;\r\n\r\n    right: 45%;\r\n    top: 800px;\r\n}\r\n   \r\nlabel[for=\"btmRegistrar\"] {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #fff;\r\n    background-color: #333;\r\n    opacity: 0.8;\r\n    display: inline-block;\r\n    transition: all .5s;\r\n    cursor: pointer;\r\n    padding: 15px 40px !important;\r\n    text-transform: uppercase;\r\n    width: -webkit-fit-content;\r\n    width: -moz-fit-content;\r\n    width: fit-content;\r\n    text-align: center;\r\n\r\n    border-radius: 20px;\r\n\r\n    right: 40%;\r\n    top: 1000px;\r\n    line-height: 15px;\r\n}\r\n\r\n#contenedor_img{\r\n    border: 2px solid #ccc;\r\n\tborder-radius: 4px;\r\n\tbackground-color: #f8f8f8;\r\n    height: 300px;\r\n    width: 500px;\r\n    text-align: center;\r\n}\r\n\r\ninput[type=\"text\"],input[type=\"password\"], input[type=\"number\"],#tipo_P,textarea{\r\n    font-size: 20px;\r\n    border: black 2px solid;\r\n    border-radius: 10px;\r\n    height: 100%;\r\n    width: 100%;\r\n    /*min-width: 200px;*/\r\n}\r\n\r\n#cmpPrecio{\r\n    right: 200px;\r\n\ttop: 700px;\r\n}\r\n\r\n.logo-nav-container{\r\n\tdisplay: flex;\r\n\tjustify-content: space-between;\r\n\talign-items: center;\r\n}\r\n.navegacion ul{\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n    list-style: none;\r\n}\r\n.navegacion li{\r\n    display: inline-block;\r\n}\r\n.navegacion ul li a{\r\n\tdisplay: block;\r\n\tpadding: 0.5rem 1.2rem;\r\n\ttransition: all 0.4s linear;\r\n\tborder-radius: 5px;\r\n}\r\n.navegacion ul li a:hover{\r\n\tbackground: #ccc;\r\n\tcolor: black;\r\n} \r\n.logo{\r\n    font-size: 1.3em;\r\n}\r\n@media screen and (max-width: 1250px) {\r\n    table {\r\n        width:100%;\r\n    }\r\n    thead {\r\n        display: none;\r\n    }\r\n    tbody td {\r\n        display: block;\r\n        text-align:center;\r\n        left: 40%;\r\n    }\r\n    tbody td:before {\r\n        content: attr(data-th);\r\n        display: block;\r\n        text-align:center;\r\n        left: 40%;\r\n    }\r\n\r\n    #form1{\r\n        padding: 5px;\r\n    }\r\n\r\n    /*#cmpNombre, #tipo_P, #cant, #desc1, #desc2, #contenedor_Img, #cmpPrecio, label{\r\n        width: 60%;\r\n        right: 40%;\r\n        display: block;\r\n    }*/\r\n\r\n    .secNom, .secApe, .secCant, .secDesc1, .secDesc2, #contDerecho, #desc1, #desc2{\r\n        width: 80%;\r\n        margin: 0 auto;\r\n        display: block;\r\n    }\r\n\r\n    #desc1, #desc2{\r\n        width: 100%;\r\n    }\r\n\r\n    #contenedor_img{\r\n        margin: 0 auto;\r\n        width: 100%;\r\n        height: 50%;\r\n        max-width: 500px;\r\n    }\r\n\r\n    #imagenCont{\r\n        width: 100%;\r\n        height: 50%;\r\n        margin: 0 auto;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -67587,7 +67587,7 @@ var Header = /*#__PURE__*/function (_React$Component) {
           display: 'block'
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: server + "/Registro"
+        href: server + "/RegistroProducto"
       }, "Registrar Producto"));
       var btn_add_admin = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         style: {
@@ -67599,7 +67599,7 @@ var Header = /*#__PURE__*/function (_React$Component) {
 
       if (user_is_logged) {
         if (user_is_admin === "1") {
-          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, btn_prod_register, btn_add_admin, btn_logout);
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, btn_prod_register, btn_logout);
         } else {
           return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, btn_logout);
         }
@@ -67619,13 +67619,7 @@ var Header = /*#__PURE__*/function (_React$Component) {
         className: "logo"
       }, "MegaComputer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), this.user_session(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "navegacion"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "Novedades"
-      }, "Novedades")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "Asesoria"
-      }, "Asesoria")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "Contactenos"
-      }, "Contactenos")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Cuenta"), this.dropdown_buttons())))));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Cuenta"), this.dropdown_buttons())))));
     }
   }]);
 
@@ -68227,7 +68221,9 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
     key: "showPanel",
     value: function showPanel() {
       if (this.state.tabNumb === 1) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+          id: "list"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
           className: "set_stilos-panel"
         }, "Nombre: ", this.state.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("pre", {
           className: "set_stilos-panel"
@@ -68237,7 +68233,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
       }
 
       if (this.state.tabNumb === 2) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("pre", {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
           className: "set_stilos-panel"
         }, "Descripci\xF3n: ", this.state.desc);
       }
@@ -68264,7 +68260,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
           onClick: this.click2
         }, "Caracter\xEDsticas")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
           onClick: this.click3
-        }, "Descripci\xF3n fisica"));
+        }, "Descripci\xF3n"));
       }
 
       if (this.state.tabNumb === 2) {
@@ -68278,7 +68274,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
           className: "button_selected"
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
           onClick: this.click3
-        }, "Descripci\xF3n fisica")));
+        }, "Descripci\xF3n")));
       }
 
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -68291,7 +68287,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
         onClick: this.click2
       }, "Caracter\xEDsticas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         onClick: this.click3
-      }, "Descripci\xF3n fisica"));
+      }, "Descripci\xF3n"));
     }
   }, {
     key: "showButton",
@@ -68718,7 +68714,10 @@ function validacion2() {
 window.addEventListener("load", iniciar2); ///
 
 var MiApp = function MiApp() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("html", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("head", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+    name: "viewport",
+    content: "width=device-witdh, usee-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "heafoo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
     id: "form1",
@@ -68728,7 +68727,9 @@ var MiApp = function MiApp() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("table", {
     cellSpacing: "40px",
     cellPadding: "40px"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "secNom"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
     htmlFor: "cmpNombre"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Nombre del Producto: ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
     type: "text",
@@ -68738,7 +68739,9 @@ var MiApp = function MiApp() {
     maxLength: "51",
     placeholder: "Ingrese el nombre del producto...",
     required: true
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Tipo de Producto:")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("select", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "secApe"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Tipo de Producto:")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("select", {
     id: "tipo_P",
     name: "tipo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
@@ -68750,7 +68753,9 @@ var MiApp = function MiApp() {
     value: "accesorio"
   }, "Accesorio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
     value: "otros"
-  }, "Otros"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Cantidad:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+  }, "Otros"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "secCant"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Cantidad:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
     type: "number",
     id: "cant",
     name: "cant",
@@ -68759,14 +68764,18 @@ var MiApp = function MiApp() {
     size: "3",
     maxLength: "4",
     required: true
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "secDesc1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
     htmlFor: "desc1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Descripcion Fisica del Producto:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", {
     id: "desc1",
     name: "desc",
     placeholder: "Ingrese una descripcion del producto...",
     required: true
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "secDesc2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
     htmlFor: "desc2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Caracteristicas Tecnicas del Producto:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", {
     id: "desc2",
@@ -68774,6 +68783,8 @@ var MiApp = function MiApp() {
     placeholder: "Ingrese las Caracteristicas del Producto: ",
     required: true
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    id: "contDerecho"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "cmpPrecio",
     style: {
       marginBottom: '70px'
@@ -68804,13 +68815,13 @@ var MiApp = function MiApp() {
     accept: ".jpg,.png,.jpeg",
     multiple: true,
     required: true
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
     htmlFor: "btmRegistrar"
   }, "Registrar Producto"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
     type: "submit",
     value: "Registrar",
     id: "btmRegistrar"
-  })))));
+  }))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (MiApp); //<script src="./componentes/miFormIMG.js"></script>
@@ -68837,8 +68848,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

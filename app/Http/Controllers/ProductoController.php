@@ -7,6 +7,8 @@ use App\Models\Producto;
 use App\Models\imagen;
 use Illuminate\Support\Facades\DB;
 use App\Models\ViewProduct;
+use Symfony\Contracts\HttpClient\Exception\RedirectionExceptionInterface;
+
 class ProductoController extends Controller
 {
     public function getItemProd($id)
@@ -58,7 +60,14 @@ class ProductoController extends Controller
 
     public function getProductRegistryView()
     {
-        return view('registro_producto');
+        if(session()->has('id'))
+        {
+            if(session('type_user') == '1')
+            {
+                return view('registro_producto');
+            }
+        }
+        return redirect(route('inicio'));
     }
 
     public function verifyProductExists($nombre)

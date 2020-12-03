@@ -29,7 +29,7 @@ Route::get('/form', function () {
 
 Route::get('productoN/{id}',[ProductoController::class, 'getProductView'])->name('producto');
 
-Route::get('/Registro', [ProductoController::class, 'getProductRegistryView'])->name('Registro');
+Route::get('/RegistroProducto', [ProductoController::class, 'getProductRegistryView'])->name('Registro');
 
 Route::get('Novedades', function()
 {
