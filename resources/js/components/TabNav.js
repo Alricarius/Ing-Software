@@ -66,13 +66,14 @@ class TabNav extends React.Component{
     showPanel(){
         if(this.state.tabNumb === 1){
             return <ul>
-                        <li className = 'set_stilos-panel'>Nombre: {this.state.name}</li>
-                        <li><pre className = 'set_stilos-panel'>Características: {this.state.carac}</pre> </li>
+                        <li className = 'set_stilos-panel'  >Nombre: {this.state.name}</li>
+                        <li><pre className = 'set_stilos-panel' >Características: {this.state.carac}</pre> </li>
                         <li className = 'set_stilos-panel'>Tipo: {this.state.type}</li>
+                        
                     </ul>;
         }
         if(this.state.tabNumb === 2){
-            return <pre className = 'set_stilos-panel'>Descripción: {this.state.desc}</pre>;
+            return <p className = 'set_stilos-panel' >Descripción: {this.state.desc}</p>;
         }
         const image = this.state.img.map(function(imge){return imge.img });
         return(

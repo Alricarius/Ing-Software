@@ -42,16 +42,13 @@ body{
 }
 
 #form1{
-    
     font-size: 22px;
     padding: 60px;
     line-height: 50px;
 }
 #desc1{
     width: 500px;
-    min-width: 200px;
     height: 200px;
-    min-height: 200px;
     border-radius: 10px;
     resize: none;
     border-color: black;
@@ -143,7 +140,7 @@ input[type="text"],input[type="password"], input[type="number"],#tipo_P,textarea
     border-radius: 10px;
     height: 100%;
     width: 100%;
-    min-width: 200px;
+    /*min-width: 200px;*/
 }
 
 #cmpPrecio{
@@ -176,4 +173,56 @@ input[type="text"],input[type="password"], input[type="number"],#tipo_P,textarea
 } 
 .logo{
     font-size: 1.3em;
+}
+@media screen and (max-width: 1250px) {
+    table {
+        width:100%;
+    }
+    thead {
+        display: none;
+    }
+    tbody td {
+        display: block;
+        text-align:center;
+        left: 40%;
+    }
+    tbody td:before {
+        content: attr(data-th);
+        display: block;
+        text-align:center;
+        left: 40%;
+    }
+
+    #form1{
+        padding: 5px;
+    }
+
+    /*#cmpNombre, #tipo_P, #cant, #desc1, #desc2, #contenedor_Img, #cmpPrecio, label{
+        width: 60%;
+        right: 40%;
+        display: block;
+    }*/
+
+    .secNom, .secApe, .secCant, .secDesc1, .secDesc2, #contDerecho, #desc1, #desc2{
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #desc1, #desc2{
+        width: 100%;
+    }
+
+    #contenedor_img{
+        margin: 0 auto;
+        width: 100%;
+        height: 50%;
+        max-width: 500px;
+    }
+
+    #imagenCont{
+        width: 100%;
+        height: 50%;
+        margin: 0 auto;
+    }
 }
