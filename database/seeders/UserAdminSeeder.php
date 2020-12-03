@@ -21,7 +21,7 @@ class UserAdminSeeder extends Seeder
             'carnet_user' => 7777777,
             'dep_user' => 'Cochabamba',
             'email' => 'admin@gmail.com',
-            'password' => '1234567',
+            'password' => md5('1234567'),
             'pregunta' => 'nombre del primer perro',
             'respuesta' => 'admin',
             'cel_user' => 12345678,
