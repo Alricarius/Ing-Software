@@ -68237,7 +68237,7 @@ var TabNav = /*#__PURE__*/function (_React$Component) {
       }
 
       if (this.state.tabNumb === 2) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("pre", {
           className: "set_stilos-panel"
         }, "Descripci\xF3n: ", this.state.desc);
       }
@@ -68852,8 +68852,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Xampp\htdocs\compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! E:\IngSoftware\proyectos\Trabajo\Ing-Software\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! E:\IngSoftware\proyectos\Trabajo\Ing-Software\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

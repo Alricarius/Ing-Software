@@ -2,7 +2,7 @@
 .tab_container {
     width: 80%;
     margin-top: 20px;
-    white-space: initial;
+    white-space: pre-wrap;
 }
 
 .button_container {
@@ -58,7 +58,7 @@
 	font-size: 1.2rem;
     line-height: 1.6em;
     border: 3px solid #333;
-    white-space: initial;
+    white-space: pre-wrap;
 }
 
 .set_button{
@@ -119,5 +119,5 @@
 	font-size: 1.2rem;
     line-height: 1.6em;
     text-align: left;
-    white-space: initial;
+    white-space: pre-wrap;
 }
