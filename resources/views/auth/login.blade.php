@@ -61,17 +61,17 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary" Style= " color: black; border: 1px solid black;" >
+                                <button type="submit" class="btn btn-primary" Style= " color: white; border: 1px;" >
                                     {{ __('Iniciar Sesión') }}
                                 </button>
 
                                 @if (Route::has('register'))                                
-                                    <a class="btn btn-link" href="{{ route('register') }}" Style = "color: white;">{{ __('Registrarse') }}</a>
+                                    <a class="btn btn-link" href="{{ route('register') }}" Style = "color: white;">{{ __('Regístrate') }}</a>
                                 @endif                              
                                 
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}" Style = "color: white; display: none;">
-                                        {{ __('Olvidaste tu contraseña?') }}
+                                        {{ __('¿Olvidaste tu contraseña?') }}
                                     </a>
                                 @endif
                                 

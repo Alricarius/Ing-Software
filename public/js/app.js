@@ -68601,7 +68601,7 @@ function iniciar() {
 
 function validacion() {
   if (campoNombre.value.length > 50) {
-    campoNombre.setCustomValidity("Maximo 50 caracteres");
+    campoNombre.setCustomValidity("Máximo 50 caracteres");
   } else {
     campoNombre.setCustomValidity("");
   }
@@ -68652,13 +68652,13 @@ function _repetido() {
             _context.prev = 16;
             _context.t0 = _context["catch"](1);
             _context.t0;
-            console.log("hubo error");
+            console.log("Hubo un error");
 
           case 20:
             if (campoNombre.value.length > 50) {
-              campoNombre.setCustomValidity("Maximo 50 caracteres");
+              campoNombre.setCustomValidity("Máximo 50 caracteres");
             } else if (esRepetido) {
-              campoNombre.setCustomValidity("nombre repetido");
+              campoNombre.setCustomValidity("Nombre repetido");
             } else {
               campoNombre.setCustomValidity("");
             }
@@ -68686,7 +68686,7 @@ function iniciar1() {
 
 function validacion1() {
   if (campoDesc1.value.length > 1000) {
-    campoDesc1.setCustomValidity("Maximo 1000 caracteres");
+    campoDesc1.setCustomValidity("Máximo 1000 caracteres");
   } else {
     campoDesc1.setCustomValidity("");
   }
@@ -68705,7 +68705,7 @@ function iniciar2() {
 
 function validacion2() {
   if (campoDesc2.value.length > 1000) {
-    campoDesc2.setCustomValidity("Maximo 1000 caracteres");
+    campoDesc2.setCustomValidity("Máximo 1000 caracteres");
   } else {
     campoDesc2.setCustomValidity("");
   }
@@ -68731,13 +68731,13 @@ var MiApp = function MiApp() {
     className: "secNom"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
     htmlFor: "cmpNombre"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Nombre del Producto: ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Nombre del Producto:")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
     type: "text",
     id: "cmpNombre",
     onBlur: repetido,
     name: "nom",
     maxLength: "51",
-    placeholder: "Ingrese el nombre del producto...",
+    placeholder: "Ingrese el nombre del producto",
     required: true
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "secApe"
@@ -68768,19 +68768,19 @@ var MiApp = function MiApp() {
     className: "secDesc1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
     htmlFor: "desc1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Descripcion Fisica del Producto:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Descripci\xF3n F\xEDsica del Producto:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", {
     id: "desc1",
     name: "desc",
-    placeholder: "Ingrese una descripcion del producto...",
+    placeholder: "Ingrese una descripci\xF3n del producto",
     required: true
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "secDesc2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
     htmlFor: "desc2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Caracteristicas Tecnicas del Producto:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Caracteristicas T\xE9cnicas del Producto:"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", {
     id: "desc2",
     name: "carac",
-    placeholder: "Ingrese las Caracteristicas del Producto: ",
+    placeholder: "Ingrese las caracteristicas del producto: ",
     required: true
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "contDerecho"
@@ -68807,7 +68807,7 @@ var MiApp = function MiApp() {
     alt: "Insert image here"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("center", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
     htmlFor: "img_subida"
-  }, "Cargar Imagen"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+  }, "Subir Imagen"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
     type: "file",
     name: "img",
     id: "img_subida",
@@ -68848,8 +68848,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Usuario\Desktop\Prueba2\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Usuario\Desktop\Prueba2\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
