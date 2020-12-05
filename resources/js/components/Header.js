@@ -26,7 +26,7 @@ class Header extends React.Component{
 
     dropdown_buttons(){
         let btn_login = <li style={{display: 'block'}}><a href={server+"/login"}>Iniciar Sesion</a></li>;
-        let btn_register = <li style={{display: 'block'}}><a href={server+"/register"}>Registrate</a></li>;
+        let btn_register = <li style={{display: 'block'}}><a href={server+"/register"}>Regístrate</a></li>;
         let btn_logout = <li style={{display: 'block'}}><a href={server+"/logout"}>Salir</a></li>;
         let btn_prod_register = <li style={{display: 'block'}}><a href={server+"/RegistroProducto"}>Registrar Producto</a></li>;
         let btn_add_admin = <li style={{display: 'block'}}><a href="#">Agregar Administrador</a></li>;

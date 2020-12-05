@@ -6390,7 +6390,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\r\n.tab_container {\r\n    width: 80%;\r\n    margin-top: 20px;\r\n    white-space: initial;\r\n    overflow: hidden;\r\n}\r\n\r\n.button_container {\r\n    height: 15%;\r\n    display: block;\r\n}\r\n\r\n.button_container button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #333;\r\n    color: aliceblue;\r\n    font-family: sans-serif;\r\n    /*border: 30px solid #333;*/\r\n}\r\n/*Esto se agrego */\r\n.button_selected button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #ccc;\r\n    color: black;\r\n    font-family: sans-serif;\r\n    /*border: 5px solid #333;*/\r\n}\r\n\r\n.tab_container .button_container button:hover{\r\n    background-color: #ccc;\r\n    color: black;\r\n\r\n}\r\n\r\n.tab_panel {\r\n    display: flex;\r\n    background-color: #ccc;\r\n    padding: 30px;\r\n    box-sizing: border-box;\r\n    text-align: left;\r\n    min-height: 400px;\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n    line-height: 1.6em;\r\n    border: 3px solid #333;\r\n    white-space: initial;\r\n    word-break: break-word;\r\n}\r\n\r\n.set_button{\r\n    \r\n    position: relative;\r\n    text-align: right;\r\n    margin-right: 2%;\r\n}\r\n.set_button-precio{\r\n    margin-left: 0%;\r\n    position: relative;\r\n    text-align: left;\r\n    \r\n}\r\n.set_button1{   \r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1rem;\r\n\tline-height: 1.6em;\r\n}\r\n.set_button-precio .button_color label {     \r\n    margin-left: 5%; \r\n    width: 5%;\r\n    height: 60%;\r\n    padding: 5px;\r\n    background-color: rgb(0, 255, 0);\r\n    font-family: sans-serif;\r\n}\r\n.set_button-precio .button_color1 label {     \r\n    margin-left: 5%;\r\n    width: 5%;\r\n    height: 60%; \r\n    padding: 5px;\r\n    background-color: rgb(255, 0, 0);\r\n    font-family: sans-serif;\r\n}\r\n\r\n.set_stilos {\r\n    font-family: sans-serif;\r\n    font-size: medium;\r\n    color: aliceblue;\r\n}\r\n.set_stilostitle {\r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n}\r\n.image {\r\n    max-width: 80%;\r\n    max-height: 80%;\r\n}\r\n.set_stilos-panel{\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n    line-height: 1.6em;\r\n    text-align: left;\r\n    white-space: initial;\r\n    overflow: hidden;\r\n}\r\n\r\n#list\r\n{\r\n    width: 80%;\r\n}\r\n", ""]);
+exports.push([module.i, "\r\n.tab_container {\r\n    width: 80%;\r\n    margin-top: 20px;\r\n    white-space: initial;\r\n    overflow: hidden;\r\n}\r\n\r\n.button_container {\r\n    height: 15%;\r\n    display: block;\r\n}\r\n\r\n.button_container button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #333;\r\n    color: aliceblue;\r\n    font-family: sans-serif;\r\n    /*border: 30px solid #333;*/\r\n}\r\n/*Esto se agrego */\r\n.button_selected button{\r\n    display: block;\r\n    width: 33.33%;\r\n    height: 100%;\r\n    float: left;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n    padding: 10px;\r\n    background-color: #ccc;\r\n    color: black;\r\n    font-family: sans-serif;\r\n    /*border: 5px solid #333;*/\r\n}\r\n\r\n.tab_container .button_container button:hover{\r\n    background-color: rgb(150, 150, 150);\r\n    color: black;\r\n   \r\n}\r\n\r\n.tab_panel {\r\n    display: flex;\r\n    background-color: #ccc;\r\n    padding: 30px;\r\n    box-sizing: border-box;\r\n    text-align: left;\r\n    min-height: 400px;\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n    line-height: 1.6em;\r\n    border: 3px solid #333;\r\n    white-space: initial;\r\n    word-break: break-word;\r\n}\r\n\r\n.set_button{\r\n    \r\n    position: relative;\r\n    text-align: right;\r\n    margin-right: 2%;\r\n}\r\n.set_button-precio{\r\n    margin-left: 0%;\r\n    position: relative;\r\n    text-align: left;\r\n    \r\n}\r\n.set_button1{   \r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1rem;\r\n\tline-height: 1.6em;\r\n}\r\n.set_button-precio .button_color label {     \r\n    margin-left: 5%; \r\n    width: 5%;\r\n    height: 60%;\r\n    padding: 5px;\r\n    background-color: rgb(0, 255, 0);\r\n    font-family: sans-serif;\r\n}\r\n.set_button-precio .button_color1 label {     \r\n    margin-left: 5%;\r\n    width: 5%;\r\n    height: 60%; \r\n    padding: 5px;\r\n    background-color: rgb(255, 0, 0);\r\n    font-family: sans-serif;\r\n}\r\n\r\n.set_stilos {\r\n    font-family: sans-serif;\r\n    font-size: medium;\r\n    color: aliceblue;\r\n}\r\n.set_stilostitle {\r\n    margin-left: 5%;   \r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n\tline-height: 1.6em;\r\n}\r\n.image {\r\n    max-width: 80%;\r\n    max-height: 80%;\r\n    align-content: center;\r\n}\r\n.set_stilos-panel{\r\n    font-family: sans-serif;\r\n\tcolor: black;\r\n\tfont-size: 1.2rem;\r\n    line-height: 1.6em;\r\n    text-align: left;\r\n    white-space: initial;\r\n    overflow: hidden;\r\n}\r\n\r\n#list\r\n{\r\n    width: 80%;\r\n}\r\n", ""]);
 
 // exports
 
@@ -67574,7 +67574,7 @@ var Header = /*#__PURE__*/function (_React$Component) {
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: server + "/register"
-      }, "Registrate"));
+      }, "Reg\xEDstrate"));
       var btn_logout = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         style: {
           display: 'block'
@@ -68592,18 +68592,28 @@ function validarImagen() {
 
 
 var campoNombre;
+var valNom;
 
 function iniciar() {
+  valNom = false;
   campoNombre = document.getElementById("cmpNombre");
   campoNombre.addEventListener("input", validacion);
-  validacion();
+  campoNombre.addEventListener("keypress", impMsg);
 }
 
 function validacion() {
-  if (campoNombre.value.length > 50) {
-    campoNombre.setCustomValidity("Máximo 50 caracteres");
+  if (campoNombre.value.length == 50) {
+    valNom = true;
   } else {
     campoNombre.setCustomValidity("");
+    valNom = false;
+  }
+}
+
+function impMsg() {
+  if (valNom) {
+    campoNombre.setCustomValidity("Máximo 50 caracteres");
+    campoNombre.reportValidity();
   }
 }
 
@@ -68655,13 +68665,20 @@ function _repetido() {
             console.log("Hubo un error");
 
           case 20:
-            if (campoNombre.value.length > 50) {
-              campoNombre.setCustomValidity("Máximo 50 caracteres");
-            } else if (esRepetido) {
-              campoNombre.setCustomValidity("Nombre repetido");
+            if (esRepetido) {
+              campoNombre.setCustomValidity("El producto ya existe");
             } else {
               campoNombre.setCustomValidity("");
             }
+            /*
+            if(campoNombre.value.length > 50){
+                campoNombre.setCustomValidity("Máximo 50 caracteres");
+              }else if(esRepetido){
+                campoNombre.setCustomValidity("Nombre repetido");
+            }else{
+                campoNombre.setCustomValidity("");
+            } */
+
 
           case 21:
           case "end":
@@ -68734,11 +68751,12 @@ var MiApp = function MiApp() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Nombre del Producto:")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
     type: "text",
     id: "cmpNombre",
-    onBlur: repetido,
     name: "nom",
-    maxLength: "51",
+    onBlur: repetido,
+    maxLength: "50",
     placeholder: "Ingrese el nombre del producto",
-    required: true
+    required: true,
+    autocomplete: "cmpNombre"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "secApe"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, "Tipo de Producto:")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("select", {
@@ -68848,8 +68866,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Usuario\Desktop\Prueba2\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Usuario\Desktop\Prueba2\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
