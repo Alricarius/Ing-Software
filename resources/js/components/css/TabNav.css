@@ -48,7 +48,7 @@
 }
 
 .tab_panel {
-    display: flex;
+    display: block;
     background-color: #ccc;
     padding: 30px;
     box-sizing: border-box;
