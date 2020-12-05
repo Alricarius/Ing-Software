@@ -28,11 +28,7 @@
                         </div>
 
                         <div class="form-group row">
-<<<<<<< HEAD
-                            <label for="carnet_user" class="col-md-4 col-form-label text-md-right">{{ __('Cédula de identidad') }}</label>
-=======
                             <label for="carnet_user" class="col-md-4 col-form-label text-md-right">{{ __('Cédula de Identidad') }}</label>
->>>>>>> 743c2da6e95b399c125e3193e783876a2f8ab33b
 
                             <div class="col-md-6">
                                 <input id="carnet_user" type="number" class="form-control @error('carnet_user') is-invalid @enderror" name="carnet_user" required autocomplete="new-carnet" autofocus >
@@ -114,13 +110,8 @@
                         </div>
                             
                         <label class="col-md-5 " ></label>
-<<<<<<< HEAD
-                                <button type="submit" class="btn btn-primary" Style= " color: black; border: 1px solid black;">
-                                    {{ __('Regístrarse') }}
-=======
                                 <button type="submit" class="btn btn-primary" Style= " color: white; border: 1px;">
                                     {{ __('Regístrate') }}
->>>>>>> 743c2da6e95b399c125e3193e783876a2f8ab33b
                                 </button>
                             </div>
                         </div>
