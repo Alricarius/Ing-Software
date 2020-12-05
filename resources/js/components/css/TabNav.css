@@ -44,11 +44,11 @@
 .tab_container .button_container button:hover{
     background-color: rgb(150, 150, 150);
     color: black;
-   
+
 }
 
 .tab_panel {
-    display: block;
+    display: flex;
     background-color: #ccc;
     padding: 30px;
     box-sizing: border-box;
@@ -114,9 +114,9 @@
 .image {
     max-width: 80%;
     max-height: 80%;
-    
 }
 .set_stilos-panel{
+    padding: 10px;
     font-family: sans-serif;
 	color: black;
 	font-size: 1.2rem;
@@ -128,5 +128,7 @@
 
 #list
 {
-    width: 80%;
+    width: 100%;
+    padding: 0;
+
 }
