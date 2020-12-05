@@ -18,7 +18,7 @@ class CreateViewProductsTable extends Migration
         SELECT id_prod, nom_prod, precio_prod, img
         FROM producto left join imagen on producto.id_prod = imagen.fk_prod
         Order By fecha_prod DESC
-        Limit 20");
+        Limit 20;");
     }
 
     /**
