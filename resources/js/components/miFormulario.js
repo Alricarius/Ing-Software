@@ -45,18 +45,27 @@ function validarImagen(){
 
 //validacion para el campo nombre
 var campoNombre;
+let valNom;
 function iniciar(){
+    valNom = false;
     campoNombre = document.getElementById("cmpNombre");
     campoNombre.addEventListener("input",validacion);
-    validacion();
+    campoNombre.addEventListener("keypress",impMsg);
 }
 
 function validacion(){
-    if(campoNombre.value.length > 50){
-        campoNombre.setCustomValidity("Máximo 50 caracteres");
-
+    if(campoNombre.value.length == 50){
+        valNom = true;
     }else{
         campoNombre.setCustomValidity("");
+        valNom = false;
+    }
+}
+
+function impMsg(){
+    if(valNom){
+        campoNombre.setCustomValidity("Máximo 50 caracteres");
+        campoNombre.reportValidity();   
     }
 }
 
@@ -76,15 +85,20 @@ async function repetido(){
         error;
         console.log("Hubo un error");
     }
-    if(campoNombre.value.length > 50){
-        campoNombre.setCustomValidity("Máximo 50 caracteres");
-
-    } else if(esRepetido){
-        campoNombre.setCustomValidity("Nombre repetido");
+    if(esRepetido){
+        campoNombre.setCustomValidity("El producto ya existe");
     }else{
         campoNombre.setCustomValidity("");
     }
-    
+    /*
+    if(campoNombre.value.length > 50){
+        campoNombre.setCustomValidity("Máximo 50 caracteres");
+
+    }else if(esRepetido){
+        campoNombre.setCustomValidity("Nombre repetido");
+    }else{
+        campoNombre.setCustomValidity("");
+    } */
 }
 
 window.addEventListener("load", iniciar);
@@ -143,7 +157,7 @@ const MiApp = () => (
                         
                             <div className ="secNom">
                                 <label htmlFor="cmpNombre"><strong>Nombre del Producto:</strong></label>
-                                <input type="text" id="cmpNombre" onBlur={repetido} name="nom" maxLength= "51" placeholder="Ingrese el nombre del producto" required/>
+                                <input type="text" id="cmpNombre" name="nom" onBlur={repetido} maxLength= "50" placeholder="Ingrese el nombre del producto" required autocomplete="cmpNombre"/>
                             </div>
                             <div className ="secApe">
                                 <label><strong>Tipo de Producto:</strong></label>

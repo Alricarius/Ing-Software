@@ -42,7 +42,7 @@
 }
 
 .tab_container .button_container button:hover{
-    background-color: #ccc;
+    background-color: rgb(150, 150, 150);
     color: black;
 
 }
@@ -118,6 +118,7 @@
     margin:auto;
 }
 .set_stilos-panel{
+    padding: 10px;
     font-family: sans-serif;
 	color: black;
 	font-size: 1.2rem;
@@ -129,5 +130,7 @@
 
 #list
 {
-    width: 80%;
+    width: 100%;
+    padding: 0;
+
 }
