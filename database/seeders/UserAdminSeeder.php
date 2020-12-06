@@ -27,6 +27,7 @@ class UserAdminSeeder extends Seeder
             'respuesta' => 'admin',
             'cel_user' => 12345678,
             'tipo_user' => 1,
+          
         ]);
     }
 }

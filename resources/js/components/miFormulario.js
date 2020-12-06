@@ -53,7 +53,7 @@ function iniciar(){
 
 function validacion(){
     if(campoNombre.value.length > 50){
-        campoNombre.setCustomValidity("Maximo 50 caracteres");
+        campoNombre.setCustomValidity("Máximo 50 caracteres");
 
     }else{
         campoNombre.setCustomValidity("");
@@ -74,13 +74,13 @@ async function repetido(){
         }
     } catch (error) {
         error;
-        console.log("hubo error");
+        console.log("Hubo un error");
     }
     if(campoNombre.value.length > 50){
-        campoNombre.setCustomValidity("Maximo 50 caracteres");
+        campoNombre.setCustomValidity("Máximo 50 caracteres");
 
     } else if(esRepetido){
-        campoNombre.setCustomValidity("nombre repetido");
+        campoNombre.setCustomValidity("Nombre repetido");
     }else{
         campoNombre.setCustomValidity("");
     }
@@ -100,7 +100,7 @@ function iniciar1(){
 
 function validacion1(){
     if(campoDesc1.value.length > 1000){
-        campoDesc1.setCustomValidity("Maximo 1000 caracteres");
+        campoDesc1.setCustomValidity("Máximo 1000 caracteres");
 
     }else{
         campoDesc1.setCustomValidity("");
@@ -119,7 +119,7 @@ function iniciar2(){
 
 function validacion2(){
     if(campoDesc2.value.length > 1000){
-        campoDesc2.setCustomValidity("Maximo 1000 caracteres");
+        campoDesc2.setCustomValidity("Máximo 1000 caracteres");
 
     }else{
         campoDesc2.setCustomValidity("");
@@ -142,8 +142,8 @@ const MiApp = () => (
                         <td>
                         
                             <div className ="secNom">
-                                <label htmlFor="cmpNombre"><strong>Nombre del Producto: </strong></label>
-                                <input type="text" id="cmpNombre" onBlur={repetido} name="nom" maxLength= "51" placeholder="Ingrese el nombre del producto..." required/>
+                                <label htmlFor="cmpNombre"><strong>Nombre del Producto:</strong></label>
+                                <input type="text" id="cmpNombre" onBlur={repetido} name="nom" maxLength= "51" placeholder="Ingrese el nombre del producto" required/>
                             </div>
                             <div className ="secApe">
                                 <label><strong>Tipo de Producto:</strong></label>
@@ -159,15 +159,15 @@ const MiApp = () => (
                                 <input type= "number" id= "cant" name="cant" min="1" max="200" size="3" maxLength= "4" required/>
                             </div>
                             <div className = "secDesc1">
-                                <label htmlFor="desc1"><strong>Descripcion Fisica del Producto:</strong> </label>
+                                <label htmlFor="desc1"><strong>Descripción Física del Producto:</strong> </label>
                                 <br/>
-                                <textarea id="desc1" name="desc" placeholder="Ingrese una descripcion del producto..." required>
+                                <textarea id="desc1" name="desc" placeholder="Ingrese una descripción del producto" required>
                                 </textarea>
                             </div>
                             <div className = "secDesc2">
-                                <label htmlFor="desc2"><strong>Caracteristicas Tecnicas del Producto:</strong> </label>
+                                <label htmlFor="desc2"><strong>Caracteristicas Técnicas del Producto:</strong> </label>
                                 <br/>
-                                <textarea id="desc2" name="carac" placeholder="Ingrese las Caracteristicas del Producto: " required>
+                                <textarea id="desc2" name="carac" placeholder="Ingrese las caracteristicas del producto: " required>
                                 </textarea>
                             </div>
                         </td>
@@ -183,7 +183,7 @@ const MiApp = () => (
 
                         
                             <center>
-                                <label htmlFor="img_subida">Cargar Imagen</label>
+                                <label htmlFor="img_subida">Subir Imagen</label>
                                 <input type="file" name="img" id="img_subida" onChange={validarImagen} accept=".jpg,.png,.jpeg" multiple required/>
                             </center>
                             <br/>

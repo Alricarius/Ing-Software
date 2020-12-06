@@ -3,9 +3,9 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-10">
             <div class="card">
-                <div class="card-header offset-md-5">{{ __('Registro') }}</div>
+                <div class="card-header">{{ __('Registro') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -28,7 +28,11 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="carnet_user" class="col-md-4 col-form-label text-md-right">{{ __('Carnet') }}</label>
+<<<<<<< HEAD
+                            <label for="carnet_user" class="col-md-4 col-form-label text-md-right">{{ __('Cédula de identidad') }}</label>
+=======
+                            <label for="carnet_user" class="col-md-4 col-form-label text-md-right">{{ __('Cédula de Identidad') }}</label>
+>>>>>>> 743c2da6e95b399c125e3193e783876a2f8ab33b
 
                             <div class="col-md-6">
                                 <input id="carnet_user" type="number" class="form-control @error('carnet_user') is-invalid @enderror" name="carnet_user" required autocomplete="new-carnet" autofocus >
@@ -67,10 +71,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Correo electronico') }}</label>
+                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Correo electrónico') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="text" placeholder="ejm.@gmail.com" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" >
+                                <input id="email" type="email" placeholder="ejm.@gmail.com" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" >
                             </div>
                         </div>
 
@@ -94,9 +98,9 @@
                             <label for="pregunta" class="col-md-4 col-form-label text-md-right">{{ __('Pregunta secreta') }}</label>
                             <div class="col-md-6">
                             <select name="pregunta" id="tipo_P">
-                                   <option value ="Nombre de tu primera mascota?" selcted>Nombre de tu primera mascota?</option>
-                                   <option value ="Marca de Tenis preferida?" selcted>Marca de Tenis preferida?</option>
-                                   <option value ="Deporte preferido?" selcted>Deporte preferido?</option>
+                                   <option value ="Nombre de tu primera mascota?" selcted>Nombre de tu primera mascota</option>
+                                   <option value ="Marca de Tenis preferida?" selcted>Nombre de tu madre</option>
+                                   <option value ="Deporte preferido?" selcted>Deporte preferido</option>
                                    </select>
                             </div>
                         </div>
@@ -110,8 +114,13 @@
                         </div>
                             
                         <label class="col-md-5 " ></label>
+<<<<<<< HEAD
                                 <button type="submit" class="btn btn-primary" Style= " color: black; border: 1px solid black;">
-                                    {{ __('Registrarse') }}
+                                    {{ __('Regístrarse') }}
+=======
+                                <button type="submit" class="btn btn-primary" Style= " color: white; border: 1px;">
+                                    {{ __('Regístrate') }}
+>>>>>>> 743c2da6e95b399c125e3193e783876a2f8ab33b
                                 </button>
                             </div>
                         </div>
@@ -191,8 +200,8 @@
     }
 
     function validacion3(){
-        if(celular.value.length > 7){
-            celular.setCustomValidity("Ingrese un maximo de 7 digitos");
+        if(celular.value.length > 8){
+            celular.setCustomValidity("Ingrese un maximo de 8 digitos");
         }else{
             celular.setCustomValidity("");
         }

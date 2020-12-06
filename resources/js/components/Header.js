@@ -34,7 +34,6 @@ class Header extends React.Component{
             if(user_is_admin === "1"){
                 return (<ul>
                             {btn_prod_register}
-                            {btn_add_admin}
                             {btn_logout}
                         </ul>);
             }else {
@@ -59,9 +58,9 @@ class Header extends React.Component{
                         <br/>
                         {this.user_session()}
                         <ul className="navegacion">
-                            <li><a href="Novedades">Novedades</a></li>
+                            {/*<li><a href="Novedades">Novedades</a></li>
                             <li><a href="Asesoria">Asesoria</a></li>
-                            <li><a href="Contactenos">Contactenos</a></li>
+                            <li><a href="Contactenos">Contactenos</a></li>*/}
                             <li><a>Cuenta</a>
                                 {this.dropdown_buttons()}
                             </li>	

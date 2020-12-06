@@ -13,7 +13,7 @@ class CreateUsersTable extends Migration
             $table->string('name',50);
             $table->string('ape_user',50);
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at');
+            $table->timestamp('email_verified_at')->nullable();
             $table->string('password', 300);
             $table->integer('cel_user')->nullable();
             $table->string('dep_user')->nullable();
