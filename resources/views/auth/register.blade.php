@@ -16,10 +16,10 @@
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nombre') }}</label>
                             <div class="col-md-6">
-                                <input id="name" type="text" onkeypress="return sololetras(event)"   onpaste ="return false" maxlength="35" oninput="maxlengthNombre(this);"  class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="nombre" autofocus>
+                                <input id="name" type="text" onblur={pal1} onkeypress="return sololetras(event)"   onpaste ="return false" maxlength="35" oninput="maxlengthNombre(this);"  class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="nombre" autofocus>
                                    
                                    <script>
-                                      function sololetras(e){
+                                      function sololetras(e) {
                                          key =e.keyCode || e.wich;
                                          teclado =String.fromCharCode(key).toLowerCase();
                                          letras =" abcdefghijklmnñopqrstuvwxyz";
@@ -139,7 +139,7 @@
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Correo electrónico') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" placeholder="ejm@gmail.com"   onkeypress="return sololetrasemail(event)"   onpaste ="return false" maxlength="15" oninput="maxlengthApellido(this);"class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" >
+                                <input id="email" type="email" placeholder="ejm@gmail.com"   onkeypress="return sololetrasemail(event)"   onpaste ="return false" maxlength="30" oninput="maxlengthContrasena(this);"class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" >
                                   <script>
                                      function sololetrasemail(e){
                                        key =e.keyCode || e.wich;
@@ -398,5 +398,33 @@ var contraseña_conf;
         }
     }
     window.addEventListener("load", impMsgRegistro);
+    var campoNombre;
+    let valNom;
+    function iniciar(){
+        valNom = false;
+        campoNombre = document.getElementById("name");
+        campoNombre.addEventListener("input",validacionNombre);
+        campoNombre.addEventListener("keypress",impMsg);
+        
+    }
+
+    function validacionNombre(){
+        if(campoNombre.value.length == 35){
+            valNom = true;
+        }else{
+            campoNombre.setCustomValidity("");
+            valNom = false;
+        }
+    }
+
+    function impMsg(){
+        if(valNom){
+            campoNombre.setCustomValidity("Máximo 35 caracteres");
+            campoNombre.reportValidity();   
+        }
+    }
+    function pal1(){
+        campoNombre.setCustomValidity("");
+    }
 </script>
 @endsection
