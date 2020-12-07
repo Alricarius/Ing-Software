@@ -16,7 +16,7 @@
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nombre') }}</label>
                             <div class="col-md-6">
-                                <input id="name" type="text" onblur={pal1} onkeypress="return sololetras(event)"   onpaste ="return false" maxlength="35" oninput="maxlengthNombre(this);"  class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="nombre" autofocus>
+                                <input id="name" type="text" onblur="pal1()" onkeypress="return sololetras(event)"   onpaste ="return false" maxlength="35" oninput="maxlengthNombre(this);"  class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="nombre" autofocus>
                                    
                                    <script>
                                       function sololetras(e) {
@@ -419,7 +419,7 @@ var contraseña_conf;
 
     function impMsg(){
         if(valNom){
-            campoNombre.setCustomValidity("Máximo 35 caracteres");
+            campoNombre.setCustomValidity("El nombre debe tener un maximo de 35 caracteres");
             campoNombre.reportValidity();   
         }
     }
