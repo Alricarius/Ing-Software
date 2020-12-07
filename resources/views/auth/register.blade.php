@@ -10,7 +10,7 @@
                 <div class="card-header">{{ __('Registro') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" action="{{ route('register') }}" id = "formReg1">
                         @csrf
 
                         <div class="form-group row">
@@ -208,33 +208,7 @@
                             <label for="respuesta" class="col-md-4 col-form-label text-md-right">{{ __('Respuesta') }}</label>
 
                             <div class="col-md-6">
-                                <input id="respuesta" type="text" onkeypress="return sololetrasrespuesta(event)" onpaste ="return false" maxlength="30" oninput="maxlengthNumber(this);" class="form-control @error('respuesta') is-invalid @enderror" name="respuesta" value="{{ old('respuesta') }}" required autocomplete="respuesta" autofocus>
-                                <script>
-                                     function sololetrasrespuesta(e){
-                                       key =e.keyCode || e.wich;
-                                       teclado =String.fromCharCode(key).toLowerCase();
-                                       letras =" abcdefghijklmnñopqrstuvwxyz";
-                                       especiales=[8-37-38-46-164]; 
-                                       teclado_especial = false;
-                                       for(var i in especiales){
-                                       if (key==especiales[i]) {
-                                       teclado_especial = true;break;
-                                       break;
-                                        }
-                                       }
-                                        if (letras.indexOf(teclado) == -1 && !teclado_especial) {
-                                        return false; 
-                                       }
-                                     }
-                                 </script>
-                                 <script>
-                                    function maxlengthNumber (obj) {
-                                    console.log(obj.value);
-                                    if (obj.value.length > obj.maxLength) {
-                                    obj.value = obj.value.slice(0, obj.maxLength);        
-                                      }  
-                                    }
-                                </script>
+                                <input id="respuesta" type="text" class="form-control @error('respuesta') is-invalid @enderror" name="respuesta" value="{{ old('respuesta') }}" onkeypress="return validarTecla(event);" required autocomplete="respuesta" autofocus maxlength="10">
                             </div>
                         </div>
                             
@@ -337,7 +311,7 @@
 
     function validacion4(){
         if(contraseña.value.length < 7){
-            contraseña.setCustomValidity("La contraseña debe tener un minimo de 7 digitos");
+            contraseña.setCustomValidity("La contraseña debe tener un minimo de 7 caracteres");
         }else if(contraseña.value.length > 15){
             contraseña.setCustomValidity("La contraseña debe tener un maximo de 15 caracteres");
         }else{
@@ -382,6 +356,20 @@ var contraseña_conf;
         }
     }
     window.addEventListener("load", iniciar6);
+
+    //validar input en el campo respuesta
+    function validarTecla(evt){
+		var code = (evt.which) ? evt.which : evt.keyCode;
+		if(code == 32 || code == 8){ // espacio y borrar
+		  return true;
+		}else if(code >= 48 && code <= 57){ //numeros.
+		  return true;
+		}else if(code >= 65 && code <= 90 || code >= 97 && code <= 122) { //letras
+		  return true;
+		}else{ //otras teclas
+		  return false;
+		}
+    }
     
     //Limpiar los campos del registro
     var correo;
@@ -396,5 +384,19 @@ var contraseña_conf;
         correo.value = "";
     }
     window.addEventListener("unload", limpiarReg);
+
+    //validar formulario y mostrar alerta
+    var formReg
+    function impMsgRegistro(){
+        formReg = document.getElementById("formReg1");
+        formReg.addEventListener("submit",impAlert);
+    }
+
+    function impAlert(){
+        if(formReg.checkValidity()){
+            alert("Se ha registrado correctamente");
+        }
+    }
+    window.addEventListener("load", impMsgRegistro);
 </script>
 @endsection
