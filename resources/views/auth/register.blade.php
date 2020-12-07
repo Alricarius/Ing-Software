@@ -81,8 +81,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="carnet_user" class="col-md-4 col-form-label text-md-right">{{ __('Cédula de identidad') }}</label>
-
+                            <label for="carnet_user" class="col-md-4 col-form-label text-md-right">{{ __('Cédula de Identidad') }}</label>
 
                             <div class="col-md-6">
                                 <input id="carnet_user" type="number"  maxlength="9" oninput="maxlengthApellido(this);" class="form-control @error('carnet_user') is-invalid @enderror" name="carnet_user" required autocomplete="new-carnet" autofocus >
