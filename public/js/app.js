@@ -68866,8 +68866,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\IngSoftware\proyectos\Trabajo\Ing-Software\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! E:\IngSoftware\proyectos\Trabajo\Ing-Software\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
