@@ -14,11 +14,20 @@ class CreateViewProductsTable extends Migration
      */
     public function up()
     {
+        //mysql
         DB::statement("CREATE OR REPLACE VIEW view_prods AS 
-        SELECT id_prod, nom_prod, precio_prod, img
+        SELECT distinct id_prod, nom_prod, precio_prod, img
         FROM producto left join imagen on producto.id_prod = imagen.fk_prod
-        Order By fecha_prod DESC
-        Limit 20;");
+        Order By fecha_prod desc
+        Limit 20");
+
+        //postgresql
+        /*DB::statement("CREATE OR REPLACE VIEW view_prods AS 
+        SELECT * FROM(
+            SELECT distinct id_prod, nom_prod, precio_prod, img, fecha_prod
+            FROM producto left join imagen on producto.id_prod = imagen.fk_prod) t
+        Order By t.fecha_prod desc
+        Limit 20");*/
     }
 
     /**
