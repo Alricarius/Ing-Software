@@ -1,6 +1,8 @@
 @extends('layouts.inicioLayout')
 
 @section('content')
+
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-10">
@@ -8,22 +10,73 @@
                 <div class="card-header">{{ __('Registro') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" action="{{ route('register') }}" id = "formReg1">
                         @csrf
 
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nombre') }}</label>
-
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="nombre" autofocus>
+                                <input id="name" type="text" onkeypress="return sololetras(event)"   onpaste ="return false" maxlength="35" oninput="maxlengthNombre(this);"  class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="nombre" autofocus>
+                                   
+                                   <script>
+                                      function sololetras(e){
+                                         key =e.keyCode || e.wich;
+                                         teclado =String.fromCharCode(key).toLowerCase();
+                                         letras =" abcdefghijklmnñopqrstuvwxyz";
+                                         especiales=[8-37-38-46-164]; 
+                                         teclado_especial = false;
+                                         for(var i in especiales){
+                                         if (key==especiales[i]) {
+                                         teclado_especial = true;break;
+                                         break;
+                                         }
+                                      }
+                                        if (letras.indexOf(teclado) == -1 && !teclado_especial) {
+                                         return false; 
+                                        }
+                                      }
+                                   </script>
+                                   <script>
+                                    function maxlengthNombre (obj) {
+                                    console.log(obj.value);
+                                    if (obj.value.length > obj.maxLength) {
+                                    obj.value = obj.value.slice(0, obj.maxLength);        
+                                      }  
+                                    }
+                                </script> 
                             </div>
                         </div>
-
                         <div class="form-group row">
                             <label for="ape_user" class="col-md-4 col-form-label text-md-right">{{ __('Apellido') }}</label>
 
                             <div class="col-md-6">
-                                <input id="ape_user" type="text" class="form-control @error('ape_user') is-invalid @enderror" name="ape_user" value="{{ old('ape_user') }}" required autocomplete="apellido" autofocus>
+                                <input id="ape_user" type="text" onkeypress="return sololetrasapellido(event)"   onpaste ="return false" maxlength="35" oninput="maxlengthApellido(this);" class="form-control @error('ape_user') is-invalid @enderror" name="ape_user" value="{{ old('ape_user') }}" required autocomplete="apellido" autofocus>
+                                <script>
+                                    function sololetrasapellido(e){
+                                       key =e.keyCode || e.wich;
+                                       teclado =String.fromCharCode(key).toLowerCase();
+                                       letras =" abcdefghijklmnñopqrstuvwxyz";
+                                       especiales=[8-37-38-46-164]; 
+                                       teclado_especial = false;
+                                       for(var i in especiales){
+                                       if (key==especiales[i]) {
+                                       teclado_especial = true;break;
+                                       break;
+                                       }
+                                    }
+                                      if (letras.indexOf(teclado) == -1 && !teclado_especial) {
+                                       return false; 
+                                       }
+                                }
+                                </script>
+                                <script>
+                                    function maxlengthApellido (obj) {
+                                    console.log(obj.value);
+                                    if (obj.value.length > obj.maxLength) {
+                                    obj.value = obj.value.slice(0, obj.maxLength);        
+                                      }  
+                                    }
+                                </script> 
                             </div>
                         </div>
 
@@ -31,12 +84,20 @@
                             <label for="carnet_user" class="col-md-4 col-form-label text-md-right">{{ __('Cédula de Identidad') }}</label>
 
                             <div class="col-md-6">
-                                <input id="carnet_user" type="number" class="form-control @error('carnet_user') is-invalid @enderror" name="carnet_user" required autocomplete="new-carnet" autofocus >
+                                <input id="carnet_user" type="number"  maxlength="9" oninput="maxlengthApellido(this);" class="form-control @error('carnet_user') is-invalid @enderror" name="carnet_user" required autocomplete="new-carnet" autofocus >
                                 <style>
                                 input[type=number]::-webkit-inner-spin-button, 
                                 input[type=number]::-webkit-outer-spin-button { 
                                 -webkit-appearance: none; margin: 0;}
-                                </style>                            
+                                </style>
+                                <script>
+                                    function maxlengthCedula (obj) {
+                                    console.log(obj.value);
+                                    if (obj.value.length > obj.maxLength) {
+                                    obj.value = obj.value.slice(0, obj.maxLength);        
+                                      }  
+                                    }
+                                </script>                            
                             </div>
                         </div>
 
@@ -62,7 +123,15 @@
                             <label for="cel_user" class="col-md-4 col-form-label text-md-right">{{ __('Celular') }}</label>
 
                             <div class="col-md-6">
-                                <input id="cel_user" type="text" class="form-control @error('cel_user') is-invalid @enderror" name="cel_user" value="{{ old('cel_user') }}" required autocomplete="celular" autofocus>
+                                <input id="cel_user" type="number" maxlength="8" oninput="maxlengthApellido(this);" class="form-control @error('cel_user') is-invalid @enderror" name="cel_user" value="{{ old('cel_user') }}" required autocomplete="celular" autofocus>
+                                <script>
+                                    function maxlengthApellido (obj) {
+                                    console.log(obj.value);
+                                    if (obj.value.length > obj.maxLength) {
+                                    obj.value = obj.value.slice(0, obj.maxLength);        
+                                      }  
+                                    }
+                                </script>
                             </div>
                         </div>
 
@@ -70,7 +139,33 @@
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Correo electrónico') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" placeholder="ejm@gmail.com" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" >
+                                <input id="email" type="email" placeholder="ejm@gmail.com"   onkeypress="return sololetrasemail(event)"   onpaste ="return false" maxlength="15" oninput="maxlengthApellido(this);"class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" >
+                                  <script>
+                                     function sololetrasemail(e){
+                                       key =e.keyCode || e.wich;
+                                       teclado =String.fromCharCode(key).toLowerCase();
+                                       letras =" abcdefghijklmnñopqrstuvwxyz@.0123456789-_";
+                                       especiales=[8-37-38-46-164]; 
+                                       teclado_especial = false;
+                                       for(var i in especiales){
+                                       if (key==especiales[i]) {
+                                       teclado_especial = true;break;
+                                       break;
+                                        }
+                                       }
+                                        if (letras.indexOf(teclado) == -1 && !teclado_especial) {
+                                        return false; 
+                                       }
+                                     }
+                                 </script>
+                                 <script>
+                                    function maxlengthApellido (obj) {
+                                    console.log(obj.value);
+                                    if (obj.value.length > obj.maxLength) {
+                                    obj.value = obj.value.slice(0, obj.maxLength);        
+                                      }  
+                                    }
+                                </script>
                             </div>
                         </div>
 
@@ -78,7 +173,7 @@
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Contraseña') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                                <input id="password" type="password" maxlength="15" oninput="maxlengthContrasena(this);class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
                             </div>
                         </div>
                         
@@ -86,10 +181,17 @@
                             <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirmar contraseña') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                <input id="password-confirm" type="password" maxlength="15" oninput="maxlengthConfirmarContrasena(this); class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                <script>
+                                    function maxlengthConfrimarContrasena (obj) {
+                                    console.log(obj.value);
+                                    if (obj.value.length > obj.maxLength) {
+                                    obj.value = obj.value.slice(0, obj.maxLength);        
+                                      }  
+                                    }
+                                </script>
                             </div>
-                        </div>
-                                
+                        </div>        
                         <div class="form-group row">
                             <label for="pregunta" class="col-md-4 col-form-label text-md-right">{{ __('Pregunta secreta') }}</label>
                             <div class="col-md-6">
@@ -106,7 +208,7 @@
                             <label for="respuesta" class="col-md-4 col-form-label text-md-right">{{ __('Respuesta') }}</label>
 
                             <div class="col-md-6">
-                                <input id="respuesta" type="text" class="form-control @error('respuesta') is-invalid @enderror" name="respuesta" value="{{ old('respuesta') }}" required autocomplete="respuesta" autofocus>
+                                <input id="respuesta" type="text" class="form-control @error('respuesta') is-invalid @enderror" name="respuesta" value="{{ old('respuesta') }}" onkeypress="return validarTecla(event);" required autocomplete="respuesta" autofocus maxlength="10">
                             </div>
                         </div>
                             
@@ -116,8 +218,7 @@
                                 </button>
                             </div>
                         </div>
-                              
-                               
+                         
                             </div>
                         </div>
                     </form>
@@ -210,7 +311,7 @@
 
     function validacion4(){
         if(contraseña.value.length < 7){
-            contraseña.setCustomValidity("La contraseña debe tener un minimo de 7 digitos");
+            contraseña.setCustomValidity("La contraseña debe tener un minimo de 7 caracteres");
         }else if(contraseña.value.length > 15){
             contraseña.setCustomValidity("La contraseña debe tener un maximo de 15 caracteres");
         }else{
@@ -255,6 +356,20 @@ var contraseña_conf;
         }
     }
     window.addEventListener("load", iniciar6);
+
+    //validar input en el campo respuesta
+    function validarTecla(evt){
+		var code = (evt.which) ? evt.which : evt.keyCode;
+		if(code == 32 || code == 8){ // espacio y borrar
+		  return true;
+		}else if(code >= 48 && code <= 57){ //numeros.
+		  return true;
+		}else if(code >= 65 && code <= 90 || code >= 97 && code <= 122) { //letras
+		  return true;
+		}else{ //otras teclas
+		  return false;
+		}
+    }
     
     //Limpiar los campos del registro
     var correo;
@@ -269,5 +384,19 @@ var contraseña_conf;
         correo.value = "";
     }
     window.addEventListener("unload", limpiarReg);
+
+    //validar formulario y mostrar alerta
+    var formReg
+    function impMsgRegistro(){
+        formReg = document.getElementById("formReg1");
+        formReg.addEventListener("submit",impAlert);
+    }
+
+    function impAlert(){
+        if(formReg.checkValidity()){
+            alert("Se ha registrado correctamente");
+        }
+    }
+    window.addEventListener("load", impMsgRegistro);
 </script>
 @endsection

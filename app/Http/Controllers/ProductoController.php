@@ -33,6 +33,7 @@ class ProductoController extends Controller
         $producto->tipo_prod = $request->tipo;
         $producto->precio_prod = $request->precio;
         $producto->cant_prod = (isset($request->cant)) ? $request->cant:0;
+        /*postgresql*/$producto->fecha_prod = date('Y-m-d H:i:s');
         $producto->save();
 
         $nombre = null;
