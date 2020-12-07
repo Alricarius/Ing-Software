@@ -399,6 +399,13 @@ var contraseña_conf;
     }
     window.addEventListener("load", impMsgRegistro);
     var campoNombre;
+    var apellido; 
+    var cedula;
+    var celuar;
+    var correo;
+    var contraseña;
+    var confcontr;
+    var resp;
     let valNom;
     function iniciar(){
         valNom = false;
@@ -424,7 +431,9 @@ var contraseña_conf;
         }
     }
     function pal1(){
+        if(campoNombre.value.length > 3){
         campoNombre.setCustomValidity("");
+        }
     }
 </script>
 @endsection
