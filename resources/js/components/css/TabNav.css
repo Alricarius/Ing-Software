@@ -114,6 +114,8 @@
 .image {
     max-width: 80%;
     max-height: 80%;
+    display:block; 
+    margin:auto;
 }
 .set_stilos-panel{
     padding: 10px;
