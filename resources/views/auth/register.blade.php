@@ -208,37 +208,7 @@
                             <label for="respuesta" class="col-md-4 col-form-label text-md-right">{{ __('Respuesta') }}</label>
 
                             <div class="col-md-6">
-<<<<<<< HEAD
                                 <input id="respuesta" type="text" class="form-control @error('respuesta') is-invalid @enderror" name="respuesta" value="{{ old('respuesta') }}" onkeypress="return validarTecla(event);" required autocomplete="respuesta" autofocus maxlength="10">
-=======
-                                <input id="respuesta" type="text" onkeypress="return sololetrasrespuesta(event)" onpaste ="return false" maxlength="30" oninput="maxlengthNumber(this);" class="form-control @error('respuesta') is-invalid @enderror" name="respuesta" value="{{ old('respuesta') }}" required autocomplete="respuesta" autofocus>
-                                <script>
-                                     function sololetrasrespuesta(e){
-                                       key =e.keyCode || e.wich;
-                                       teclado =String.fromCharCode(key).toLowerCase();
-                                       letras =" abcdefghijklmnñopqrstuvwxyz";
-                                       especiales=[8-37-38-46-164]; 
-                                       teclado_especial = false;
-                                       for(var i in especiales){
-                                       if (key==especiales[i]) {
-                                       teclado_especial = true;break;
-                                       break;
-                                        }
-                                       }
-                                        if (letras.indexOf(teclado) == -1 && !teclado_especial) {
-                                        return false; 
-                                       }
-                                     }
-                                 </script>
-                                 <script>
-                                    function maxlengthNumber (obj) {
-                                    console.log(obj.value);
-                                    if (obj.value.length > obj.maxLength) {
-                                    obj.value = obj.value.slice(0, obj.maxLength);        
-                                      }  
-                                    }
-                                </script>
->>>>>>> fe7ebc61e5fce5012a04bb0b7d9236a0a25b8d47
                             </div>
                         </div>
                             
