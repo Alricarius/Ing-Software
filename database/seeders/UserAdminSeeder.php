@@ -29,5 +29,18 @@ class UserAdminSeeder extends Seeder
             'tipo_user' => 1,
           
         ]);
+        DB::table('users')->insert([
+            'name' => 'admin2',
+            'ape_user' => 'admin2',
+            'carnet_user' => 7777777,
+            'dep_user' => 'Cochabamba',
+            'email' => 'admin2@gmail.com',
+            'password' => Hash::make('1234567'),
+            'pregunta' => 'nombre del primer perro',
+            'respuesta' => 'admin2',
+            'cel_user' => 12345678,
+            'tipo_user' => 1,
+          
+        ]);
     }
 }
