@@ -16,7 +16,7 @@
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nombre') }}</label>
                             <div class="col-md-6">
-                                <input id="name" type="text" onkeypress="return sololetras(event)"   onpaste ="return false" maxlength="35" oninput="maxlengthNombre(this);"  class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="nombre" autofocus>
+                                <input id="name" type="text" onkeypress="return sololetras(event)"   onpaste ="return false"  maxlength="35" oninput="maxlengthNombre(this);"  class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="nombre" autofocus>
                                    
                                    <script>
                                       function sololetras(e){
@@ -173,7 +173,25 @@
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Contraseña') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" maxlength="15" oninput="maxlengthContrasena(this);class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                                <input id="password" type="password" maxlength="15" onkeypress="return sololetrascontraseña(event)"   onpaste ="return false" oninput="maxlengthContrasena(this);class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                                <script>
+                                     function sololetrascontraseña(e){
+                                       key =e.keyCode || e.wich;
+                                       teclado =String.fromCharCode(key).toLowerCase();
+                                       letras ="abcdefghijklmnñopqrstuvwxyz0123456789";
+                                       especiales=[8-37-38-46-164]; 
+                                       teclado_especial = false;
+                                       for(var i in especiales){
+                                       if (key==especiales[i]) {
+                                       teclado_especial = true;break;
+                                       break;
+                                        }
+                                       }
+                                        if (letras.indexOf(teclado) == -1 && !teclado_especial) {
+                                        return false; 
+                                       }
+                                     }
+                                 </script>
                             </div>
                         </div>
                         
@@ -181,7 +199,25 @@
                             <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirmar contraseña') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password-confirm" type="password" maxlength="15" oninput="maxlengthConfirmarContrasena(this); class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                <input id="password-confirm" type="password" maxlength="15" onkeypress="return confirmarcontraseña(event)"   onpaste ="return false"oninput="maxlengthConfirmarContrasena(this); class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                <script>
+                                     function confirmarcontraseña(e){
+                                       key =e.keyCode || e.wich;
+                                       teclado =String.fromCharCode(key).toLowerCase();
+                                       letras ="abcdefghijklmnñopqrstuvwxyz0123456789";
+                                       especiales=[8-37-38-46-164]; 
+                                       teclado_especial = false;
+                                       for(var i in especiales){
+                                       if (key==especiales[i]) {
+                                       teclado_especial = true;break;
+                                       break;
+                                        }
+                                       }
+                                        if (letras.indexOf(teclado) == -1 && !teclado_especial) {
+                                        return false; 
+                                       }
+                                     }
+                                 </script>
                                 <script>
                                     function maxlengthConfrimarContrasena (obj) {
                                     console.log(obj.value);
