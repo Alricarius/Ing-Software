@@ -73,13 +73,12 @@ class TabNav extends React.Component{
                     </ul>;
         }
         if(this.state.tabNumb === 2){
-            return <p className = 'set_stilos-panel' >Descripción: {this.state.desc}</p>;
+            return <pre className = 'set_stilos-panel' >Descripción: {this.state.desc}</pre>;
         }
         const image = this.state.img.map(function(imge){return imge.img });
         return(
-        <center>
-            <img src={"/images/"+image[0]} className="image" ></img>
-        </center>);
+            <img  src={"/images/"+image[0]} className="image"></img>
+        );
     }
 
     showButtonSelected(){
@@ -143,9 +142,9 @@ class TabNav extends React.Component{
 
 
                 <center>
-                    <div className="tab_container">
+                    <div className="tab_container" >
                         <div>{this.showButtonSelected()}</div>
-                        <div className="tab_panel">{this.showPanel()}</div>
+                        <div className="tab_panel" >{this.showPanel()}</div>
                     </div>
                 </center>
             </React.Fragment>

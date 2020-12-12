@@ -1,0 +1,299 @@
+[33mcommit dbde8a22871e3ba6de541d3eb6d4b8c81d127c34[m[33m ([m[1;36mHEAD -> [m[1;32mnuevo[m[33m)[m
+Merge: b2eabbd 18dbf03
+Author: adrianC56 <adriancrespog3@gmail.com>
+Date:   Fri Dec 4 22:44:48 2020 -0400
+
+    Merge branch 'nuevo' of https://github.com/Alricarius/Ing-Software into nuevo
+
+[33mcommit 18dbf0327151b7f86af31af5ca5f3246a2937885[m
+Author: coco <4246064@gmail.com>
+Date:   Fri Dec 4 21:14:57 2020 -0700
+
+    bug3
+
+[33mcommit 8391730cc6be1f2ea3883b82c2a7189844ae67f6[m
+Author: coco <4246064@gmail.com>
+Date:   Fri Dec 4 20:04:07 2020 -0700
+
+    dd
+
+[33mcommit b2eabbd15a14198cf1eab7afca8253b6a314aad2[m
+Author: adrianC56 <adriancrespog3@gmail.com>
+Date:   Fri Dec 4 22:39:41 2020 -0400
+
+    Correcion Bug del Campo Nombre
+
+[33mcommit d8dcd0df3cab954fc32618aad75507fd929d0d9a[m
+Merge: c9a0bab 743c2da
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Fri Dec 4 00:28:03 2020 -0400
+
+    tamanios de camposñññ
+
+[33mcommit c9a0bab75d458ac98fa1ed668a487786123b326a[m
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Fri Dec 4 00:27:19 2020 -0400
+
+    tamanios de camposñññ
+
+[33mcommit 743c2da6e95b399c125e3193e783876a2f8ab33b[m
+Author: hlajeans <helmuthmauricioalbaquiroz@gmail.com>
+Date:   Fri Dec 4 00:25:57 2020 -0400
+
+    Correccion ortografia y colores
+
+[33mcommit fab675adeda71259aa46007c2463ef0f498d23aa[m
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Thu Dec 3 00:26:20 2020 -0400
+
+    bugs responsives
+
+[33mcommit 310bd6c7b50513b3f5afaeab3613e21f9ded39f1[m
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Thu Dec 3 00:16:56 2020 -0400
+
+    bug telefono
+
+[33mcommit fa95aed05a3d8f4f3ecf29b9c0d9ce68f8f6ab5d[m
+Merge: fb6c608 1bbd41b
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Wed Dec 2 23:52:32 2020 -0400
+
+    Merge branch 'nuevo' of https://github.com/Alricarius/Ing-Software into nuevo
+
+[33mcommit 1bbd41b7325d5c7d8a934b5b1f963215b95c9725[m
+Author: Accelerator671 <kprojet671@gmail.com>
+Date:   Wed Dec 2 23:45:37 2020 -0400
+
+    detalles
+
+[33mcommit f710bbec067e7361a6c103aef6a1fb0deb92114e[m
+Author: Accelerator671 <kprojet671@gmail.com>
+Date:   Wed Dec 2 22:42:37 2020 -0400
+
+    registro de producto solo pàara admin
+
+[33mcommit 78004468e806cd3279873a7d18d9b6ec59e8f4b1[m
+Merge: f248ef2 800c135
+Author: Accelerator671 <kprojet671@gmail.com>
+Date:   Wed Dec 2 22:42:02 2020 -0400
+
+    registro de producto solo pàara admin
+
+[33mcommit f248ef2cfa2b7f56d84193537956dc0adcdb89d3[m
+Merge: 1525a58 057238b
+Author: Accelerator671 <kprojet671@gmail.com>
+Date:   Wed Dec 2 22:41:20 2020 -0400
+
+    registro de producto solo pàara admin
+
+[33mcommit 800c135f3f23630431c9f64848d59013d7951ff9[m
+Merge: 4b52cc3 ab4782a
+Author: adrianC56 <adriancrespog3@gmail.com>
+Date:   Wed Dec 2 22:37:23 2020 -0400
+
+    Merge branch 'nuevo' of https://github.com/Alricarius/Ing-Software into nuevo
+
+[33mcommit 4b52cc3966f9aad8c243084c7fa09c865dde8952[m
+Author: adrianC56 <adriancrespog3@gmail.com>
+Date:   Wed Dec 2 22:35:15 2020 -0400
+
+    registro de producto responsive
+
+[33mcommit ab4782af4367ca3e9a5ff407f85036110303efff[m
+Author: Alricarius <poncejhon321@gmail.com>
+Date:   Wed Dec 2 22:32:53 2020 -0400
+
+    correcion de errores en la vista de producto
+
+[33mcommit 1525a5802109a7f7d1bb5ffd21742db7d1816a2d[m
+Author: Accelerator671 <kprojet671@gmail.com>
+Date:   Wed Dec 2 20:09:58 2020 -0400
+
+    seed
+
+[33mcommit 6fc0057073239bd0ea89e5db43cd7c7e8ec079b1[m
+Merge: 4b92927 057238b
+Author: Alricarius <poncejhon321@gmail.com>
+Date:   Wed Dec 2 07:38:23 2020 -0400
+
+    correcion del app js
+
+[33mcommit 4b9292701b656eac4878df9e94e9b0d052544dc7[m
+Author: Alricarius <poncejhon321@gmail.com>
+Date:   Wed Dec 2 07:36:46 2020 -0400
+
+    cambio de app
+
+[33mcommit fb6c60875dbf77819f7acd94fd7ebfe454f41541[m
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Wed Dec 2 02:36:08 2020 -0400
+
+    deployado papu
+
+[33mcommit 9bc280f714743c9fb2e3f74c2da1c72f29441bce[m
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Wed Dec 2 02:22:54 2020 -0400
+
+    deployado papu
+
+[33mcommit da01012570f5594e4ab52d70727f6d0f1d45b376[m
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Wed Dec 2 02:18:41 2020 -0400
+
+    deployado papu
+
+[33mcommit 9112f22b68cac16e3f57227a8f98fbc50de8dfb7[m
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Wed Dec 2 02:10:06 2020 -0400
+
+    deployado papu
+
+[33mcommit db67fd38a7c140e6625809bf4f34408758221c33[m
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Wed Dec 2 02:09:22 2020 -0400
+
+    deployado papu
+
+[33mcommit cda4c6d560b6b18cef92c311234f96ee0218e02c[m
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Wed Dec 2 02:02:25 2020 -0400
+
+    deployado papu
+
+[33mcommit 6eecda104e695c491798696debc807124980482d[m
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Wed Dec 2 01:45:35 2020 -0400
+
+    deployado papu
+
+[33mcommit 057238b1ad1549f767d7008afe7033871c76cccc[m
+Merge: 0c890b3 653dcc5
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Wed Dec 2 01:39:35 2020 -0400
+
+    Merge branch 'nuevo' of https://github.com/Alricarius/Ing-Software into nuevo
+
+[33mcommit 0c890b3cd54e2f74ccc6685ae32e1f25f211d302[m
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Wed Dec 2 01:39:27 2020 -0400
+
+    admin
+
+[33mcommit 653dcc5218cbdc4d5d6f0ea847d2665eb8af2104[m
+Merge: 64fb028 32525ff
+Author: Alricarius <poncejhon321@gmail.com>
+Date:   Wed Dec 2 01:38:58 2020 -0400
+
+    Merge branch 'nuevo' of https://github.com/Alricarius/Ing-Software into nuevo
+
+[33mcommit 64fb028bde279a38ba37916b0613c8569e0cac98[m
+Author: Alricarius <poncejhon321@gmail.com>
+Date:   Wed Dec 2 01:38:44 2020 -0400
+
+    correcion color
+
+[33mcommit ab5d356b61bdd36857094acee8b976bf1a9ae4c0[m
+Merge: c43395d 32525ff
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Wed Dec 2 01:22:52 2020 -0400
+
+    ultimos changes
+
+[33mcommit c43395d8e07706458a37a2fbab9fb500b25cf1ce[m
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Wed Dec 2 01:21:33 2020 -0400
+
+    ultimos changes
+
+[33mcommit 32525ff5de57b3bff199e2b60fab7d816286293c[m
+Merge: f5b0222 c3b3002
+Author: Accelerator671 <kprojet671@gmail.com>
+Date:   Wed Dec 2 01:12:32 2020 -0400
+
+    seeder del admin
+
+[33mcommit f5b022251a08410e0877a9cd09e5b53aabce2310[m
+Author: Accelerator671 <kprojet671@gmail.com>
+Date:   Wed Dec 2 01:11:41 2020 -0400
+
+    seeder del administrador
+
+[33mcommit c3b3002981dbfccf566321d85a7aa2fc31261b77[m
+Merge: e333d94 0a573d5
+Author: Alricarius <poncejhon321@gmail.com>
+Date:   Wed Dec 2 01:10:34 2020 -0400
+
+    app.js corregido
+
+[33mcommit e333d9410114d5a07c92d5c2fb564a6888cd7dc4[m
+Author: Alricarius <poncejhon321@gmail.com>
+Date:   Wed Dec 2 01:06:10 2020 -0400
+
+    correcciones de login
+
+[33mcommit 7c3afedb413ec2fdf013c9187207f16ba52bf7df[m
+Merge: b2dc195 0a573d5
+Author: Accelerator671 <kprojet671@gmail.com>
+Date:   Wed Dec 2 01:01:56 2020 -0400
+
+    commit
+
+[33mcommit b2dc19580343efa0b2225ca0d3b4104a0282f6c7[m
+Author: Accelerator671 <kprojet671@gmail.com>
+Date:   Wed Dec 2 00:58:20 2020 -0400
+
+    comit
+
+[33mcommit 0a573d54ba7c7d0d16063fce7c1b19afccf42b58[m
+Merge: 72a9a84 4977652
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Wed Dec 2 00:00:25 2020 -0400
+
+    fondo en header
+
+[33mcommit 4977652d003afae7ec621ba0fa6d06a6fe7a8529[m
+Merge: b99c7a4 373d9af
+Author: coco <4246064@gmail.com>
+Date:   Tue Dec 1 23:51:30 2020 -0700
+
+    tada
+
+[33mcommit b99c7a4f18af50b3380457c97c928b559e1f9d6d[m
+Author: coco <4246064@gmail.com>
+Date:   Tue Dec 1 23:50:34 2020 -0700
+
+    yara
+
+[33mcommit 41c4107302e33adeae87b61e8935799c2e630ad5[m
+Author: coco <4246064@gmail.com>
+Date:   Tue Dec 1 21:16:55 2020 -0700
+
+    m
+
+[33mcommit 72a9a8482338f1f2912b52241ad19c05176b6787[m
+Author: carlosACL <elfijocl@gmail.com>
+Date:   Tue Dec 1 23:56:09 2020 -0400
+
+    fondo en header
+
+[33mcommit d6864d71c20f6be5c0d26ec432aa4dbfda8e4467[m
+Author: coco <4246064@gmail.com>
+Date:   Tue Dec 1 14:59:44 2020 -0700
+
+    correccion posible bug
+
+[33mcommit 5194abd2928aa4a374849a097de176341c691ff1[m
+Author: coco <4246064@gmail.com>
+Date:   Tue Dec 1 01:48:28 2020 -0700
+
+    semi
+
+[33mcommit 40b69e357e41eee3f2b4f3692e3a71bf14602831[m
+Author: coco <4246064@gmail.com>
+Date:   Mon Nov 30 23:16:45 2020 -0700
+
+    sss
+
+[33mcommit 373d9afa701ee8da81aaeadbdcfac07ed4c191d8[m
+Au
