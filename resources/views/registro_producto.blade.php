@@ -11,7 +11,10 @@
         <div style = "display: flex; min-height: 100%; flex-direction: column;">
             <header id="header_comp"></header>
                 <main style="flex:1;">
-                    <div id="form"></div>
+                <div style ="margin-left: 40px;margin-top: 100px;margin-bottom:50px; margin-right:100px ;max-width:1200px ;min-width:230px" class = "card">
+                    <div class="card-header">{{ __('Registro de Productos') }}</div>
+                        <div style="padding-top:0%" id="form"></div>
+                </div>
             </main>
             <footer id="footer_comp"></footer>
         </div>

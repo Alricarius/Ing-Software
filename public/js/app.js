@@ -68866,13 +68866,8 @@ var MiApp = function MiApp() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
 __webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\js\app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! C:\Users\HP\Desktop\ingenieria de software\Compumundo\resources\sass\app.scss */"./resources/sass/app.scss");
-=======
-__webpack_require__(/*! D:\pruebaLaravel\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\pruebaLaravel\resources\sass\app.scss */"./resources/sass/app.scss");
->>>>>>> 4c5fc863b9ed38b2c2f6c5157b5048630845debe
 
 
 /***/ })
