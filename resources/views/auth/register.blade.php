@@ -132,7 +132,7 @@
                             <label for="cel_user" class="col-md-4 col-form-label text-md-right">{{ __('Celular') }}</label>
 
                             <div class="col-md-6">
-                                <input id="cel_user" type="number" maxlength="8" oninput="maxlengthApellido(this);" class="form-control @error('cel_user') is-invalid @enderror" name="cel_user" value="{{ old('cel_user') }}" required autocomplete="celular" autofocus>
+                                <input id="cel_user" type="number" maxlength="8" onkeypress="ValidaNumeros();" oninput="maxlengthApellido(this);" class="form-control @error('cel_user') is-invalid @enderror" name="cel_user" value="{{ old('cel_user') }}" required autocomplete="celular" autofocus>
                                 <script>
                                     function maxlengthApellido (obj) {
                                     console.log(obj.value);
@@ -140,6 +140,13 @@
                                     obj.value = obj.value.slice(0, obj.maxLength);        
                                       }  
                                     }
+                                    function ValidaNumeros() {
+                                    var e = e || window.event;
+                                    if ((e.keyCode < 48) || (e.keyCode > 57)){
+                                    e.returnValue = false;
+                                    e.preventDefault();
+                                    }
+                                }
                                 </script>
                             </div>
                         </div>
