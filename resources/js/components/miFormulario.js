@@ -150,11 +150,13 @@ const MiApp = () => (
     <div className="heafoo">
         <center>
         <form id="form1" action="api/producto" method="POST" encType="multipart/form-data">
+            
             <table cellSpacing="40px" cellPadding="40px">
                 <tbody>
                     <tr>
-                        <td>
                         
+                        <td>
+                                       
                             <div className ="secNom">
                                 <label htmlFor="cmpNombre"><strong>Nombre del Producto:</strong></label>
                                 <input type="text" id="cmpNombre" name="nom" onBlur={repetido} maxLength= "50" placeholder="Ingrese el nombre del producto" required autocomplete="cmpNombre"/>
@@ -202,10 +204,13 @@ const MiApp = () => (
                             </center>
                             <br/>
                             </div>
+                            
                         </td>
+                        
                     </tr>
                 </tbody>
             </table>
+            
             <div>
                 <label htmlFor="btmRegistrar">Registrar Producto</label>
                 <input type= "submit" value= "Registrar" id="btmRegistrar"/>
