@@ -16,10 +16,10 @@
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nombre') }}</label>
                             <div class="col-md-6">
-                                <input id="name" type="text" onkeypress="return sololetras(event)"   onpaste ="return false" maxlength="35" oninput="maxlengthNombre(this);"  class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="nombre" autofocus>
+                                <input id="name" type="text" onkeypress="return sololetras(event)"   onpaste ="return false"  maxlength="35" oninput="maxlengthNombre(this);"  class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="nombre" autofocus>
                                    
                                    <script>
-                                      function sololetras(e){
+                                      function sololetras(e) {
                                          key =e.keyCode || e.wich;
                                          teclado =String.fromCharCode(key).toLowerCase();
                                          letras =" abcdefghijklmnñopqrstuvwxyz";
@@ -155,7 +155,12 @@
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Correo electrónico') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" placeholder="ejm@gmail.com"   onkeypress="return sololetrasemail(event)"   onpaste ="return false" maxlength="15" oninput="maxlengthApellido(this);"class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" >
+                                <input id="email" type="email" placeholder="ejm@gmail.com"   onkeypress="return sololetrasemail(event)"   onpaste ="return false" maxlength="30" oninput="maxlengthContrasena(this);"class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" >
+                                @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ 'El correo ingresado ya está registrado' }}</strong>
+                                    </span>
+                                @enderror
                                   <script>
                                      function sololetrasemail(e){
                                        key =e.keyCode || e.wich;
@@ -189,7 +194,25 @@
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Contraseña') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" maxlength="15" oninput="maxlengthContrasena(this);class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                                <input id="password" type="password" maxlength="15" onkeypress="return sololetrascontraseña(event)"   onpaste ="return false" oninput="maxlengthContrasena(this);class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                                <script>
+                                     function sololetrascontraseña(e){
+                                       key =e.keyCode || e.wich;
+                                       teclado =String.fromCharCode(key).toLowerCase();
+                                       letras ="abcdefghijklmnñopqrstuvwxyz0123456789";
+                                       especiales=[8-37-38-46-164]; 
+                                       teclado_especial = false;
+                                       for(var i in especiales){
+                                       if (key==especiales[i]) {
+                                       teclado_especial = true;break;
+                                       break;
+                                        }
+                                       }
+                                        if (letras.indexOf(teclado) == -1 && !teclado_especial) {
+                                        return false; 
+                                       }
+                                     }
+                                 </script>
                             </div>
                         </div>
                         
@@ -197,7 +220,25 @@
                             <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirmar contraseña') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password-confirm" type="password" maxlength="15" oninput="maxlengthConfirmarContrasena(this); class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                <input id="password-confirm" type="password" maxlength="15" onkeypress="return confirmarcontraseña(event)"   onpaste ="return false"oninput="maxlengthConfirmarContrasena(this); class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                <script>
+                                     function confirmarcontraseña(e){
+                                       key =e.keyCode || e.wich;
+                                       teclado =String.fromCharCode(key).toLowerCase();
+                                       letras ="abcdefghijklmnñopqrstuvwxyz0123456789";
+                                       especiales=[8-37-38-46-164]; 
+                                       teclado_especial = false;
+                                       for(var i in especiales){
+                                       if (key==especiales[i]) {
+                                       teclado_especial = true;break;
+                                       break;
+                                        }
+                                       }
+                                        if (letras.indexOf(teclado) == -1 && !teclado_especial) {
+                                        return false; 
+                                       }
+                                     }
+                                 </script>
                                 <script>
                                     function maxlengthConfrimarContrasena (obj) {
                                     console.log(obj.value);
@@ -414,5 +455,42 @@ var contraseña_conf;
         }
     }
     window.addEventListener("load", impMsgRegistro);
+    var campoNombre;
+    var apellido; 
+    var cedula;
+    var celuar;
+    var correo;
+    var contraseña;
+    var confcontr;
+    var resp;
+    let valNom;
+    function iniciar(){
+        valNom = false;
+        campoNombre = document.getElementById("name");
+        campoNombre.addEventListener("input",validacionNombre);
+        campoNombre.addEventListener("keypress",impMsg);
+        
+    }
+
+    function validacionNombre(){
+        if(campoNombre.value.length == 35){
+            valNom = true;
+        }else{
+            campoNombre.setCustomValidity("");
+            valNom = false;
+        }
+    }
+
+    function impMsg(){
+        if(valNom){
+            campoNombre.setCustomValidity("El nombre debe tener un maximo de 35 caracteres");
+            campoNombre.reportValidity();   
+        }
+    }
+    function pal1(){
+        if(campoNombre.value.length > 3){
+        campoNombre.setCustomValidity("");
+        }
+    }
 </script>
 @endsection
