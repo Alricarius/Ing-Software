@@ -53,12 +53,26 @@ body{
     resize: none;
     border-color: black;
 }
+#desc1:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #a1cbef;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
+}
 #desc2{
     width: 500px;
     height: 200px;
     border-radius: 10px;
     resize: none;
     border-color: black;
+}
+#desc2:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #a1cbef;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
 }
 
 input[type="file"]#img_subida {
@@ -73,24 +87,39 @@ input[type="file"]#img_subida {
 }
    
 label[for="img_subida"] {
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: sans-serif;
     color: #fff;
-    background-color: #333;
-    opacity: 0.8;
+    background-color: #3490dc;
+    border-color: #3490dc;
+    /*opacity: 0.8;*/
     display: inline-block;
-    transition: all .5s;
+    /*transition: all .5s;*/
     cursor: pointer;
     padding: 15px 40px !important;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     width: fit-content;
     text-align: center;
    
-    border-radius: 20px;
+    border-radius: 5px;
 
     right: 250px;
     top: 600px;
     line-height: 15px;
+}
+
+label[for="img_subida"]:hover{
+    color: #fff;
+    background-color: #227dc7;
+    border-color: #2176bd;
+}
+
+label[for="img_subida"]:focus{
+  color: #fff;
+  background-color: #227dc7;
+  border-color: #2176bd;
+  box-shadow: 0 0 0 0.2rem rgba(82, 161, 225, 0.5);
 }
    
 input[type="submit"]#btmRegistrar {
@@ -105,24 +134,39 @@ input[type="submit"]#btmRegistrar {
 }
    
 label[for="btmRegistrar"] {
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: sans-serif;
     color: #fff;
-    background-color: #333;
-    opacity: 0.8;
+    background-color: #3490dc;
+    border-color: #3490dc;
+    /*opacity: 0.8;*/
     display: inline-block;
-    transition: all .5s;
+    /*transition: all .5s;*/
     cursor: pointer;
     padding: 15px 40px !important;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     width: fit-content;
     text-align: center;
 
-    border-radius: 20px;
+    border-radius: 5px;
 
     right: 40%;
     top: 1000px;
     line-height: 15px;
+}
+
+label[for="btmRegistrar"]:hover{
+    color: #fff;
+    background-color: #227dc7;
+    border-color: #2176bd;
+}
+
+label[for="btmRegistrar"]:focus{
+  color: #fff;
+  background-color: #227dc7;
+  border-color: #2176bd;
+  box-shadow: 0 0 0 0.2rem rgba(82, 161, 225, 0.5);
 }
 
 #contenedor_img{
@@ -140,12 +184,28 @@ input[type="text"],input[type="password"], input[type="number"],input[type="emai
     border-radius: 10px;
     height: 33.38px;
     width: 100%;
+    
     /*min-width: 200px;*/
+}
+
+input[type="text"]:focus,input[type="password"]:focus, input[type="number"]:focus,input[type="email"]:focus,#tipo_P:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #a1cbef;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
 }
 
 #cmpPrecio{
     right: 200px;
 	top: 700px;
+}
+#cmpPrecio:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #a1cbef;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
 }
 
 .logo-nav-container{
