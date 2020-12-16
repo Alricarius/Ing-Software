@@ -149,6 +149,11 @@
 
                             <div class="col-md-6">
                                 <input id="email" type="email" placeholder="ejm@gmail.com"   onkeypress="return sololetrasemail(event)"   onpaste ="return false" maxlength="30" oninput="maxlengthContrasena(this);"class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" >
+                                @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ 'El correo ingresado ya está registrado' }}</strong>
+                                    </span>
+                                @enderror
                                   <script>
                                      function sololetrasemail(e){
                                        key =e.keyCode || e.wich;
